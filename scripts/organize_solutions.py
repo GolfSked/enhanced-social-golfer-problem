@@ -10,7 +10,7 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 SOL=ROOT/'solutions'
 ARCHIVE=SOL/'archive/2026-10-03'
-OUT=SOL/'optimal'
+OUT=SOL/'optimal-4-rounds'
 EXPECTED={15:(2,45),16:(2,44),17:(3,63),18:(3,65),19:(3,68),**{n:(4,4*n) for n in range(20,25)}}
 
 def digest(path):return hashlib.sha256(path.read_bytes()).hexdigest()
@@ -68,7 +68,7 @@ def main():
         for p,s in slots.items():md.append(f'| {p} | '+' | '.join(time(g) for g in s)+f' | {len(set(s))} | {4-fours[p]} | {fours[p]} |')
         md+=['',f'Selected source: [{source.relative_to(ROOT)}](../../{source.relative_to(ROOT)}).',f'Optimality evidence: [{proof}](../../{proof}).','The CSV is headerless: round, group, player IDs. Player IDs are placeholders; assigning names preserves validity and fairness scores.','']
         (OUT/f'n{n}_tee_times.md').write_text('\n'.join(md))
-        index.append(f'| {n} | {score[0]} | {score[1]} | [CSV](optimal/n{n}_sol.csv) | [Summary](optimal/n{n}_tee_times.md) | [Evidence](../{proof}) |')
+        index.append(f'| {n} | {score[0]} | {score[1]} | [CSV](optimal-4-rounds/n{n}_sol.csv) | [Summary](optimal-4-rounds/n{n}_tee_times.md) | [Evidence](../{proof}) |')
         records.append(dict(players=n,minimum_distinct_slots=score[0],total_spread=score[1],group_sizes=sizes,validation='passed',schedule=str(dest.relative_to(ROOT)),source=str(source.relative_to(ROOT)),sha256=digest(dest),proof=proof))
     index+=['','The 15–16-player proofs come from solver OPTIMAL results; 17–19 use exhaustive infeasibility proofs plus validated attaining schedules; 20–24 attain the absolute maximum of four distinct slots per player. See [full proof status](../runs/FAIRNESS_STATUS.md).','','Older schedules, logs and comparisons are preserved in [the dated archive](archive/2026-10-03/README.md). The historical 18-player total-only score 66 has minimum 2; the selected minimum-first fairness optimum is (3,65). Detailed experimental audits remain in `runs/`.','','Run new experiments under `runs/` to keep this collection clean. Regeneration script: `scripts/organize_solutions.py` (one-time migration; refuses to overwrite an existing collection).','']
     (SOL/'README.md').write_text('\n'.join(index))

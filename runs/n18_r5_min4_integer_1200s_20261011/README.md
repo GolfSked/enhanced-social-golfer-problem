@@ -1,0 +1,1 @@
+ABORTED setup error: this draft incorrectly carried over n17 fours participation assumptions and upper bound. Its model/log must not be used for feasibility conclusions. Replaced by the corrected n18 run.

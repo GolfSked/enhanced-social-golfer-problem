@@ -1,0 +1,40 @@
+{
+  "scope": "Global exhaustive proof under the prescribed 16-player five-round rules",
+  "transversals": 24,
+  "partitions": 24,
+  "compatible_partition_triples": 2,
+  "orderings_checked": 27648,
+  "minimum_spread": 2,
+  "total_spread": 51,
+  "validation": {
+    "minimum_spread": 2,
+    "total_spread": 51,
+    "spread_distribution": {
+      "2": 4,
+      "3": 5,
+      "4": 7
+    },
+    "fours_distribution": {
+      "5": 16
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 0
+  },
+  "score_counts": {
+    "(1, 55)": 40,
+    "(1, 53)": 600,
+    "(1, 52)": 720,
+    "(2, 51)": 960,
+    "(2, 49)": 9640,
+    "(2, 50)": 4560,
+    "(2, 48)": 7080,
+    "(2, 46)": 1640,
+    "(2, 47)": 1680,
+    "(1, 51)": 240,
+    "(1, 50)": 120,
+    "(2, 44)": 240,
+    "(2, 45)": 120,
+    "(1, 46)": 8
+  },
+  "elapsed_seconds": 0.08873695804504678
+}

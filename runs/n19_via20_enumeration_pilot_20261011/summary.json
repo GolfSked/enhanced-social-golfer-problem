@@ -1,0 +1,14 @@
+{
+  "session": 1,
+  "elapsed_seconds": 9.85679433302721,
+  "new_classes_this_session": 2,
+  "total_classes": 10,
+  "best_score": [
+    4,
+    79
+  ],
+  "exhausted": true,
+  "ordering_complete": true,
+  "all_orderings_proven": true,
+  "stop": "All normalized structures excluded"
+}

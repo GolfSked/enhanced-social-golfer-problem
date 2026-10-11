@@ -1,0 +1,15 @@
+{
+  "status": "FEASIBLE",
+  "solver_seconds": 120.00320400000001,
+  "expected_assignments": 1336,
+  "enumerated_assignments": 1030,
+  "callbacks": 1030,
+  "missing_assignments": 306,
+  "exact_match": false,
+  "complete_enumeration": false,
+  "audited_deletion_optima": 200,
+  "best_score": [
+    4,
+    79
+  ]
+}

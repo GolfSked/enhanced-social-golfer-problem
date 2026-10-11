@@ -1,0 +1,39 @@
+{
+  "removed_original_player": 12,
+  "status": "OPTIMAL",
+  "solver_seconds": 0.009133,
+  "objective_bound": 463.0,
+  "player_mapping": {
+    "1": 1,
+    "2": 2,
+    "3": 3,
+    "4": 4,
+    "5": 5,
+    "6": 6,
+    "7": 7,
+    "8": 8,
+    "9": 9,
+    "10": 10,
+    "11": 11,
+    "13": 12,
+    "14": 13,
+    "15": 14,
+    "16": 15,
+    "17": 16,
+    "18": 17,
+    "19": 18,
+    "20": 19
+  },
+  "minimum_spread": 4,
+  "total_spread": 79,
+  "spread_distribution": {
+    "4": 16,
+    "5": 3
+  },
+  "fours_distribution": {
+    "4": 15,
+    "5": 4
+  },
+  "unique_pairs": 135,
+  "unmet_pairs": 36
+}

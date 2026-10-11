@@ -1,0 +1,40 @@
+{
+  "n17": {
+    "players": 17,
+    "coverage": true,
+    "sizes": true,
+    "minimum": 3,
+    "total": 63,
+    "distinctDistribution": {
+      "3": 5,
+      "4": 12
+    },
+    "fourPlayerDistribution": {
+      "1": 2,
+      "2": 15
+    },
+    "uniquePairs": 84,
+    "repeatedPairs": 0,
+    "elapsed_ms": 1000,
+    "result_id": "29bc97a7-dd83-4022-8ec4-60606ed6f4cd"
+  },
+  "n19": {
+    "players": 19,
+    "coverage": true,
+    "sizes": true,
+    "minimum": 3,
+    "total": 68,
+    "distinctDistribution": {
+      "3": 8,
+      "4": 11
+    },
+    "fourPlayerDistribution": {
+      "3": 12,
+      "4": 7
+    },
+    "uniquePairs": 108,
+    "repeatedPairs": 0,
+    "elapsed_ms": 1000,
+    "result_id": "f09d1e1f-cd55-47da-9a60-91da5c85bb39"
+  }
+}

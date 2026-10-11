@@ -1,0 +1,18 @@
+{
+  "case": 3,
+  "status": "OPTIMAL",
+  "solver_seconds": 1.068449,
+  "positive_crosscheck": "passed",
+  "minimum_spread": 4,
+  "total_spread": 70,
+  "spread_distribution": {
+    "4": 15,
+    "5": 2
+  },
+  "fours_distribution": {
+    "2": 11,
+    "3": 6
+  },
+  "unique_pairs": 105,
+  "unmet_pairs": 31
+}

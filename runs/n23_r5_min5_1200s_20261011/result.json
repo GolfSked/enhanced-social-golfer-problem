@@ -1,0 +1,18 @@
+{
+  "status": "OPTIMAL",
+  "solver_seconds": 2.4793190000000003,
+  "minimum_target": 5,
+  "total_target": 115,
+  "configured_seconds": 1200,
+  "minimum_spread": 5,
+  "total_spread": 115,
+  "spread_distribution": {
+    "5": 23
+  },
+  "fours_distribution": {
+    "4": 15,
+    "5": 8
+  },
+  "unique_pairs": 165,
+  "unmet_pairs": 88
+}

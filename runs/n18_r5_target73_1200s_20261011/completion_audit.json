@@ -1,0 +1,14 @@
+{
+  "status": "UNKNOWN",
+  "actual_solver_seconds": 1357.386375,
+  "configured_seconds": 1200,
+  "source_sha256": {
+    "runs/n18_r5_target73_1200s_20261011/run.py": "b88bd3c480ed04f22326391298ca81d330b6196f176a10cca4ff3aea07852800",
+    "runs/n18_r5_target73_1200s_20261011/integer_model_snapshot.py": "dfc0d2ad8b3732ed3add8721c8332e9d8fe1b378edcabf8d549d125ef89fa79e",
+    "runs/n18_r5_target73_1200s_20261011/round_pair_classes.py": "1982ed1aec63d48ce91206ac73236cdce34bb5d110d3dca828e491a5fc141e9c",
+    "runs/n18_r5_target73_1200s_20261011/round_pair_classes.json": "e2491734cf9f229bcc349f8fbfadd9a5fbc4114b9b681aebb0864ff03a8ed545",
+    "runs/n18_r5_target73_classes_20261011/run.py": "7a403de04d1a2aa7d030cd3f9d10e2df85b5b101b88c30305c78679479c37b13",
+    "runs/n18_r5_target73_allfive_20261011/run.py": "2ce9d5782541fbbc7c1db3cdd13f053670ca86d67c6bc3a1451a8b76a1057d41"
+  },
+  "proof_status": "minimum4 proven; total72..84 unresolved"
+}

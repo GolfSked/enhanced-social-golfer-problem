@@ -1,0 +1,53 @@
+
+Starting CP-SAT solver v9.14.6206
+Parameters: random_seed: 101 max_time_in_seconds: 1e-09 log_search_progress: true num_search_workers: 8 cp_model_probing_level: 1 log_to_stdout: false
+
+Initial satisfaction model '': (model_fingerprint: 0xdd36af2e660b7f6b)
+#Variables: 405 (356 primary variables)
+  - 405 Booleans in [0,1]
+#kAtMostOne: 18 (#literals: 54)
+#kBoolAnd: 324 (#enforced: 324) (#literals: 972)
+#kBoolOr: 324 (#enforced: 324) (#literals: 648)
+#kLinear1: 27
+#kLinear3: 27
+#kLinearN: 54 (#terms: 1'134)
+
+Starting presolve at 0.00s
+
+Presolve summary:
+  - 0 affine relations were detected.
+  - rule 'linear1: x in domain' was applied 27 times.
+  - rule 'linear: fixed or dup variables' was applied 12 times.
+  - rule 'presolve: 0 unused variables removed.' was applied 1 time.
+
+Presolved satisfaction model '': (model_fingerprint: 0xb3ab8e1d1b90cc5c)
+#Variables: 380 (358 primary variables)
+  - 378 Booleans in [0,1]
+  - 2 constants in {0,1} 
+#kAtMostOne: 18 (#literals: 54)
+#kBoolAnd: 324 (#enforced: 324) (#literals: 972)
+#kBoolOr: 324 (#literals: 972)
+#kLinear0: 12
+#kLinear3: 18
+#kLinearN: 51 (#terms: 1'080)
+Stopped after presolve.
+PresolvedNumVariables: 380
+PresolvedNumConstraints: 747
+PresolvedNumTerms: 3024
+CpSolverResponse summary:
+status: UNKNOWN
+objective: NA
+best_bound: NA
+integers: 0
+booleans: 0
+conflicts: 0
+branches: 0
+propagations: 0
+integer_propagations: 0
+restarts: 0
+lp_iterations: 0
+walltime: 0.000755
+usertime: 0.000755
+deterministic_time: 0
+gap_integral: 0
+

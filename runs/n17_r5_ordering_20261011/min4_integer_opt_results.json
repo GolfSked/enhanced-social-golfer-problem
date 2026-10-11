@@ -1,0 +1,82 @@
+[
+  {
+    "case": 0,
+    "status": "FEASIBLE",
+    "solver_seconds": 60.001031000000005,
+    "positive_crosscheck": "passed",
+    "objective_value": 76.0,
+    "objective_bound": 84.0,
+    "minimum_spread": 4,
+    "total_spread": 76,
+    "spread_distribution": {
+      "4": 9,
+      "5": 8
+    },
+    "fours_distribution": {
+      "2": 11,
+      "3": 6
+    },
+    "unique_pairs": 105,
+    "unmet_pairs": 31
+  },
+  {
+    "case": 1,
+    "status": "FEASIBLE",
+    "solver_seconds": 60.001142,
+    "positive_crosscheck": "passed",
+    "objective_value": 72.0,
+    "objective_bound": 84.0,
+    "minimum_spread": 4,
+    "total_spread": 72,
+    "spread_distribution": {
+      "4": 13,
+      "5": 4
+    },
+    "fours_distribution": {
+      "2": 11,
+      "3": 6
+    },
+    "unique_pairs": 105,
+    "unmet_pairs": 31
+  },
+  {
+    "case": 2,
+    "status": "FEASIBLE",
+    "solver_seconds": 60.00313800000001,
+    "positive_crosscheck": "passed",
+    "objective_value": 76.0,
+    "objective_bound": 85.0,
+    "minimum_spread": 4,
+    "total_spread": 76,
+    "spread_distribution": {
+      "4": 9,
+      "5": 8
+    },
+    "fours_distribution": {
+      "2": 11,
+      "3": 6
+    },
+    "unique_pairs": 105,
+    "unmet_pairs": 31
+  },
+  {
+    "case": 3,
+    "status": "FEASIBLE",
+    "solver_seconds": 60.001676,
+    "positive_crosscheck": "passed",
+    "objective_value": 72.0,
+    "objective_bound": 84.0,
+    "minimum_spread": 4,
+    "total_spread": 72,
+    "spread_distribution": {
+      "4": 13,
+      "5": 4
+    },
+    "fours_distribution": {
+      "2": 11,
+      "3": 6
+    },
+    "unique_pairs": 105,
+    "unmet_pairs": 31
+  }
+]

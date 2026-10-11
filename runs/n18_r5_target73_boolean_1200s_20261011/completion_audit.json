@@ -1,0 +1,8 @@
+{
+  "status": "UNKNOWN",
+  "solver_seconds": 1200.062642,
+  "configuration_source_hashes_match": true,
+  "final_log_agrees": true,
+  "improving_witness_found": false,
+  "conclusion": "Minimum4 proven; total72..84 unresolved."
+}

@@ -1,0 +1,57 @@
+{
+  "pending": [],
+  "completed": [
+    {
+      "case": "2_2_0_0_0",
+      "pattern": [
+        2,
+        2,
+        0,
+        0,
+        0
+      ],
+      "status": "UNKNOWN",
+      "solver_seconds": 1200.015922,
+      "configured_seconds": 1200
+    },
+    {
+      "case": "3_1_0_0_0",
+      "pattern": [
+        3,
+        1,
+        0,
+        0,
+        0
+      ],
+      "status": "UNKNOWN",
+      "solver_seconds": 1200.06987,
+      "configured_seconds": 1200
+    },
+    {
+      "case": "2_1_1_0_0",
+      "pattern": [
+        2,
+        1,
+        1,
+        0,
+        0
+      ],
+      "status": "UNKNOWN",
+      "solver_seconds": 1200.012658,
+      "configured_seconds": 1200
+    },
+    {
+      "case": "1_1_1_1_0",
+      "pattern": [
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "status": "UNKNOWN",
+      "solver_seconds": 1200.0230390000002,
+      "configured_seconds": 1200
+    }
+  ]
+}

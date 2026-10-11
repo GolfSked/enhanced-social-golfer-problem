@@ -1,0 +1,48 @@
+{
+  "configuration": {
+    "rounds": 2,
+    "n": 9,
+    "time_limit": 2.0,
+    "workers": 8,
+    "seed": 101,
+    "max_players": 128,
+    "hint": null,
+    "out": "runs/v2_pilot_20261011/two_round_smoke"
+  },
+  "environment": {
+    "python": "3.13.15",
+    "ortools": "9.14.6206",
+    "platform": "macOS-26.7.1-arm64-arm-64bit-Mach-O"
+  },
+  "source_sha256": {
+    "cp_sat_caseB_v2.py": "4a7740e2eb80e803fb45ac4a7e72a2d808251c26435527dfec2883a8d4b62fef",
+    "esgp_v2.py": "c06a24b52f21ce3c92b8061be60918de99e09f8ceb95900447a66df781d89db7",
+    "requirements.txt": "9b67a9e322713be76fac4a8ac7a84dbe0b683d1963cb16909324143efd6237ac"
+  },
+  "minimum_proven": false,
+  "discovery": [],
+  "results": [
+    {
+      "players": 9,
+      "rounds": 2,
+      "objective": "minimum_then_total",
+      "status": "OPTIMAL",
+      "evidence": "CP-SAT",
+      "solver_seconds": 0.005712,
+      "minimum_spread": 1,
+      "total_spread": 15,
+      "spread_distribution": {
+        "1": 3,
+        "2": 6
+      },
+      "fours_distribution": {
+        "0": 9
+      },
+      "unique_pairs": 18,
+      "unmet_pairs": 18,
+      "objective_value": 34.0,
+      "objective_bound": 34.0,
+      "elapsed_seconds": 0.011581875034607947
+    }
+  ]
+}

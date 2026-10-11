@@ -1,0 +1,257 @@
+{
+  "configuration": {
+    "rounds": 3,
+    "n": null,
+    "time_limit": 10.0,
+    "workers": 8,
+    "seed": 101,
+    "max_players": 128,
+    "hint": null,
+    "out": "runs/v2_pilot_20261011/rounds3"
+  },
+  "environment": {
+    "python": "3.13.15",
+    "ortools": "9.14.6206",
+    "platform": "macOS-26.7.1-arm64-arm-64bit-Mach-O"
+  },
+  "source_sha256": {
+    "cp_sat_caseB_v2.py": "4a7740e2eb80e803fb45ac4a7e72a2d808251c26435527dfec2883a8d4b62fef",
+    "esgp_v2.py": "c06a24b52f21ce3c92b8061be60918de99e09f8ceb95900447a66df781d89db7",
+    "requirements.txt": "9b67a9e322713be76fac4a8ac7a84dbe0b683d1963cb16909324143efd6237ac"
+  },
+  "minimum_proven": true,
+  "discovery": [
+    {
+      "players": 3,
+      "rounds": 3,
+      "objective": "feasibility",
+      "status": "INFEASIBLE",
+      "evidence": "mathematical",
+      "reason": "Balanced partner count exceeds the available distinct partners",
+      "elapsed_seconds": 7.792026735842228e-06
+    },
+    {
+      "players": 4,
+      "rounds": 3,
+      "objective": "feasibility",
+      "status": "INFEASIBLE",
+      "evidence": "mathematical",
+      "reason": "Balanced partner count exceeds the available distinct partners",
+      "elapsed_seconds": 3.2919924706220627e-06
+    },
+    {
+      "players": 5,
+      "rounds": 3,
+      "objective": "feasibility",
+      "status": "INFEASIBLE",
+      "evidence": "mathematical",
+      "reason": "Player count cannot be partitioned under the prescribed group mix",
+      "elapsed_seconds": 3.7500285543501377e-06
+    },
+    {
+      "players": 6,
+      "rounds": 3,
+      "objective": "feasibility",
+      "status": "INFEASIBLE",
+      "evidence": "mathematical",
+      "reason": "Balanced partner count exceeds the available distinct partners",
+      "elapsed_seconds": 2.6249908842146397e-06
+    },
+    {
+      "players": 7,
+      "rounds": 3,
+      "objective": "feasibility",
+      "status": "INFEASIBLE",
+      "evidence": "mathematical",
+      "reason": "Balanced partner count exceeds the available distinct partners",
+      "elapsed_seconds": 1.8330174498260021e-06
+    },
+    {
+      "players": 8,
+      "rounds": 3,
+      "objective": "feasibility",
+      "status": "INFEASIBLE",
+      "evidence": "mathematical",
+      "reason": "Balanced partner count exceeds the available distinct partners",
+      "elapsed_seconds": 3.6249984987080097e-06
+    },
+    {
+      "players": 9,
+      "rounds": 3,
+      "objective": "feasibility",
+      "status": "OPTIMAL",
+      "evidence": "CP-SAT",
+      "solver_seconds": 0.011699000000000001,
+      "minimum_spread": 1,
+      "total_spread": 21,
+      "spread_distribution": {
+        "1": 3,
+        "3": 6
+      },
+      "fours_distribution": {
+        "0": 9
+      },
+      "unique_pairs": 27,
+      "unmet_pairs": 9,
+      "elapsed_seconds": 0.02028604195220396
+    }
+  ],
+  "results": [
+    {
+      "players": 9,
+      "rounds": 3,
+      "objective": "minimum_then_total",
+      "status": "OPTIMAL",
+      "evidence": "CP-SAT",
+      "solver_seconds": 0.008897,
+      "minimum_spread": 2,
+      "total_spread": 18,
+      "spread_distribution": {
+        "2": 9
+      },
+      "fours_distribution": {
+        "0": 9
+      },
+      "unique_pairs": 27,
+      "unmet_pairs": 9,
+      "objective_value": 74.0,
+      "objective_bound": 74.0,
+      "elapsed_seconds": 0.015547874965704978
+    },
+    {
+      "players": 10,
+      "rounds": 3,
+      "objective": "minimum_then_total",
+      "status": "INFEASIBLE",
+      "evidence": "mathematical",
+      "reason": "A group cannot split across the next round without repeating a pair",
+      "elapsed_seconds": 3.208988346159458e-06
+    },
+    {
+      "players": 11,
+      "rounds": 3,
+      "objective": "minimum_then_total",
+      "status": "INFEASIBLE",
+      "evidence": "mathematical",
+      "reason": "A group cannot split across the next round without repeating a pair",
+      "elapsed_seconds": 2.1249870769679546e-06
+    },
+    {
+      "players": 12,
+      "rounds": 3,
+      "objective": "minimum_then_total",
+      "status": "INFEASIBLE",
+      "evidence": "mathematical",
+      "reason": "A group cannot split across the next round without repeating a pair",
+      "elapsed_seconds": 1.334003172814846e-06
+    },
+    {
+      "players": 13,
+      "rounds": 3,
+      "objective": "minimum_then_total",
+      "status": "INFEASIBLE",
+      "evidence": "mathematical",
+      "reason": "Four/four intersection count requires 3, balance permits 0",
+      "elapsed_seconds": 4.792003892362118e-06
+    },
+    {
+      "players": 14,
+      "rounds": 3,
+      "objective": "minimum_then_total",
+      "status": "INFEASIBLE",
+      "evidence": "mathematical",
+      "reason": "Four/four intersection count requires 12, balance permits 10",
+      "elapsed_seconds": 4.375004209578037e-06
+    },
+    {
+      "players": 15,
+      "rounds": 3,
+      "objective": "minimum_then_total",
+      "status": "OPTIMAL",
+      "evidence": "CP-SAT",
+      "solver_seconds": 0.311338,
+      "minimum_spread": 2,
+      "total_spread": 36,
+      "spread_distribution": {
+        "2": 9,
+        "3": 6
+      },
+      "fours_distribution": {
+        "2": 9,
+        "3": 6
+      },
+      "unique_pairs": 63,
+      "unmet_pairs": 42,
+      "objective_value": 128.0,
+      "objective_bound": 128.0,
+      "elapsed_seconds": 0.3318230420118198
+    },
+    {
+      "players": 16,
+      "rounds": 3,
+      "objective": "minimum_then_total",
+      "status": "OPTIMAL",
+      "evidence": "CP-SAT",
+      "solver_seconds": 0.195168,
+      "minimum_spread": 2,
+      "total_spread": 36,
+      "spread_distribution": {
+        "2": 12,
+        "3": 4
+      },
+      "fours_distribution": {
+        "3": 16
+      },
+      "unique_pairs": 72,
+      "unmet_pairs": 48,
+      "objective_value": 134.0,
+      "objective_bound": 134.0,
+      "elapsed_seconds": 0.21882408304372802
+    },
+    {
+      "players": 17,
+      "rounds": 3,
+      "objective": "minimum_then_total",
+      "status": "OPTIMAL",
+      "evidence": "CP-SAT",
+      "solver_seconds": 0.22587300000000002,
+      "minimum_spread": 2,
+      "total_spread": 50,
+      "spread_distribution": {
+        "2": 1,
+        "3": 16
+      },
+      "fours_distribution": {
+        "1": 10,
+        "2": 7
+      },
+      "unique_pairs": 63,
+      "unmet_pairs": 73,
+      "objective_value": 154.0,
+      "objective_bound": 154.0,
+      "elapsed_seconds": 0.25931370799662545
+    },
+    {
+      "players": 18,
+      "rounds": 3,
+      "objective": "minimum_then_total",
+      "status": "OPTIMAL",
+      "evidence": "CP-SAT",
+      "solver_seconds": 0.13267600000000002,
+      "minimum_spread": 3,
+      "total_spread": 54,
+      "spread_distribution": {
+        "3": 18
+      },
+      "fours_distribution": {
+        "2": 18
+      },
+      "unique_pairs": 72,
+      "unmet_pairs": 81,
+      "objective_value": 219.0,
+      "objective_bound": 219.0,
+      "elapsed_seconds": 0.1702791249845177
+    }
+  ],
+  "minimum_players": 9
+}

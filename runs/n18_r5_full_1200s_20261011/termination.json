@@ -1,0 +1,6 @@
+{
+  "termination": "INTERRUPTED",
+  "reason": "User clarified parallel tests mean local integer plus GroupMixer; Boolean search stopped to free resources",
+  "solver_status": "FEASIBLE",
+  "solver_seconds": 99.361547
+}

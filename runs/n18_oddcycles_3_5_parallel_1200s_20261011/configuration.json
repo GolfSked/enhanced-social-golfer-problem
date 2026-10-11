@@ -1,0 +1,20 @@
+{
+  "cycle_lengths": [
+    3,
+    5
+  ],
+  "workers_per_case": 5,
+  "parallel_cases": 2,
+  "seconds_per_case": 1200,
+  "ordering_seconds": 60,
+  "inherited_classes": 3,
+  "cycle_witness_counts": {
+    "3": 120,
+    "5": 3024
+  },
+  "sha256": {
+    "run.py": "2a5910dd01d679bec34f760c0e21316041826cc777664389b28afda3ae94ba14",
+    "structural_snapshot.py": "d0e7e6fd5dd181357798e203dff84531750ed6508c8f0d17d3c90d44fc353670",
+    "ordering_snapshot.py": "4114c13f2f4930ef6edf1af860368c304980c8694bfdf17fc013bd6a92346d6a"
+  }
+}

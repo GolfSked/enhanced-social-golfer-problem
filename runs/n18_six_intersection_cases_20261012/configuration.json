@@ -1,0 +1,13 @@
+{
+  "case_seconds": 1200,
+  "concurrent_cases": 2,
+  "workers_per_case": 5,
+  "ordering_seconds": 60,
+  "inherited_classes": 3,
+  "sha256": {
+    "run.py": "dcf05591bcca3e62989bd94dfc6228ffa9fc90ce50983daf7435875ad7215d24",
+    "structural_snapshot.py": "c108186f122dfc426ba685ecb6eaf820165f177795a16352cc140f74d258f9a1",
+    "ordering_snapshot.py": "4114c13f2f4930ef6edf1af860368c304980c8694bfdf17fc013bd6a92346d6a",
+    "inherited_orbits.json": "73166f0af464b4a77b1574f46df6d42eea8bc431d72a0b51bb5dc72e2aa78f24"
+  }
+}

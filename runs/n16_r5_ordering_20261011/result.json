@@ -1,0 +1,46 @@
+{
+  "scope": "Tee-slot ordering of fixed input structure; not a global proof",
+  "input": "runs/v2_pilot_20261011/rounds5/n16/schedule.csv",
+  "orderings_checked": 331776,
+  "elapsed_seconds": 0.5694395839818753,
+  "best": [
+    2,
+    51
+  ],
+  "permutation_indices": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "score_counts": {
+    "(2, 51)": 11520,
+    "(2, 50)": 54720,
+    "(2, 49)": 115680,
+    "(2, 48)": 84960,
+    "(1, 53)": 7200,
+    "(1, 52)": 8640,
+    "(1, 55)": 480,
+    "(2, 47)": 20160,
+    "(2, 46)": 19680,
+    "(2, 45)": 1440,
+    "(2, 44)": 2880,
+    "(1, 50)": 1440,
+    "(1, 51)": 2880,
+    "(1, 46)": 96
+  },
+  "validation": {
+    "minimum_spread": 2,
+    "total_spread": 51,
+    "spread_distribution": {
+      "2": 3,
+      "3": 7,
+      "4": 6
+    },
+    "fours_distribution": {
+      "5": 16
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 0
+  }
+}

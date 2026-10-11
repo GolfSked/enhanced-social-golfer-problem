@@ -1,0 +1,20 @@
+{
+  "source": "/Users/jgojnich/Projects/enhanced-social-golfer-problem/runs/n17_r5_ordering_20261011/min4_integer_opt_case2/schedule.csv",
+  "metrics": {
+    "minimum_spread": 4,
+    "total_spread": 76,
+    "spread_distribution": {
+      "4": 9,
+      "5": 8
+    },
+    "fours_distribution": {
+      "2": 11,
+      "3": 6
+    },
+    "unique_pairs": 105,
+    "unmet_pairs": 31
+  },
+  "boolean_fixed_schedule_status": "OPTIMAL",
+  "objective_value": 420.0,
+  "duplicate_round_rejected": true
+}

@@ -1,0 +1,275 @@
+{
+  "classes": [
+    {
+      "id": 0,
+      "directory": "class_0000",
+      "ordering_complete": true,
+      "canonical_sha256": "fb12ed4daa954e3885318780189ea7b0e075c1b239ef1326ca4a955ac561017c",
+      "orbit_size": 288,
+      "ordering_result": {
+        "case": "class_0000/ordering",
+        "class_id": 0,
+        "removed": [],
+        "player_mapping": {
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5,
+          "6": 6,
+          "7": 7,
+          "8": 8,
+          "9": 9,
+          "10": 10,
+          "11": 11,
+          "12": 12,
+          "13": 13,
+          "14": 14,
+          "15": 15,
+          "16": 16,
+          "17": 17,
+          "18": 18
+        },
+        "status": "OPTIMAL",
+        "seconds": 0.012396,
+        "objective_bound": 345.0,
+        "minimum_spread": 3,
+        "total_spread": 72,
+        "spread_distribution": {
+          "3": 2,
+          "4": 14,
+          "5": 2
+        },
+        "fours_distribution": {
+          "3": 12,
+          "4": 6
+        },
+        "unique_pairs": 120,
+        "unmet_pairs": 33
+      }
+    },
+    {
+      "id": 1,
+      "directory": "class_0001",
+      "ordering_complete": true,
+      "canonical_sha256": "3fd308b49dcc10b4acfb1df1e42996224fd4485eece5404a60411f831ade1c64",
+      "orbit_size": 312,
+      "ordering_result": {
+        "case": "class_0001/ordering",
+        "class_id": 1,
+        "removed": [],
+        "player_mapping": {
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5,
+          "6": 6,
+          "7": 7,
+          "8": 8,
+          "9": 9,
+          "10": 10,
+          "11": 11,
+          "12": 12,
+          "13": 13,
+          "14": 14,
+          "15": 15,
+          "16": 16,
+          "17": 17,
+          "18": 18
+        },
+        "status": "OPTIMAL",
+        "seconds": 0.021581000000000003,
+        "objective_bound": 341.0,
+        "minimum_spread": 3,
+        "total_spread": 68,
+        "spread_distribution": {
+          "3": 6,
+          "4": 10,
+          "5": 2
+        },
+        "fours_distribution": {
+          "3": 12,
+          "4": 6
+        },
+        "unique_pairs": 120,
+        "unmet_pairs": 33
+      }
+    },
+    {
+      "id": 2,
+      "directory": "class_0002",
+      "ordering_complete": true,
+      "canonical_sha256": "b4ae9c878a2f22a6a25d95607530667b5ddda37d4606edbb17fe99a4862daa54",
+      "orbit_size": 1296,
+      "ordering_result": {
+        "case": "class_0002/ordering",
+        "class_id": 2,
+        "removed": [],
+        "player_mapping": {
+          "1": 1,
+          "2": 2,
+          "3": 3,
+          "4": 4,
+          "5": 5,
+          "6": 6,
+          "7": 7,
+          "8": 8,
+          "9": 9,
+          "10": 10,
+          "11": 11,
+          "12": 12,
+          "13": 13,
+          "14": 14,
+          "15": 15,
+          "16": 16,
+          "17": 17,
+          "18": 18
+        },
+        "status": "OPTIMAL",
+        "seconds": 0.014398000000000001,
+        "objective_bound": 345.0,
+        "minimum_spread": 3,
+        "total_spread": 72,
+        "spread_distribution": {
+          "3": 5,
+          "4": 8,
+          "5": 5
+        },
+        "fours_distribution": {
+          "3": 12,
+          "4": 6
+        },
+        "unique_pairs": 120,
+        "unmet_pairs": 33
+      }
+    }
+  ],
+  "attempts": [
+    {
+      "attempt": 1,
+      "status": "OPTIMAL",
+      "seconds": 0.37882200000000005
+    },
+    {
+      "attempt": 2,
+      "status": "OPTIMAL",
+      "seconds": 1.3632650000000002
+    },
+    {
+      "attempt": 3,
+      "status": "OPTIMAL",
+      "seconds": 3.632416
+    },
+    {
+      "attempt": 4,
+      "status": "UNKNOWN",
+      "seconds": 60.051013000000005
+    },
+    {
+      "attempt": 5,
+      "status": "UNKNOWN",
+      "seconds": 60.079916000000004
+    },
+    {
+      "attempt": 6,
+      "status": "UNKNOWN",
+      "seconds": 60.017985
+    },
+    {
+      "attempt": 7,
+      "status": "UNKNOWN",
+      "seconds": 60.089105
+    },
+    {
+      "attempt": 8,
+      "status": "UNKNOWN",
+      "seconds": 60.019164
+    },
+    {
+      "attempt": 9,
+      "status": "UNKNOWN",
+      "seconds": 60.018408
+    },
+    {
+      "attempt": 10,
+      "status": "UNKNOWN",
+      "seconds": 60.051725000000005
+    },
+    {
+      "attempt": 11,
+      "status": "UNKNOWN",
+      "seconds": 60.044732
+    },
+    {
+      "attempt": 12,
+      "status": "UNKNOWN",
+      "seconds": 60.089939
+    },
+    {
+      "attempt": 13,
+      "status": "UNKNOWN",
+      "seconds": 60.112652000000004
+    },
+    {
+      "attempt": 14,
+      "status": "UNKNOWN",
+      "seconds": 60.020045
+    },
+    {
+      "attempt": 15,
+      "status": "UNKNOWN",
+      "seconds": 60.077270000000006
+    },
+    {
+      "attempt": 16,
+      "status": "UNKNOWN",
+      "seconds": 60.117591000000004
+    },
+    {
+      "attempt": 17,
+      "status": "UNKNOWN",
+      "seconds": 60.020790000000005
+    },
+    {
+      "attempt": 18,
+      "status": "UNKNOWN",
+      "seconds": 60.097785
+    },
+    {
+      "attempt": 19,
+      "status": "UNKNOWN",
+      "seconds": 60.090968000000004
+    },
+    {
+      "attempt": 20,
+      "status": "UNKNOWN",
+      "seconds": 60.019874
+    },
+    {
+      "attempt": 21,
+      "status": "UNKNOWN",
+      "seconds": 60.030955000000006
+    },
+    {
+      "attempt": 22,
+      "status": "UNKNOWN",
+      "seconds": 60.172217
+    },
+    {
+      "attempt": 23,
+      "status": "UNKNOWN",
+      "seconds": 53.113216
+    },
+    {
+      "attempt": 24,
+      "status": "UNKNOWN",
+      "seconds": 1200.23476
+    }
+  ],
+  "best_known": [
+    4,
+    72
+  ],
+  "exhausted": false
+}

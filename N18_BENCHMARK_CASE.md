@@ -51,9 +51,9 @@ be constant on every feasible schedule for this case.
 
 ## Evidence
 
-- [Validated reference schedule](solutions/optimal/n18_sol.csv).
-- [Readable tee times](solutions/optimal/n18_tee_times.md).
-- [Collection validation record](solutions/optimal/validation.json).
+- [Validated reference schedule](solutions/optimal-4-rounds/n18_sol.csv).
+- [Readable tee times](solutions/optimal-4-rounds/n18_tee_times.md).
+- [Collection validation record](solutions/optimal-4-rounds/validation.json).
 - [Complete optimality argument and audit](runs/n18_canonical_two_rounds_20261003/README.md).
 - [Symmetry coverage argument](runs/n18_canonical_two_rounds_20261003/SYMMETRY.md).
 

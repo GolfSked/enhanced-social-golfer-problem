@@ -1,0 +1,12 @@
+[
+  {
+    "odd_required": false,
+    "status": "OPTIMAL",
+    "seconds": 0.011144000000000001
+  },
+  {
+    "odd_required": true,
+    "status": "INFEASIBLE",
+    "seconds": 0.008045
+  }
+]

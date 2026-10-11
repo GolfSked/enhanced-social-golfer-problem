@@ -1,0 +1,263 @@
+{
+  "configuration": {
+    "rounds": 4,
+    "n": null,
+    "time_limit": 10.0,
+    "workers": 8,
+    "seed": 101,
+    "max_players": 128,
+    "hint": null,
+    "out": "runs/v2_pilot_20261011/rounds4"
+  },
+  "environment": {
+    "python": "3.13.15",
+    "ortools": "9.14.6206",
+    "platform": "macOS-26.7.1-arm64-arm-64bit-Mach-O"
+  },
+  "source_sha256": {
+    "cp_sat_caseB_v2.py": "4a7740e2eb80e803fb45ac4a7e72a2d808251c26435527dfec2883a8d4b62fef",
+    "esgp_v2.py": "c06a24b52f21ce3c92b8061be60918de99e09f8ceb95900447a66df781d89db7",
+    "requirements.txt": "9b67a9e322713be76fac4a8ac7a84dbe0b683d1963cb16909324143efd6237ac"
+  },
+  "minimum_proven": true,
+  "discovery": [
+    {
+      "players": 3,
+      "rounds": 4,
+      "objective": "feasibility",
+      "status": "INFEASIBLE",
+      "evidence": "mathematical",
+      "reason": "Balanced partner count exceeds the available distinct partners",
+      "elapsed_seconds": 1.1999974958598614e-05
+    },
+    {
+      "players": 4,
+      "rounds": 4,
+      "objective": "feasibility",
+      "status": "INFEASIBLE",
+      "evidence": "mathematical",
+      "reason": "Balanced partner count exceeds the available distinct partners",
+      "elapsed_seconds": 4.999979864805937e-06
+    },
+    {
+      "players": 5,
+      "rounds": 4,
+      "objective": "feasibility",
+      "status": "INFEASIBLE",
+      "evidence": "mathematical",
+      "reason": "Player count cannot be partitioned under the prescribed group mix",
+      "elapsed_seconds": 4.917033948004246e-06
+    },
+    {
+      "players": 6,
+      "rounds": 4,
+      "objective": "feasibility",
+      "status": "INFEASIBLE",
+      "evidence": "mathematical",
+      "reason": "Balanced partner count exceeds the available distinct partners",
+      "elapsed_seconds": 4.792003892362118e-06
+    },
+    {
+      "players": 7,
+      "rounds": 4,
+      "objective": "feasibility",
+      "status": "INFEASIBLE",
+      "evidence": "mathematical",
+      "reason": "Balanced partner count exceeds the available distinct partners",
+      "elapsed_seconds": 4.583969712257385e-06
+    },
+    {
+      "players": 8,
+      "rounds": 4,
+      "objective": "feasibility",
+      "status": "INFEASIBLE",
+      "evidence": "mathematical",
+      "reason": "Balanced partner count exceeds the available distinct partners",
+      "elapsed_seconds": 5.708017852157354e-06
+    },
+    {
+      "players": 9,
+      "rounds": 4,
+      "objective": "feasibility",
+      "status": "OPTIMAL",
+      "evidence": "CP-SAT",
+      "solver_seconds": 0.035068,
+      "minimum_spread": 1,
+      "total_spread": 23,
+      "spread_distribution": {
+        "1": 1,
+        "2": 2,
+        "3": 6
+      },
+      "fours_distribution": {
+        "0": 9
+      },
+      "unique_pairs": 36,
+      "unmet_pairs": 0,
+      "elapsed_seconds": 0.04982454201672226
+    }
+  ],
+  "results": [
+    {
+      "players": 9,
+      "rounds": 4,
+      "objective": "minimum_then_total",
+      "status": "OPTIMAL",
+      "evidence": "CP-SAT",
+      "solver_seconds": 0.036883,
+      "minimum_spread": 2,
+      "total_spread": 21,
+      "spread_distribution": {
+        "2": 6,
+        "3": 3
+      },
+      "fours_distribution": {
+        "0": 9
+      },
+      "unique_pairs": 36,
+      "unmet_pairs": 0,
+      "objective_value": 77.0,
+      "objective_bound": 77.0,
+      "elapsed_seconds": 0.047400624956935644
+    },
+    {
+      "players": 10,
+      "rounds": 4,
+      "objective": "minimum_then_total",
+      "status": "INFEASIBLE",
+      "evidence": "mathematical",
+      "reason": "Balanced partner count exceeds the available distinct partners",
+      "elapsed_seconds": 4.999979864805937e-06
+    },
+    {
+      "players": 11,
+      "rounds": 4,
+      "objective": "minimum_then_total",
+      "status": "INFEASIBLE",
+      "evidence": "mathematical",
+      "reason": "Balanced partner count exceeds the available distinct partners",
+      "elapsed_seconds": 3.00002284348011e-06
+    },
+    {
+      "players": 12,
+      "rounds": 4,
+      "objective": "minimum_then_total",
+      "status": "INFEASIBLE",
+      "evidence": "mathematical",
+      "reason": "Balanced partner count exceeds the available distinct partners",
+      "elapsed_seconds": 4.333036486059427e-06
+    },
+    {
+      "players": 13,
+      "rounds": 4,
+      "objective": "minimum_then_total",
+      "status": "INFEASIBLE",
+      "evidence": "mathematical",
+      "reason": "Four/four intersection count requires 6, balance permits 3",
+      "elapsed_seconds": 8.20803688839078e-06
+    },
+    {
+      "players": 14,
+      "rounds": 4,
+      "objective": "minimum_then_total",
+      "status": "INFEASIBLE",
+      "evidence": "mathematical",
+      "reason": "Four/four intersection count requires 24, balance permits 22",
+      "elapsed_seconds": 3.2499665394425392e-06
+    },
+    {
+      "players": 15,
+      "rounds": 4,
+      "objective": "minimum_then_total",
+      "status": "OPTIMAL",
+      "evidence": "CP-SAT",
+      "solver_seconds": 1.063539,
+      "minimum_spread": 2,
+      "total_spread": 45,
+      "spread_distribution": {
+        "2": 3,
+        "3": 9,
+        "4": 3
+      },
+      "fours_distribution": {
+        "3": 12,
+        "4": 3
+      },
+      "unique_pairs": 84,
+      "unmet_pairs": 21,
+      "objective_value": 167.0,
+      "objective_bound": 167.0,
+      "elapsed_seconds": 1.1068141249706969
+    },
+    {
+      "players": 16,
+      "rounds": 4,
+      "objective": "minimum_then_total",
+      "status": "FEASIBLE",
+      "evidence": "CP-SAT",
+      "solver_seconds": 10.008077,
+      "minimum_spread": 2,
+      "total_spread": 44,
+      "spread_distribution": {
+        "2": 6,
+        "3": 8,
+        "4": 2
+      },
+      "fours_distribution": {
+        "4": 16
+      },
+      "unique_pairs": 96,
+      "unmet_pairs": 24,
+      "objective_value": 174.0,
+      "objective_bound": 177.0,
+      "elapsed_seconds": 10.05533862503944
+    },
+    {
+      "players": 17,
+      "rounds": 4,
+      "objective": "minimum_then_total",
+      "status": "FEASIBLE",
+      "evidence": "CP-SAT",
+      "solver_seconds": 10.026992,
+      "minimum_spread": 3,
+      "total_spread": 63,
+      "spread_distribution": {
+        "3": 5,
+        "4": 12
+      },
+      "fours_distribution": {
+        "1": 2,
+        "2": 15
+      },
+      "unique_pairs": 84,
+      "unmet_pairs": 52,
+      "objective_value": 270.0,
+      "objective_bound": 272.0,
+      "elapsed_seconds": 10.098932292021345
+    },
+    {
+      "players": 18,
+      "rounds": 4,
+      "objective": "minimum_then_total",
+      "status": "FEASIBLE",
+      "evidence": "CP-SAT",
+      "solver_seconds": 10.005939000000001,
+      "minimum_spread": 3,
+      "total_spread": 65,
+      "spread_distribution": {
+        "3": 7,
+        "4": 11
+      },
+      "fours_distribution": {
+        "2": 6,
+        "3": 12
+      },
+      "unique_pairs": 96,
+      "unmet_pairs": 57,
+      "objective_value": 284.0,
+      "objective_bound": 290.0,
+      "elapsed_seconds": 10.106455750006717
+    }
+  ],
+  "minimum_players": 9
+}

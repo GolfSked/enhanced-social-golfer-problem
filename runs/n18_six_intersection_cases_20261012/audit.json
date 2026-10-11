@@ -1,0 +1,67 @@
+{
+  "witnesses": [
+    {
+      "class_id": 0,
+      "validated_assignments": 288,
+      "score": [
+        3,
+        72
+      ]
+    },
+    {
+      "class_id": 1,
+      "validated_assignments": 312,
+      "score": [
+        3,
+        68
+      ]
+    },
+    {
+      "class_id": 2,
+      "validated_assignments": 1296,
+      "score": [
+        3,
+        72
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "case": 0,
+      "status": "INFEASIBLE",
+      "seconds": 32.158373000000005,
+      "independent_nonbipartite_encoding": "all sixteen matching-compatible two-colourings rejected"
+    },
+    {
+      "case": 1,
+      "status": "INFEASIBLE",
+      "seconds": 13.904322,
+      "independent_nonbipartite_encoding": "all sixteen matching-compatible two-colourings rejected"
+    },
+    {
+      "case": 2,
+      "status": "INFEASIBLE",
+      "seconds": 3.5638560000000004,
+      "independent_nonbipartite_encoding": "all sixteen matching-compatible two-colourings rejected"
+    },
+    {
+      "case": 3,
+      "status": "INFEASIBLE",
+      "seconds": 3.5744800000000003,
+      "independent_nonbipartite_encoding": "all sixteen matching-compatible two-colourings rejected"
+    },
+    {
+      "case": 4,
+      "status": "INFEASIBLE",
+      "seconds": 7.424765000000001,
+      "independent_nonbipartite_encoding": "all sixteen matching-compatible two-colourings rejected"
+    },
+    {
+      "case": 5,
+      "status": "INFEASIBLE",
+      "seconds": 0.850242,
+      "independent_nonbipartite_encoding": "all sixteen matching-compatible two-colourings rejected"
+    }
+  ],
+  "all_independent_cases_infeasible": true
+}

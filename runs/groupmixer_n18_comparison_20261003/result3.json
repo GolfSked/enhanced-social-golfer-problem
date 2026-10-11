@@ -1,0 +1,217 @@
+{
+  "minimum_spread": 2,
+  "total_spread": 55,
+  "spread_distribution": {
+    "4": 5,
+    "2": 4,
+    "3": 9
+  },
+  "four_player_distribution": {
+    "3": 12,
+    "2": 6
+  },
+  "balance_violations": [],
+  "repeated_pairs": [],
+  "unique_met_pairs": 96,
+  "unmet_pairs": 57,
+  "players_detail": [
+    {
+      "player": "Alex",
+      "groups": [
+        5,
+        4,
+        5,
+        2
+      ],
+      "distinct_slots": 3,
+      "four_player_rounds": 3
+    },
+    {
+      "player": "Avery",
+      "groups": [
+        4,
+        5,
+        1,
+        4
+      ],
+      "distinct_slots": 3,
+      "four_player_rounds": 3
+    },
+    {
+      "player": "Casey",
+      "groups": [
+        2,
+        2,
+        5,
+        3
+      ],
+      "distinct_slots": 3,
+      "four_player_rounds": 2
+    },
+    {
+      "player": "Chloe",
+      "groups": [
+        4,
+        4,
+        4,
+        1
+      ],
+      "distinct_slots": 2,
+      "four_player_rounds": 3
+    },
+    {
+      "player": "Dylan",
+      "groups": [
+        3,
+        1,
+        5,
+        4
+      ],
+      "distinct_slots": 4,
+      "four_player_rounds": 3
+    },
+    {
+      "player": "Ella",
+      "groups": [
+        3,
+        4,
+        2,
+        5
+      ],
+      "distinct_slots": 4,
+      "four_player_rounds": 3
+    },
+    {
+      "player": "Ethan",
+      "groups": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "distinct_slots": 4,
+      "four_player_rounds": 3
+    },
+    {
+      "player": "Jamie",
+      "groups": [
+        3,
+        5,
+        4,
+        2
+      ],
+      "distinct_slots": 4,
+      "four_player_rounds": 3
+    },
+    {
+      "player": "Jordan",
+      "groups": [
+        2,
+        3,
+        2,
+        4
+      ],
+      "distinct_slots": 3,
+      "four_player_rounds": 2
+    },
+    {
+      "player": "Luis",
+      "groups": [
+        2,
+        5,
+        3,
+        5
+      ],
+      "distinct_slots": 3,
+      "four_player_rounds": 3
+    },
+    {
+      "player": "Mina",
+      "groups": [
+        1,
+        4,
+        3,
+        3
+      ],
+      "distinct_slots": 3,
+      "four_player_rounds": 3
+    },
+    {
+      "player": "Morgan",
+      "groups": [
+        4,
+        1,
+        2,
+        3
+      ],
+      "distinct_slots": 4,
+      "four_player_rounds": 2
+    },
+    {
+      "player": "Noah",
+      "groups": [
+        4,
+        2,
+        3,
+        2
+      ],
+      "distinct_slots": 3,
+      "four_player_rounds": 2
+    },
+    {
+      "player": "Riley",
+      "groups": [
+        3,
+        3,
+        1,
+        3
+      ],
+      "distinct_slots": 2,
+      "four_player_rounds": 3
+    },
+    {
+      "player": "Sam",
+      "groups": [
+        5,
+        1,
+        1,
+        5
+      ],
+      "distinct_slots": 2,
+      "four_player_rounds": 2
+    },
+    {
+      "player": "Sofia",
+      "groups": [
+        1,
+        5,
+        5,
+        1
+      ],
+      "distinct_slots": 2,
+      "four_player_rounds": 2
+    },
+    {
+      "player": "Taylor",
+      "groups": [
+        5,
+        2,
+        4,
+        4
+      ],
+      "distinct_slots": 3,
+      "four_player_rounds": 3
+    },
+    {
+      "player": "Zoe",
+      "groups": [
+        5,
+        3,
+        3,
+        1
+      ],
+      "distinct_slots": 3,
+      "four_player_rounds": 3
+    }
+  ]
+}

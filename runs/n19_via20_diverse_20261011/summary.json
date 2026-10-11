@@ -1,0 +1,77 @@
+{
+  "completed": true,
+  "candidate_count": 40,
+  "new_classes": 7,
+  "best_score": [
+    4,
+    79
+  ],
+  "classes": [
+    {
+      "candidate": 1,
+      "class_id": 1,
+      "best": [
+        3,
+        77
+      ],
+      "all_orderings_proven": true
+    },
+    {
+      "candidate": 2,
+      "class_id": 2,
+      "best": [
+        3,
+        79
+      ],
+      "all_orderings_proven": true
+    },
+    {
+      "candidate": 4,
+      "class_id": 3,
+      "best": [
+        3,
+        76
+      ],
+      "all_orderings_proven": true
+    },
+    {
+      "candidate": 6,
+      "class_id": 4,
+      "best": [
+        3,
+        77
+      ],
+      "all_orderings_proven": true
+    },
+    {
+      "candidate": 14,
+      "class_id": 5,
+      "best": [
+        3,
+        77
+      ],
+      "all_orderings_proven": true
+    },
+    {
+      "candidate": 15,
+      "class_id": 6,
+      "best": [
+        3,
+        76
+      ],
+      "all_orderings_proven": true
+    },
+    {
+      "candidate": 23,
+      "class_id": 7,
+      "best": [
+        3,
+        78
+      ],
+      "all_orderings_proven": true
+    }
+  ],
+  "stop": "candidate budget reached",
+  "elapsed_seconds": 21.827965417003725,
+  "scope": "Only sampled n20 structures; no global exclusion proof"
+}

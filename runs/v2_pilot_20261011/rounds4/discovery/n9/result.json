@@ -1,0 +1,21 @@
+{
+  "players": 9,
+  "rounds": 4,
+  "objective": "feasibility",
+  "status": "OPTIMAL",
+  "evidence": "CP-SAT",
+  "solver_seconds": 0.035068,
+  "minimum_spread": 1,
+  "total_spread": 23,
+  "spread_distribution": {
+    "1": 1,
+    "2": 2,
+    "3": 6
+  },
+  "fours_distribution": {
+    "0": 9
+  },
+  "unique_pairs": 36,
+  "unmet_pairs": 0,
+  "elapsed_seconds": 0.04982454201672226
+}

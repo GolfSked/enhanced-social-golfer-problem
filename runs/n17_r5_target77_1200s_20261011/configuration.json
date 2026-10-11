@@ -1,0 +1,15 @@
+{
+  "players": 17,
+  "rounds": 5,
+  "minimum_target": 4,
+  "total_target": 77,
+  "proven_total_upper_bound": 78,
+  "seconds": 1200,
+  "workers": 8,
+  "seed": 101,
+  "source_sha256": {
+    "target77_integer.py": "190e993fe0e1c6b9e512b58fcfdf40d96d7cd88973e71c7d2a0ce7729799c276",
+    "integer_model_snapshot.py": "dfc0d2ad8b3732ed3add8721c8332e9d8fe1b378edcabf8d549d125ef89fa79e",
+    "round_pair_classes.json": "03059223b0741516e666a32fdb691be018f0ddf576ea6f5a31c32bf9b8e220c5"
+  }
+}

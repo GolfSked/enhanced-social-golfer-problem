@@ -1,0 +1,782 @@
+[
+  {
+    "removed_original_player": 1,
+    "status": "OPTIMAL",
+    "solver_seconds": 0.021052,
+    "objective_bound": 463.0,
+    "player_mapping": {
+      "2": 1,
+      "3": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "18": 17,
+      "19": 18,
+      "20": 19
+    },
+    "minimum_spread": 4,
+    "total_spread": 79,
+    "spread_distribution": {
+      "4": 16,
+      "5": 3
+    },
+    "fours_distribution": {
+      "4": 15,
+      "5": 4
+    },
+    "unique_pairs": 135,
+    "unmet_pairs": 36
+  },
+  {
+    "removed_original_player": 2,
+    "status": "OPTIMAL",
+    "solver_seconds": 0.009415,
+    "objective_bound": 463.0,
+    "player_mapping": {
+      "1": 1,
+      "3": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "18": 17,
+      "19": 18,
+      "20": 19
+    },
+    "minimum_spread": 4,
+    "total_spread": 79,
+    "spread_distribution": {
+      "4": 16,
+      "5": 3
+    },
+    "fours_distribution": {
+      "4": 15,
+      "5": 4
+    },
+    "unique_pairs": 135,
+    "unmet_pairs": 36
+  },
+  {
+    "removed_original_player": 3,
+    "status": "OPTIMAL",
+    "solver_seconds": 0.008528,
+    "objective_bound": 463.0,
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "18": 17,
+      "19": 18,
+      "20": 19
+    },
+    "minimum_spread": 4,
+    "total_spread": 79,
+    "spread_distribution": {
+      "4": 16,
+      "5": 3
+    },
+    "fours_distribution": {
+      "4": 15,
+      "5": 4
+    },
+    "unique_pairs": 135,
+    "unmet_pairs": 36
+  },
+  {
+    "removed_original_player": 4,
+    "status": "OPTIMAL",
+    "solver_seconds": 0.008137,
+    "objective_bound": 463.0,
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "18": 17,
+      "19": 18,
+      "20": 19
+    },
+    "minimum_spread": 4,
+    "total_spread": 79,
+    "spread_distribution": {
+      "4": 16,
+      "5": 3
+    },
+    "fours_distribution": {
+      "4": 15,
+      "5": 4
+    },
+    "unique_pairs": 135,
+    "unmet_pairs": 36
+  },
+  {
+    "removed_original_player": 5,
+    "status": "OPTIMAL",
+    "solver_seconds": 0.008984,
+    "objective_bound": 463.0,
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "18": 17,
+      "19": 18,
+      "20": 19
+    },
+    "minimum_spread": 4,
+    "total_spread": 79,
+    "spread_distribution": {
+      "4": 16,
+      "5": 3
+    },
+    "fours_distribution": {
+      "4": 15,
+      "5": 4
+    },
+    "unique_pairs": 135,
+    "unmet_pairs": 36
+  },
+  {
+    "removed_original_player": 6,
+    "status": "OPTIMAL",
+    "solver_seconds": 0.007955,
+    "objective_bound": 463.0,
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "18": 17,
+      "19": 18,
+      "20": 19
+    },
+    "minimum_spread": 4,
+    "total_spread": 79,
+    "spread_distribution": {
+      "4": 16,
+      "5": 3
+    },
+    "fours_distribution": {
+      "4": 15,
+      "5": 4
+    },
+    "unique_pairs": 135,
+    "unmet_pairs": 36
+  },
+  {
+    "removed_original_player": 7,
+    "status": "OPTIMAL",
+    "solver_seconds": 0.009919,
+    "objective_bound": 463.0,
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "18": 17,
+      "19": 18,
+      "20": 19
+    },
+    "minimum_spread": 4,
+    "total_spread": 79,
+    "spread_distribution": {
+      "4": 16,
+      "5": 3
+    },
+    "fours_distribution": {
+      "4": 15,
+      "5": 4
+    },
+    "unique_pairs": 135,
+    "unmet_pairs": 36
+  },
+  {
+    "removed_original_player": 8,
+    "status": "OPTIMAL",
+    "solver_seconds": 0.008411,
+    "objective_bound": 463.0,
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "18": 17,
+      "19": 18,
+      "20": 19
+    },
+    "minimum_spread": 4,
+    "total_spread": 79,
+    "spread_distribution": {
+      "4": 16,
+      "5": 3
+    },
+    "fours_distribution": {
+      "4": 15,
+      "5": 4
+    },
+    "unique_pairs": 135,
+    "unmet_pairs": 36
+  },
+  {
+    "removed_original_player": 9,
+    "status": "OPTIMAL",
+    "solver_seconds": 0.008032000000000001,
+    "objective_bound": 463.0,
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "18": 17,
+      "19": 18,
+      "20": 19
+    },
+    "minimum_spread": 4,
+    "total_spread": 79,
+    "spread_distribution": {
+      "4": 16,
+      "5": 3
+    },
+    "fours_distribution": {
+      "4": 15,
+      "5": 4
+    },
+    "unique_pairs": 135,
+    "unmet_pairs": 36
+  },
+  {
+    "removed_original_player": 10,
+    "status": "OPTIMAL",
+    "solver_seconds": 0.009913,
+    "objective_bound": 463.0,
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "18": 17,
+      "19": 18,
+      "20": 19
+    },
+    "minimum_spread": 4,
+    "total_spread": 79,
+    "spread_distribution": {
+      "4": 16,
+      "5": 3
+    },
+    "fours_distribution": {
+      "4": 15,
+      "5": 4
+    },
+    "unique_pairs": 135,
+    "unmet_pairs": 36
+  },
+  {
+    "removed_original_player": 11,
+    "status": "OPTIMAL",
+    "solver_seconds": 0.008891000000000001,
+    "objective_bound": 463.0,
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "18": 17,
+      "19": 18,
+      "20": 19
+    },
+    "minimum_spread": 4,
+    "total_spread": 79,
+    "spread_distribution": {
+      "4": 16,
+      "5": 3
+    },
+    "fours_distribution": {
+      "4": 15,
+      "5": 4
+    },
+    "unique_pairs": 135,
+    "unmet_pairs": 36
+  },
+  {
+    "removed_original_player": 12,
+    "status": "OPTIMAL",
+    "solver_seconds": 0.009133,
+    "objective_bound": 463.0,
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "18": 17,
+      "19": 18,
+      "20": 19
+    },
+    "minimum_spread": 4,
+    "total_spread": 79,
+    "spread_distribution": {
+      "4": 16,
+      "5": 3
+    },
+    "fours_distribution": {
+      "4": 15,
+      "5": 4
+    },
+    "unique_pairs": 135,
+    "unmet_pairs": 36
+  },
+  {
+    "removed_original_player": 13,
+    "status": "OPTIMAL",
+    "solver_seconds": 0.008285,
+    "objective_bound": 463.0,
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "18": 17,
+      "19": 18,
+      "20": 19
+    },
+    "minimum_spread": 4,
+    "total_spread": 79,
+    "spread_distribution": {
+      "4": 16,
+      "5": 3
+    },
+    "fours_distribution": {
+      "4": 15,
+      "5": 4
+    },
+    "unique_pairs": 135,
+    "unmet_pairs": 36
+  },
+  {
+    "removed_original_player": 14,
+    "status": "OPTIMAL",
+    "solver_seconds": 0.012879000000000002,
+    "objective_bound": 463.0,
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "13": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "18": 17,
+      "19": 18,
+      "20": 19
+    },
+    "minimum_spread": 4,
+    "total_spread": 79,
+    "spread_distribution": {
+      "4": 16,
+      "5": 3
+    },
+    "fours_distribution": {
+      "4": 15,
+      "5": 4
+    },
+    "unique_pairs": 135,
+    "unmet_pairs": 36
+  },
+  {
+    "removed_original_player": 15,
+    "status": "OPTIMAL",
+    "solver_seconds": 0.008611,
+    "objective_bound": 463.0,
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "13": 13,
+      "14": 14,
+      "16": 15,
+      "17": 16,
+      "18": 17,
+      "19": 18,
+      "20": 19
+    },
+    "minimum_spread": 4,
+    "total_spread": 79,
+    "spread_distribution": {
+      "4": 16,
+      "5": 3
+    },
+    "fours_distribution": {
+      "4": 15,
+      "5": 4
+    },
+    "unique_pairs": 135,
+    "unmet_pairs": 36
+  },
+  {
+    "removed_original_player": 16,
+    "status": "OPTIMAL",
+    "solver_seconds": 0.008384,
+    "objective_bound": 463.0,
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "13": 13,
+      "14": 14,
+      "15": 15,
+      "17": 16,
+      "18": 17,
+      "19": 18,
+      "20": 19
+    },
+    "minimum_spread": 4,
+    "total_spread": 79,
+    "spread_distribution": {
+      "4": 16,
+      "5": 3
+    },
+    "fours_distribution": {
+      "4": 15,
+      "5": 4
+    },
+    "unique_pairs": 135,
+    "unmet_pairs": 36
+  },
+  {
+    "removed_original_player": 17,
+    "status": "OPTIMAL",
+    "solver_seconds": 0.009156000000000001,
+    "objective_bound": 463.0,
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "13": 13,
+      "14": 14,
+      "15": 15,
+      "16": 16,
+      "18": 17,
+      "19": 18,
+      "20": 19
+    },
+    "minimum_spread": 4,
+    "total_spread": 79,
+    "spread_distribution": {
+      "4": 16,
+      "5": 3
+    },
+    "fours_distribution": {
+      "4": 15,
+      "5": 4
+    },
+    "unique_pairs": 135,
+    "unmet_pairs": 36
+  },
+  {
+    "removed_original_player": 18,
+    "status": "OPTIMAL",
+    "solver_seconds": 0.009291,
+    "objective_bound": 463.0,
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "13": 13,
+      "14": 14,
+      "15": 15,
+      "16": 16,
+      "17": 17,
+      "19": 18,
+      "20": 19
+    },
+    "minimum_spread": 4,
+    "total_spread": 79,
+    "spread_distribution": {
+      "4": 16,
+      "5": 3
+    },
+    "fours_distribution": {
+      "4": 15,
+      "5": 4
+    },
+    "unique_pairs": 135,
+    "unmet_pairs": 36
+  },
+  {
+    "removed_original_player": 19,
+    "status": "OPTIMAL",
+    "solver_seconds": 0.008612,
+    "objective_bound": 463.0,
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "13": 13,
+      "14": 14,
+      "15": 15,
+      "16": 16,
+      "17": 17,
+      "18": 18,
+      "20": 19
+    },
+    "minimum_spread": 4,
+    "total_spread": 79,
+    "spread_distribution": {
+      "4": 16,
+      "5": 3
+    },
+    "fours_distribution": {
+      "4": 15,
+      "5": 4
+    },
+    "unique_pairs": 135,
+    "unmet_pairs": 36
+  },
+  {
+    "removed_original_player": 20,
+    "status": "OPTIMAL",
+    "solver_seconds": 0.008836,
+    "objective_bound": 463.0,
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "13": 13,
+      "14": 14,
+      "15": 15,
+      "16": 16,
+      "17": 17,
+      "18": 18,
+      "19": 19
+    },
+    "minimum_spread": 4,
+    "total_spread": 79,
+    "spread_distribution": {
+      "4": 16,
+      "5": 3
+    },
+    "fours_distribution": {
+      "4": 15,
+      "5": 4
+    },
+    "unique_pairs": 135,
+    "unmet_pairs": 36
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "validated_source_schedules": 40,
+  "validated_deletions": 140,
+  "classes": [
+    {
+      "class": 1,
+      "validated_deletions": 20,
+      "canonical_relabelling_check": true
+    },
+    {
+      "class": 2,
+      "validated_deletions": 20,
+      "canonical_relabelling_check": true
+    },
+    {
+      "class": 3,
+      "validated_deletions": 20,
+      "canonical_relabelling_check": true
+    },
+    {
+      "class": 4,
+      "validated_deletions": 20,
+      "canonical_relabelling_check": true
+    },
+    {
+      "class": 5,
+      "validated_deletions": 20,
+      "canonical_relabelling_check": true
+    },
+    {
+      "class": 6,
+      "validated_deletions": 20,
+      "canonical_relabelling_check": true
+    },
+    {
+      "class": 7,
+      "validated_deletions": 20,
+      "canonical_relabelling_check": true
+    }
+  ],
+  "all_saved_ordering_bounds_match": true
+}

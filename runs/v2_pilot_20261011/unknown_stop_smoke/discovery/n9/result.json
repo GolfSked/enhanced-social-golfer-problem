@@ -1,0 +1,9 @@
+{
+  "players": 9,
+  "rounds": 3,
+  "objective": "feasibility",
+  "status": "UNKNOWN",
+  "evidence": "CP-SAT",
+  "solver_seconds": 0.000755,
+  "elapsed_seconds": 0.007441583031322807
+}

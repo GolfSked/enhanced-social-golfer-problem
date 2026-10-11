@@ -1,0 +1,74 @@
+[
+  {
+    "case": 0,
+    "status": "OPTIMAL",
+    "solver_seconds": 0.5086820000000001,
+    "positive_crosscheck": "passed",
+    "minimum_spread": 4,
+    "total_spread": 71,
+    "spread_distribution": {
+      "4": 14,
+      "5": 3
+    },
+    "fours_distribution": {
+      "2": 11,
+      "3": 6
+    },
+    "unique_pairs": 105,
+    "unmet_pairs": 31
+  },
+  {
+    "case": 1,
+    "status": "OPTIMAL",
+    "solver_seconds": 0.349841,
+    "positive_crosscheck": "passed",
+    "minimum_spread": 4,
+    "total_spread": 71,
+    "spread_distribution": {
+      "4": 14,
+      "5": 3
+    },
+    "fours_distribution": {
+      "2": 11,
+      "3": 6
+    },
+    "unique_pairs": 105,
+    "unmet_pairs": 31
+  },
+  {
+    "case": 2,
+    "status": "OPTIMAL",
+    "solver_seconds": 1.447867,
+    "positive_crosscheck": "passed",
+    "minimum_spread": 4,
+    "total_spread": 70,
+    "spread_distribution": {
+      "4": 15,
+      "5": 2
+    },
+    "fours_distribution": {
+      "2": 11,
+      "3": 6
+    },
+    "unique_pairs": 105,
+    "unmet_pairs": 31
+  },
+  {
+    "case": 3,
+    "status": "OPTIMAL",
+    "solver_seconds": 1.068449,
+    "positive_crosscheck": "passed",
+    "minimum_spread": 4,
+    "total_spread": 70,
+    "spread_distribution": {
+      "4": 15,
+      "5": 2
+    },
+    "fours_distribution": {
+      "2": 11,
+      "3": 6
+    },
+    "unique_pairs": 105,
+    "unmet_pairs": 31
+  }
+]

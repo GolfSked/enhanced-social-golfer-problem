@@ -1,0 +1,78 @@
+{
+  "four_rounds": [
+    {
+      "players": 15,
+      "model_identical": true,
+      "schedule_valid": true,
+      "fixed_schedule_accepted": true
+    },
+    {
+      "players": 16,
+      "model_identical": true,
+      "schedule_valid": true,
+      "fixed_schedule_accepted": true
+    },
+    {
+      "players": 17,
+      "model_identical": true,
+      "schedule_valid": true,
+      "fixed_schedule_accepted": true
+    },
+    {
+      "players": 18,
+      "model_identical": true,
+      "schedule_valid": true,
+      "fixed_schedule_accepted": true
+    },
+    {
+      "players": 19,
+      "model_identical": true,
+      "schedule_valid": true,
+      "fixed_schedule_accepted": true
+    },
+    {
+      "players": 20,
+      "model_identical": true,
+      "schedule_valid": true,
+      "fixed_schedule_accepted": true
+    },
+    {
+      "players": 21,
+      "model_identical": true,
+      "schedule_valid": true,
+      "fixed_schedule_accepted": true
+    },
+    {
+      "players": 22,
+      "model_identical": true,
+      "schedule_valid": true,
+      "fixed_schedule_accepted": true
+    },
+    {
+      "players": 23,
+      "model_identical": true,
+      "schedule_valid": true,
+      "fixed_schedule_accepted": true
+    },
+    {
+      "players": 24,
+      "model_identical": true,
+      "schedule_valid": true,
+      "fixed_schedule_accepted": true
+    }
+  ],
+  "five_round_construction": {
+    "minimum_spread": 2,
+    "total_spread": 54,
+    "spread_distribution": {
+      "2": 3,
+      "4": 12
+    },
+    "fours_distribution": {
+      "4": 15
+    },
+    "unique_pairs": 105,
+    "unmet_pairs": 0
+  },
+  "invalid_schedule_rejected": true
+}

@@ -1,0 +1,12 @@
+[
+  {
+    "odd_cycle_required": false,
+    "status": "OPTIMAL",
+    "seconds": 0.019334
+  },
+  {
+    "odd_cycle_required": true,
+    "status": "INFEASIBLE",
+    "seconds": 0.01581
+  }
+]

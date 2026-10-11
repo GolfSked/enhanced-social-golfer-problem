@@ -1,0 +1,18 @@
+{
+  "case": 4,
+  "status": "COMPLETE",
+  "classes": [],
+  "attempts": [
+    {
+      "status": "INFEASIBLE",
+      "seconds": 13.731879000000001
+    }
+  ],
+  "best_known": [
+    4,
+    72
+  ],
+  "exhausted": true,
+  "elapsed_seconds": 13.793415791995358,
+  "all_orderings_proven": true
+}

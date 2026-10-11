@@ -1,0 +1,12 @@
+{
+  "players": 18,
+  "rounds": 5,
+  "minimum_target": 4,
+  "seconds": 1200,
+  "workers": 4,
+  "seed": 202,
+  "source_sha256": {
+    "run.py": "9e906c45220671083353404afe9bd3975651ad4a5296bc945eeed7e67e10c852",
+    "integer_model_snapshot.py": "dfc0d2ad8b3732ed3add8721c8332e9d8fe1b378edcabf8d549d125ef89fa79e"
+  }
+}

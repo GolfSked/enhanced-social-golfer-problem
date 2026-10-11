@@ -1,0 +1,73 @@
+{
+  "cases": 228,
+  "counts_by_class": {
+    "0": 0,
+    "1": 40,
+    "2": 12,
+    "3": 40,
+    "4": 40,
+    "5": 40,
+    "6": 40,
+    "7": 16,
+    "8": 0,
+    "9": 0
+  },
+  "workers_per_case": 5,
+  "concurrent_cases": 2,
+  "seconds_per_case": 60,
+  "seed": 101,
+  "source_catalogue_sha256": "0e69fe5b8c095eace614ad4c81d450a26cb91def44e664f8b213303cf8e85a0a",
+  "script_sha256": "c6de183498ef9971337be13635b2bb31c56a0ee0aa96dce22efea6562f528e40",
+  "sources": [
+    {
+      "class_id": 0,
+      "path": "/Users/jgojnich/Projects/enhanced-social-golfer-problem/runs/n19_via20_ordering_20261011/source.csv",
+      "sha256": "1b6f8b9b5b66c4cc78b254b828ee28c1635add8c5d47e63bd3cd7d09f2aedb7a"
+    },
+    {
+      "class_id": 1,
+      "path": "/Users/jgojnich/Projects/enhanced-social-golfer-problem/runs/n19_via20_diverse_20261011/candidate_01/schedule.csv",
+      "sha256": "f79889f3fd524344321bbcf0609c197a99ab956920a113e4ae43dc200b816c8d"
+    },
+    {
+      "class_id": 2,
+      "path": "/Users/jgojnich/Projects/enhanced-social-golfer-problem/runs/n19_via20_diverse_20261011/candidate_02/schedule.csv",
+      "sha256": "aca474295ec2f8ad149ed2f52495e0cee0ca3d1ad695043bc89f240f3f68acdb"
+    },
+    {
+      "class_id": 3,
+      "path": "/Users/jgojnich/Projects/enhanced-social-golfer-problem/runs/n19_via20_diverse_20261011/candidate_04/schedule.csv",
+      "sha256": "c05e2a631a6e67ac5c7e380670344c7d704435860490736fedab36cd74127797"
+    },
+    {
+      "class_id": 4,
+      "path": "/Users/jgojnich/Projects/enhanced-social-golfer-problem/runs/n19_via20_diverse_20261011/candidate_06/schedule.csv",
+      "sha256": "6bcbe56bf68fcdfd45fce651d641fcd6deef02f632c0a0ca6a70cffb3f2ed72a"
+    },
+    {
+      "class_id": 5,
+      "path": "/Users/jgojnich/Projects/enhanced-social-golfer-problem/runs/n19_via20_diverse_20261011/candidate_14/schedule.csv",
+      "sha256": "5db6f2a4ae90126fd91f07621531db7a872f07866aa4f75a17d574cce507c7b3"
+    },
+    {
+      "class_id": 6,
+      "path": "/Users/jgojnich/Projects/enhanced-social-golfer-problem/runs/n19_via20_diverse_20261011/candidate_15/schedule.csv",
+      "sha256": "843df6fee720317e1f1b6ca54de5612aa95cbe943c620c655e3ce3189d715bbe"
+    },
+    {
+      "class_id": 7,
+      "path": "/Users/jgojnich/Projects/enhanced-social-golfer-problem/runs/n19_via20_diverse_20261011/candidate_23/schedule.csv",
+      "sha256": "1e6b9787a9fd6358b31bca33e11155332db785dc39e8e8433b4a9a324f72706f"
+    },
+    {
+      "class_id": 8,
+      "path": "/Users/jgojnich/Projects/enhanced-social-golfer-problem/runs/n19_via20_enumeration_pilot_20261011/class_008/source.csv",
+      "sha256": "26201f3f98d2d7bbaa51bb4ff18749966de036d730c95cd09c52e234917ce097"
+    },
+    {
+      "class_id": 9,
+      "path": "/Users/jgojnich/Projects/enhanced-social-golfer-problem/runs/n19_via20_enumeration_pilot_20261011/class_009/source.csv",
+      "sha256": "a104e4d67c7535c967214b8dbe0f1f17c7fb0a9e75811fd2e08039e292893663"
+    }
+  ]
+}

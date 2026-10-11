@@ -1,0 +1,30 @@
+{
+  "players": 19,
+  "rounds": 5,
+  "minimum_spread": 4,
+  "total_spread": 79,
+  "status": "PROVEN_OPTIMAL",
+  "evidence": "Complete structural enumeration, exact deletion ordering, independent Boolean exclusion",
+  "classes": 10,
+  "normalized_assignments": 1336,
+  "ordering_audit": {
+    "audited_deletion_optima": 200,
+    "best_score": [
+      4,
+      79
+    ]
+  },
+  "boolean_exclusion": {
+    "status": "INFEASIBLE",
+    "solver_seconds": 3.181106,
+    "excluded_assignments": 1336,
+    "meaning": "Independent Boolean model excludes all designs outside the recorded normalized assignments"
+  },
+  "source_sha256": {
+    "run.py": "c307f1e08787ff11cfae68ba66e7e22aa89d61b284d48caad3b1fd38e79616dd",
+    "helpers_snapshot.py": "44ad4a8dbd5c2e047beeb5ad0d394d4a5b8c5cebc1410d5861169864a3d22a37",
+    "crosscheck.py": "53d6040d5b50ff78e602c084eee8290900247cd49a2f2a0b14231e3a3cf90718",
+    "boolean_exclusion.py": "5c9ef4f78e378282d1713872ed8c33233d27623bbbf775c496dbdbd18358f920",
+    "audit_orderings.py": "4a5cbcdfe9830e287339da1c01b3ff797416a8ed4026fc00cb98e0e9d6bb9501"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "seconds_per_invocation": 1200,
+  "generation_workers": 10,
+  "ordering_workers": 10,
+  "parallel_cases": 1,
+  "source_sha256": {
+    "run.py": "c307f1e08787ff11cfae68ba66e7e22aa89d61b284d48caad3b1fd38e79616dd",
+    "helpers_snapshot.py": "44ad4a8dbd5c2e047beeb5ad0d394d4a5b8c5cebc1410d5861169864a3d22a37"
+  },
+  "inherited_classes": 8,
+  "scope": "Exact class exclusion; exhaustion only if final model INFEASIBLE"
+}

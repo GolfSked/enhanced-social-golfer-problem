@@ -1,0 +1,15 @@
+{
+  "minimum_spread": 4,
+  "total_spread": 72,
+  "spread_distribution": {
+    "4": 18
+  },
+  "fours_distribution": {
+    "3": 12,
+    "4": 6
+  },
+  "unique_pairs": 120,
+  "unmet_pairs": 33,
+  "result_id": "8b02081f-9c81-408f-8a2b-9f203f19a9fe",
+  "reported_elapsed_ms": 136
+}

@@ -1,0 +1,7 @@
+{
+  "termination": "User-requested switch to two concurrent cases",
+  "first_case": "Interrupted via Ctrl-C; UNKNOWN after 81.538988 seconds is not a full-cap result",
+  "second_case": "Runner terminated while case 2_2_0_0_0 was active; no completed result",
+  "remaining_cases": "Not started in sequential batch",
+  "replacement": "runs/n19_r5_four_cases_parallel_1200s_20261011"
+}

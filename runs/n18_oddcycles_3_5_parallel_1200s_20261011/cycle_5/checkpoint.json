@@ -1,0 +1,15 @@
+{
+  "cycle_length": 5,
+  "classes": [],
+  "attempts": [
+    {
+      "status": "UNKNOWN",
+      "seconds": 1199.9476160000002
+    }
+  ],
+  "exhausted": false,
+  "best_known": [
+    4,
+    72
+  ]
+}

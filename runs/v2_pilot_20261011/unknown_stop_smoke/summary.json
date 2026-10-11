@@ -1,0 +1,90 @@
+{
+  "configuration": {
+    "rounds": 3,
+    "n": null,
+    "time_limit": 1e-09,
+    "workers": 8,
+    "seed": 101,
+    "max_players": 128,
+    "hint": null,
+    "out": "runs/v2_pilot_20261011/unknown_stop_smoke"
+  },
+  "environment": {
+    "python": "3.13.15",
+    "ortools": "9.14.6206",
+    "platform": "macOS-26.7.1-arm64-arm-64bit-Mach-O"
+  },
+  "source_sha256": {
+    "cp_sat_caseB_v2.py": "4a7740e2eb80e803fb45ac4a7e72a2d808251c26435527dfec2883a8d4b62fef",
+    "esgp_v2.py": "c06a24b52f21ce3c92b8061be60918de99e09f8ceb95900447a66df781d89db7",
+    "requirements.txt": "9b67a9e322713be76fac4a8ac7a84dbe0b683d1963cb16909324143efd6237ac"
+  },
+  "minimum_proven": false,
+  "discovery": [
+    {
+      "players": 3,
+      "rounds": 3,
+      "objective": "feasibility",
+      "status": "INFEASIBLE",
+      "evidence": "mathematical",
+      "reason": "Balanced partner count exceeds the available distinct partners",
+      "elapsed_seconds": 5.957961548119783e-06
+    },
+    {
+      "players": 4,
+      "rounds": 3,
+      "objective": "feasibility",
+      "status": "INFEASIBLE",
+      "evidence": "mathematical",
+      "reason": "Balanced partner count exceeds the available distinct partners",
+      "elapsed_seconds": 4.832982085645199e-06
+    },
+    {
+      "players": 5,
+      "rounds": 3,
+      "objective": "feasibility",
+      "status": "INFEASIBLE",
+      "evidence": "mathematical",
+      "reason": "Player count cannot be partitioned under the prescribed group mix",
+      "elapsed_seconds": 3.125052899122238e-06
+    },
+    {
+      "players": 6,
+      "rounds": 3,
+      "objective": "feasibility",
+      "status": "INFEASIBLE",
+      "evidence": "mathematical",
+      "reason": "Balanced partner count exceeds the available distinct partners",
+      "elapsed_seconds": 2.6669586077332497e-06
+    },
+    {
+      "players": 7,
+      "rounds": 3,
+      "objective": "feasibility",
+      "status": "INFEASIBLE",
+      "evidence": "mathematical",
+      "reason": "Balanced partner count exceeds the available distinct partners",
+      "elapsed_seconds": 2.1669548004865646e-06
+    },
+    {
+      "players": 8,
+      "rounds": 3,
+      "objective": "feasibility",
+      "status": "INFEASIBLE",
+      "evidence": "mathematical",
+      "reason": "Balanced partner count exceeds the available distinct partners",
+      "elapsed_seconds": 1.6249832697212696e-06
+    },
+    {
+      "players": 9,
+      "rounds": 3,
+      "objective": "feasibility",
+      "status": "UNKNOWN",
+      "evidence": "CP-SAT",
+      "solver_seconds": 0.000755,
+      "elapsed_seconds": 0.007441583031322807
+    }
+  ],
+  "results": [],
+  "stopped_reason": "Minimum discovery unresolved at n=9; no range claimed"
+}

@@ -1,0 +1,257 @@
+{
+  "current_route": "/app/solver/run",
+  "workspace_id": "043c2174-7b3f-44df-9d5d-e947562d6da3",
+  "expected_revision": "sha256:b5fe823cebbb048480e3d88ce4fe6fe6429714a51c37391c8ad10009161a8df2",
+  "name": "ESGP five-round benchmark sweep 19–24",
+  "scenario": {
+    "people": [
+      {
+        "id": "person_1",
+        "attributes": {}
+      },
+      {
+        "id": "person_2",
+        "attributes": {}
+      },
+      {
+        "id": "person_3",
+        "attributes": {}
+      },
+      {
+        "id": "person_4",
+        "attributes": {}
+      },
+      {
+        "id": "person_5",
+        "attributes": {}
+      },
+      {
+        "id": "person_6",
+        "attributes": {}
+      },
+      {
+        "id": "person_7",
+        "attributes": {}
+      },
+      {
+        "id": "person_8",
+        "attributes": {}
+      },
+      {
+        "id": "person_9",
+        "attributes": {}
+      },
+      {
+        "id": "person_10",
+        "attributes": {}
+      },
+      {
+        "id": "person_11",
+        "attributes": {}
+      },
+      {
+        "id": "person_12",
+        "attributes": {}
+      },
+      {
+        "id": "person_13",
+        "attributes": {}
+      },
+      {
+        "id": "person_14",
+        "attributes": {}
+      },
+      {
+        "id": "person_15",
+        "attributes": {}
+      },
+      {
+        "id": "person_16",
+        "attributes": {}
+      },
+      {
+        "id": "person_17",
+        "attributes": {}
+      },
+      {
+        "id": "person_18",
+        "attributes": {}
+      },
+      {
+        "id": "person_19",
+        "attributes": {}
+      }
+    ],
+    "groups": [
+      {
+        "id": "group-1",
+        "capacity": 3
+      },
+      {
+        "id": "group-2",
+        "capacity": 4
+      },
+      {
+        "id": "group-3",
+        "capacity": 4
+      },
+      {
+        "id": "group-4",
+        "capacity": 4
+      },
+      {
+        "id": "group-5",
+        "capacity": 4
+      }
+    ],
+    "session_count": 5
+  },
+  "objectives": [
+    {
+      "type": "avoid_repeats",
+      "max_encounters_per_pair": 1,
+      "penalty_curve": "squared",
+      "weight": 10000
+    }
+  ],
+  "constraints": [
+    {
+      "id": "constraint_8f877296-53b8-416a-88db-07ce9943363e",
+      "type": "group_visit_count",
+      "group_ids": [
+        "group-2",
+        "group-3",
+        "group-4",
+        "group-5"
+      ],
+      "min": 4,
+      "max": 5,
+      "group_aggregation": "combined",
+      "penalty_weight": 10000,
+      "penalty_curve": "linear"
+    },
+    {
+      "id": "constraint_c27adba0-a28c-4559-b5c6-92093e8f41bc",
+      "type": "group_visit_count",
+      "min": 4,
+      "group_aggregation": "distinct",
+      "penalty_weight": 10000,
+      "penalty_curve": "linear"
+    },
+    {
+      "id": "constraint_0052a047-fd67-4bdb-919d-2209f6a0f273",
+      "type": "group_visit_count",
+      "min": 5,
+      "group_aggregation": "distinct",
+      "penalty_weight": 1,
+      "penalty_curve": "linear"
+    }
+  ],
+  "solver_settings": {
+    "solver_type": "auto",
+    "stop_conditions": {
+      "time_limit_seconds": 120
+    },
+    "solver_params": {
+      "construction_budget_fraction": 0.3,
+      "extreme_effort": {
+        "adaptive_tuning": {
+          "enabled": true,
+          "max_batch_length_seconds": 300
+        },
+        "auto_temperature_target_excess_percent": 100,
+        "batch_length_seconds": 1,
+        "enabled": false,
+        "final_temperature": 0.01,
+        "initial_temperature": 1,
+        "repeat_objective_strategy": "alternate_on_stall",
+        "settle_after_non_improving_runs": 0,
+        "temperature_mode": "auto_walk_excess"
+      },
+      "max_iterations": 1000000000,
+      "max_total_budget_seconds": 120,
+      "min_construction_budget_seconds": 0.1,
+      "min_total_budget_seconds": 120,
+      "no_improvement_grace_seconds": 0.5,
+      "parallel_lanes": 4,
+      "scaffold_budget_fraction": 0.3,
+      "total_budget_multiplier": 1,
+      "ultra_extreme_effort": {
+        "enabled": false,
+        "extreme_effort": {
+          "adaptive_tuning": {
+            "enabled": true,
+            "max_batch_length_seconds": 300
+          },
+          "auto_temperature_target_excess_percent": 100,
+          "batch_length_seconds": 1,
+          "enabled": false,
+          "final_temperature": 0.01,
+          "initial_temperature": 1,
+          "repeat_objective_strategy": "alternate_on_stall",
+          "settle_after_non_improving_runs": 0,
+          "temperature_mode": "auto_walk_excess"
+        },
+        "growth": {
+          "step_sessions": 1
+        },
+        "ruin_recreate": {
+          "enabled": true,
+          "initial_removed_sessions": 1,
+          "stall_attempts_before_escalation": 5
+        },
+        "seed_polish": {
+          "settle_after_non_improving_runs": 2,
+          "use_improvement_curve_pruning": true
+        },
+        "source_policy": {
+          "include_general_constructors": true,
+          "include_pure_sgp_designs": true
+        }
+      },
+      "solver_type": "auto"
+    },
+    "logging": {
+      "debug_dump_invariant_context": false,
+      "debug_validate_invariants": false,
+      "display_final_schedule": true,
+      "log_duration_and_score": true,
+      "log_frequency": 1000,
+      "log_initial_score_breakdown": true,
+      "log_initial_state": true,
+      "log_stop_condition": true,
+      "log_total_cost_breakdown": true
+    }
+  },
+  "person_names": {
+    "person_1": "Player 1",
+    "person_2": "Player 2",
+    "person_3": "Player 3",
+    "person_4": "Player 4",
+    "person_5": "Player 5",
+    "person_6": "Player 6",
+    "person_7": "Player 7",
+    "person_8": "Player 8",
+    "person_9": "Player 9",
+    "person_10": "Player 10",
+    "person_11": "Player 11",
+    "person_12": "Player 12",
+    "person_13": "Player 13",
+    "person_14": "Player 14",
+    "person_15": "Player 15",
+    "person_16": "Player 16",
+    "person_17": "Player 17",
+    "person_18": "Player 18",
+    "person_19": "Player 19"
+  },
+  "group_names": {
+    "group-1": "Tee 1 10:00",
+    "group-2": "Tee 2 10:07",
+    "group-3": "Tee 3 10:14",
+    "group-4": "Tee 4 10:21",
+    "group-5": "Tee 5 10:28"
+  },
+  "base_result_id": null,
+  "result": null,
+  "generation_status": "idle"
+}

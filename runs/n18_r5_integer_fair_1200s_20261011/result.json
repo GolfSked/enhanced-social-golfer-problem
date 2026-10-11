@@ -1,0 +1,16 @@
+{
+  "status": "FEASIBLE",
+  "solver_seconds": 1200.032273,
+  "minimum_target": 4,
+  "minimum_spread": 4,
+  "total_spread": 72,
+  "spread_distribution": {
+    "4": 18
+  },
+  "fours_distribution": {
+    "3": 12,
+    "4": 6
+  },
+  "unique_pairs": 120,
+  "unmet_pairs": 33
+}

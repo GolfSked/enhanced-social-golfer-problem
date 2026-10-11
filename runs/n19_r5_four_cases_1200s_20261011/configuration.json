@@ -1,0 +1,45 @@
+{
+  "players": 19,
+  "rounds": 5,
+  "minimum_target": 4,
+  "total_target": 80,
+  "patterns": [
+    [
+      3,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      0
+    ]
+  ],
+  "seconds_per_case": 1200,
+  "workers": 8,
+  "seed": 101,
+  "execution": "Sequential; up to 4800 solver seconds",
+  "hint": null,
+  "sha256": {
+    "run.py": "a6f8131786bf4e3c15bee7de7e92ca106c152931de40e5f760369e3ffaf71b9c",
+    "model_snapshot.py": "df3db7cf0a8d82799c3aca16587d5c10d3f3574b665ded3c3449e971655e937b"
+  }
+}

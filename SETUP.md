@@ -54,7 +54,7 @@ seed; use `--workers 1` for more repeatable comparisons.
 ## Compare saved schedules
 
 ```sh
-.venv/bin/python compare_spread_v3.py solutions/optimal/n18_sol.csv runs/trial_01_n18_sol.csv --rounds 4
+.venv/bin/python compare_spread_v3.py solutions/optimal-4-rounds/n18_sol.csv runs/trial_01_n18_sol.csv --rounds 4
 ```
 
 ## Retained solver

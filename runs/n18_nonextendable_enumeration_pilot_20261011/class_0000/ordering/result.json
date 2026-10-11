@@ -1,0 +1,41 @@
+{
+  "case": "class_0000/ordering",
+  "class_id": 0,
+  "removed": [],
+  "player_mapping": {
+    "1": 1,
+    "2": 2,
+    "3": 3,
+    "4": 4,
+    "5": 5,
+    "6": 6,
+    "7": 7,
+    "8": 8,
+    "9": 9,
+    "10": 10,
+    "11": 11,
+    "12": 12,
+    "13": 13,
+    "14": 14,
+    "15": 15,
+    "16": 16,
+    "17": 17,
+    "18": 18
+  },
+  "status": "OPTIMAL",
+  "seconds": 0.012396,
+  "objective_bound": 345.0,
+  "minimum_spread": 3,
+  "total_spread": 72,
+  "spread_distribution": {
+    "3": 2,
+    "4": 14,
+    "5": 2
+  },
+  "fours_distribution": {
+    "3": 12,
+    "4": 6
+  },
+  "unique_pairs": 120,
+  "unmet_pairs": 33
+}

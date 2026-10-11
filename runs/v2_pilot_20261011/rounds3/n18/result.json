@@ -1,0 +1,21 @@
+{
+  "players": 18,
+  "rounds": 3,
+  "objective": "minimum_then_total",
+  "status": "OPTIMAL",
+  "evidence": "CP-SAT",
+  "solver_seconds": 0.13267600000000002,
+  "minimum_spread": 3,
+  "total_spread": 54,
+  "spread_distribution": {
+    "3": 18
+  },
+  "fours_distribution": {
+    "2": 18
+  },
+  "unique_pairs": 72,
+  "unmet_pairs": 81,
+  "objective_value": 219.0,
+  "objective_bound": 219.0,
+  "elapsed_seconds": 0.1702791249845177
+}

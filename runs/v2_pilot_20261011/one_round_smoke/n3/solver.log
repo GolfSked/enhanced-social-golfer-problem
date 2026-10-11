@@ -1,0 +1,156 @@
+
+Starting CP-SAT solver v9.14.6206
+Parameters: random_seed: 101 max_time_in_seconds: 2 log_search_progress: true num_search_workers: 8 cp_model_probing_level: 1 log_to_stdout: false
+
+Initial optimization model '': (model_fingerprint: 0x3d6c9e08626f4ca3)
+#Variables: 13 (#bools: 4 in objective) (6 primary variables)
+  - 13 Booleans in [0,1]
+#kBoolAnd: 3 (#enforced: 3) (#literals: 9)
+#kBoolOr: 3 (#enforced: 3) (#literals: 6)
+#kLinMax: 1 (#expressions: 3)
+#kLinear1: 9
+#kLinear2: 9
+#kLinear3: 4
+
+Starting presolve at 0.00s
+  5.00e-06s  0.00e+00d  [DetectDominanceRelations] 
+  2.10e-05s  0.00e+00d  [PresolveToFixPoint] #num_loops=1 #num_dual_strengthening=1 
+  1.00e-06s  0.00e+00d  [ExtractEncodingFromLinear] 
+  0.00e+00s  0.00e+00d  [DetectDuplicateColumns] 
+  2.00e-06s  0.00e+00d  [DetectDuplicateConstraints] 
+[Symmetry] Graph for symmetry has 13 nodes and 0 arcs.
+[Symmetry] Symmetry computation done. time: 5e-06 dtime: 7.8e-07
+  0.00e+00s  0.00e+00d  [DetectDuplicateConstraintsWithDifferentEnforcements] 
+  4.50e-05s  0.00e+00d  [Probe] 
+  3.00e-06s  0.00e+00d  [MaxClique] 
+  0.00e+00s  0.00e+00d  [PresolveToFixPoint] 
+  0.00e+00s  0.00e+00d  [ProcessAtMostOneAndLinear] 
+  0.00e+00s  0.00e+00d  [DetectDuplicateConstraints] 
+  1.00e-06s  0.00e+00d  [DetectDuplicateConstraintsWithDifferentEnforcements] 
+  1.00e-06s  0.00e+00d  [DetectDominatedLinearConstraints] 
+  0.00e+00s  0.00e+00d  [DetectDifferentVariables] 
+  0.00e+00s  0.00e+00d  [ProcessSetPPC] 
+  0.00e+00s  0.00e+00d  [FindAlmostIdenticalLinearConstraints] 
+  1.00e-06s  0.00e+00d  [FindBigAtMostOneAndLinearOverlap] 
+  0.00e+00s  0.00e+00d  [FindBigVerticalLinearOverlap] 
+  0.00e+00s  0.00e+00d  [FindBigHorizontalLinearOverlap] 
+  0.00e+00s  0.00e+00d  [MergeClauses] 
+  0.00e+00s  0.00e+00d  [PresolveToFixPoint] 
+  0.00e+00s  0.00e+00d  [PresolveToFixPoint] 
+  0.00e+00s  0.00e+00d  [DetectDuplicateColumns] 
+  1.00e-06s  0.00e+00d  [DetectDuplicateConstraints] 
+[Symmetry] Graph for symmetry has 13 nodes and 0 arcs.
+[Symmetry] Symmetry computation done. time: 4e-06 dtime: 7.8e-07
+  0.00e+00s  0.00e+00d  [DetectDuplicateConstraintsWithDifferentEnforcements] 
+  6.00e-06s  0.00e+00d  [Probe] 
+  0.00e+00s  0.00e+00d  [MaxClique] 
+  0.00e+00s  0.00e+00d  [PresolveToFixPoint] 
+  0.00e+00s  0.00e+00d  [ProcessAtMostOneAndLinear] 
+  0.00e+00s  0.00e+00d  [DetectDuplicateConstraints] 
+  1.00e-06s  0.00e+00d  [DetectDuplicateConstraintsWithDifferentEnforcements] 
+  0.00e+00s  0.00e+00d  [DetectDominatedLinearConstraints] 
+  0.00e+00s  0.00e+00d  [DetectDifferentVariables] 
+  0.00e+00s  0.00e+00d  [ProcessSetPPC] 
+  0.00e+00s  0.00e+00d  [FindAlmostIdenticalLinearConstraints] 
+  0.00e+00s  0.00e+00d  [FindBigAtMostOneAndLinearOverlap] 
+  0.00e+00s  0.00e+00d  [FindBigVerticalLinearOverlap] 
+  0.00e+00s  0.00e+00d  [FindBigHorizontalLinearOverlap] 
+  0.00e+00s  0.00e+00d  [MergeClauses] 
+  0.00e+00s  0.00e+00d  [PresolveToFixPoint] 
+  1.00e-06s  0.00e+00d  [ExpandObjective] 
+
+Presolve summary:
+  - 0 affine relations were detected.
+  - rule 'bool and: empty' was applied 3 times.
+  - rule 'bool_or: only one literal' was applied 3 times.
+  - rule 'lin_max: all exprs fixed during copy' was applied 1 time.
+  - rule 'linear1: x in domain' was applied 9 times.
+  - rule 'linear: always true' was applied 13 times.
+  - rule 'linear: fixed or dup variables' was applied 1 time.
+  - rule 'presolve: 13 unused variables removed.' was applied 1 time.
+  - rule 'presolve: iteration' was applied 2 times.
+
+Presolved optimization model '': (model_fingerprint: 0xeef0e7e5907ac101)
+#Variables: 0 ( in objective) (0 primary variables)
+
+[Symmetry] Graph for symmetry has 0 nodes and 0 arcs.
+
+Preloading model.
+#Bound   0.00s best:-inf  next:[7,7]      initial_domain
+The solution hint is complete and is feasible. Its objective value is 7.
+#Model   0.00s var:0/0 constraints:0/0
+
+Starting search at 0.00s with 8 workers.
+5 full problem subsolvers: [default_lp, max_lp, no_lp, quick_restart, quick_restart_no_lp]
+3 first solution subsolvers: [fj, fs_random, fs_random_no_lp]
+3 interleaved subsolvers: [feasibility_pump, ls, rins/rens]
+2 helper subsolvers: [neighborhood_helper, synchronization_agent]
+
+#1       0.00s best:7     next:[]         no_lp
+#Done    0.00s no_lp
+#Done    0.00s default_lp
+
+Task timing                      n [     min,      max]      avg      dev     time         n [     min,      max]      avg      dev    dtime
+           'default_lp':         1 [ 86.00us,  86.00us]  86.00us   0.00ns  86.00us         0 [  0.00ns,   0.00ns]   0.00ns   0.00ns   0.00ns
+     'feasibility_pump':         1 [ 29.00us,  29.00us]  29.00us   0.00ns  29.00us         0 [  0.00ns,   0.00ns]   0.00ns   0.00ns   0.00ns
+                   'fj':         0 [  0.00ns,   0.00ns]   0.00ns   0.00ns   0.00ns         0 [  0.00ns,   0.00ns]   0.00ns   0.00ns   0.00ns
+            'fs_random':         1 [ 26.00us,  26.00us]  26.00us   0.00ns  26.00us         0 [  0.00ns,   0.00ns]   0.00ns   0.00ns   0.00ns
+      'fs_random_no_lp':         1 [ 74.00us,  74.00us]  74.00us   0.00ns  74.00us         0 [  0.00ns,   0.00ns]   0.00ns   0.00ns   0.00ns
+                   'ls':         0 [  0.00ns,   0.00ns]   0.00ns   0.00ns   0.00ns         0 [  0.00ns,   0.00ns]   0.00ns   0.00ns   0.00ns
+               'max_lp':         1 [ 51.00us,  51.00us]  51.00us   0.00ns  51.00us         0 [  0.00ns,   0.00ns]   0.00ns   0.00ns   0.00ns
+                'no_lp':         1 [ 69.00us,  69.00us]  69.00us   0.00ns  69.00us         0 [  0.00ns,   0.00ns]   0.00ns   0.00ns   0.00ns
+        'quick_restart':         1 [ 53.00us,  53.00us]  53.00us   0.00ns  53.00us         0 [  0.00ns,   0.00ns]   0.00ns   0.00ns   0.00ns
+  'quick_restart_no_lp':         1 [ 83.00us,  83.00us]  83.00us   0.00ns  83.00us         0 [  0.00ns,   0.00ns]   0.00ns   0.00ns   0.00ns
+            'rins/rens':         0 [  0.00ns,   0.00ns]   0.00ns   0.00ns   0.00ns         0 [  0.00ns,   0.00ns]   0.00ns   0.00ns   0.00ns
+
+Search stats              Bools  Conflicts  Branches  Restarts  BoolPropag  IntegerPropag
+           'default_lp':      0          0         0         0           0              1
+            'fs_random':      0          0         0         0           0              0
+      'fs_random_no_lp':      0          0         0         0           0              0
+               'max_lp':      0          0         0         0           0              0
+                'no_lp':      0          0         0         0           0              1
+        'quick_restart':      0          0         0         0           0              0
+  'quick_restart_no_lp':      0          0         0         0           0              0
+
+SAT stats                 ClassicMinim  LitRemoved  LitLearned  LitForgotten  Subsumed  MClauses  MDecisions  MLitTrue  MSubsumed  MLitRemoved  MReused
+           'default_lp':             0           0           0             0         0         0           0         0          0            0        0
+            'fs_random':             0           0           0             0         0         0           0         0          0            0        0
+      'fs_random_no_lp':             0           0           0             0         0         0           0         0          0            0        0
+               'max_lp':             0           0           0             0         0         0           0         0          0            0        0
+                'no_lp':             0           0           0             0         0         0           0         0          0            0        0
+        'quick_restart':             0           0           0             0         0         0           0         0          0            0        0
+  'quick_restart_no_lp':             0           0           0             0         0         0           0         0          0            0        0
+
+LNS stats       Improv/Calls  Closed  Difficulty  TimeLimit
+  'rins/rens':           0/0      0%    5.00e-01       0.10
+
+Solutions (1)    Num   Rank
+       'no_lp':    1  [1,1]
+
+Objective bounds     Num
+  'initial_domain':    1
+
+Solution repositories    Added  Queried  Synchro
+  'feasible solutions':      2        0        2
+   'fj solution hints':      0        0        0
+        'lp solutions':      0        0        0
+                'pump':      0        0
+
+CpSolverResponse summary:
+status: OPTIMAL
+objective: 7
+best_bound: 7
+integers: 1
+booleans: 0
+conflicts: 0
+branches: 0
+propagations: 0
+integer_propagations: 1
+restarts: 0
+lp_iterations: 0
+walltime: 0.002086
+usertime: 0.002086
+deterministic_time: 0
+gap_integral: 0
+solution_fingerprint: 0xb09d8de97b061907
+

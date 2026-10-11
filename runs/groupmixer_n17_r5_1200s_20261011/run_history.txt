@@ -1,0 +1,179 @@
+- banner:
+  - link "Setup overview":
+    - /url: /app/scenario/overview
+  - link "GroupMixer":
+    - /url: /app/scenario/overview
+    - generic: GroupMixer
+  - 'button "Scenario: ESGP 17 players — five rounds"':
+    - generic: "Scenario:"
+    - generic: ESGP 17 players — five rounds
+  - navigation "Website navigation":
+    - button "Website navigation":
+  - button "Explore GroupMixer":
+  - button "Open account menu":
+  - navigation "Primary app navigation":
+    - link "Setup":
+      - /url: /app/scenario/avoid-repeats
+      - generic: Setup
+    - link "Solver":
+      - /url: /app/solver/run
+      - generic: Solver
+      - generic: Solver
+    - link "Results":
+      - /url: /app/results/5bd7cc3d-a827-41b2-99ca-b1dff0611c74
+      - generic: Results
+  - toolbar "Scenario history controls":
+    - button "Undo scenario setup change":
+    - button "Redo scenario setup change" [disabled]:
+  - button "Open history":
+  - button "Collapse editing toolbar" [expanded]:
+- main:
+  - navigation:
+    - region:
+      - button [expanded]:
+        - generic: Solve
+      - generic: Run the current solve plan and watch progress.
+      - button:
+        - generic: Run
+      - generic: Run
+      - generic: Start the current solve plan and inspect live progress, diagnostics, and the latest result.
+    - region:
+      - button [expanded]:
+        - generic: Plan
+      - generic: Choose what may change, where solving starts, how search improves it, and how hard to try.
+      - button:
+        - generic: Scope
+      - generic: Scope
+      - generic: Choose which sessions or future change windows the solver is allowed to modify.
+      - button:
+        - generic: Start
+      - generic: Start
+      - generic: Choose where the initial schedule comes from before search begins.
+      - button:
+        - generic: Search
+      - generic: Search
+      - generic: Choose how the solver improves the starting schedule.
+      - button:
+        - generic: Effort
+      - generic: Effort
+      - generic: Choose runtime, stopping, and reproducibility controls.
+    - region:
+      - button [expanded]:
+        - generic: Orchestration
+      - generic: Choose the coordinator that executes, polishes, or meta-orchestrates the solve plan.
+      - button:
+        - generic: Auto
+      - generic: Auto
+      - generic: Run the configured solve plan once with the standard Auto coordinator.
+      - button:
+        - generic: Extreme
+      - generic: Extreme
+      - generic: Start with Auto, then keep polishing the configured scenario score until cancelled.
+      - button:
+        - generic: Ultra
+      - generic: Ultra
+      - generic: Use source census, seed polish, horizon growth, and ruin/recreate orchestration.
+      - button:
+        - generic: Lanes
+      - generic: Lanes
+      - generic: "Choose what searches side by side: native lanes, the CP-SAT challenger, and the CP-SAT polish lane."
+    - region:
+      - button [expanded]:
+        - generic: Advanced
+      - generic: Paste exact solver-settings JSON for reproducible benchmark-style runs.
+      - button:
+        - generic: JSON
+      - generic: JSON
+      - generic: Paste an exact solver settings JSON object to reproduce benchmark or diagnostic runs.
+    - region:
+      - button [expanded]:
+        - generic: History
+      - generic: Review previous solve attempts and produced results.
+      - button:
+        - generic: Runs
+      - generic: Runs
+      - generic: Review recent solve attempts, linked results, and available explanations.
+    - generic: © 2026 Guido Witt-Dörring
+    - button:
+      - text: Legal & privacy
+  - button "Open solver navigation":
+    - generic: Solver
+    - generic: Runs
+  - button "About Runs":
+  - generic: Review recent solve attempts, linked results, and available explanations.
+  - generic: History
+  - heading "Runs" [level=1]
+  - paragraph: Review saved solve attempts, open their generated telemetry artifacts, and inspect the exact solver-stage flow recorded in each run trace.
+  - region "Paused Ultra runs":
+    - heading "Paused Ultra runs" [level=2]
+    - paragraph: Durable orchestration checkpoints are separate from completed result snapshots.
+    - checkbox "Auto-checkpoint Ultra boundaries"
+    - generic: Auto-checkpoint Ultra boundaries
+    - button "Import":
+      - text: Import
+    - paragraph: Export a checkpoint to resume it on another device.
+    - generic: No paused Ultra runs for this scenario.
+  - article:
+    - button "Result 6 details":
+      - heading "Result 6" [level=3]
+      - generic: result 5bd7cc3d
+      - generic: no trace artifact
+      - paragraph: 11/10/2026, 12:02:41 · Auto · 2.0s
+    - button "Open result":
+      - text: Open result
+    - generic: Final score
+    - generic: "9.00"
+    - generic: Iterations
+    - generic: 1,626,828
+    - generic: Stop reason
+    - generic: time_limit_reached
+  - article:
+    - button "Best-so-far snapshot details":
+      - heading "Best-so-far snapshot" [level=3]
+      - generic: result 865c60cd
+      - generic: no trace artifact
+      - paragraph: 11/10/2026, 11:49:09 · Auto · 387.4s
+    - button "Open result":
+      - text: Open result
+    - generic: Final score
+    - generic: "9.00"
+    - generic: Iterations
+    - generic: 357,444,109
+    - generic: Stop reason
+    - generic: —
+  - article:
+    - button "Best-so-far snapshot details":
+      - heading "Best-so-far snapshot" [level=3]
+      - generic: result 5fd92d96
+      - generic: no trace artifact
+      - paragraph: 11/10/2026, 11:49:01 · Auto · 380.0s
+    - button "Open result":
+      - text: Open result
+    - generic: Final score
+    - generic: "9.00"
+    - generic: Iterations
+    - generic: 328,547,101
+    - generic: Stop reason
+    - generic: —
+  - article:
+    - button "Result 3 details":
+      - heading "Result 3" [level=3]
+      - generic: result 49780df9
+      - generic: no trace artifact
+      - paragraph: 11/10/2026, 11:38:14 · Auto · 60.4s
+    - button "Open result":
+      - text: Open result
+    - generic: Final score
+    - generic: "14.00"
+    - generic: Iterations
+    - generic: 8,658
+    - generic: Stop reason
+    - generic: —
+- button "Pause squirrel animation":
+- button "Show squirrel again" [pressed]:
+- region "Notifications":
+  - status:
+    - generic: A new version of GroupMixer is available
+    - generic: Reload to use the latest version of GroupMixer.
+    - button "Update"
+    - button "Dismiss update notice":

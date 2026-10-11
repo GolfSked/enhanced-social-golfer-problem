@@ -1,0 +1,18 @@
+{
+  "minimum_spread": 4,
+  "total_spread": 79,
+  "spread_distribution": {
+    "4": 16,
+    "5": 3
+  },
+  "fours_distribution": {
+    "4": 15,
+    "5": 4
+  },
+  "unique_pairs": 135,
+  "unmet_pairs": 36,
+  "valid": true,
+  "result_id": "487d0dd8-4f1a-4eb4-9f16-c7b6948a68b3",
+  "reported_elapsed_ms": 46,
+  "app_cost": 16
+}

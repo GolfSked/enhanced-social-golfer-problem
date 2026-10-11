@@ -1,0 +1,18 @@
+{
+  "active_case": "2_2_0_0_0",
+  "completed": [
+    {
+      "case": "3_1_0_0_0",
+      "pattern": [
+        3,
+        1,
+        0,
+        0,
+        0
+      ],
+      "status": "UNKNOWN",
+      "solver_seconds": 81.538988,
+      "configured_seconds": 1200
+    }
+  ]
+}

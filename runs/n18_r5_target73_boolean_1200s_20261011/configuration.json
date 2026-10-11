@@ -1,0 +1,23 @@
+{
+  "players": 18,
+  "rounds": 5,
+  "sizes": [
+    3,
+    3,
+    4,
+    4,
+    4
+  ],
+  "minimum_target": 4,
+  "total_target": 73,
+  "upper_bound": 84,
+  "seconds": 1200,
+  "workers": 8,
+  "seed": 101,
+  "strengthen": true,
+  "hint": null,
+  "source_sha256": {
+    "run.py": "3893b3f829e4852ccf3038f107cbb9ebeb23f46962f948c73e07e0eb19e5a400",
+    "boolean_model_snapshot.py": "4a7740e2eb80e803fb45ac4a7e72a2d808251c26435527dfec2883a8d4b62fef"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "case": 1,
+  "status": "FEASIBLE",
+  "solver_seconds": 60.001142,
+  "positive_crosscheck": "passed",
+  "objective_value": 72.0,
+  "objective_bound": 84.0,
+  "minimum_spread": 4,
+  "total_spread": 72,
+  "spread_distribution": {
+    "4": 13,
+    "5": 4
+  },
+  "fours_distribution": {
+    "2": 11,
+    "3": 6
+  },
+  "unique_pairs": 105,
+  "unmet_pairs": 31
+}

@@ -1,0 +1,10006 @@
+[
+  {
+    "case": "class_01_delete_01_07",
+    "class_id": 1,
+    "removed": [
+      1,
+      7
+    ],
+    "player_mapping": {
+      "2": 1,
+      "3": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "8": 6,
+      "9": 7,
+      "10": 8,
+      "11": 9,
+      "12": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.026853000000000002,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 4,
+      "4": 7,
+      "5": 7
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_01_delete_01_17",
+    "class_id": 1,
+    "removed": [
+      1,
+      17
+    ],
+    "player_mapping": {
+      "2": 1,
+      "3": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.034853,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 4,
+      "4": 7,
+      "5": 7
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_01_delete_01_19",
+    "class_id": 1,
+    "removed": [
+      1,
+      19
+    ],
+    "player_mapping": {
+      "2": 1,
+      "3": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "18": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.019099,
+    "objective_bound": 347.0,
+    "minimum_spread": 3,
+    "total_spread": 74,
+    "spread_distribution": {
+      "3": 3,
+      "4": 10,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_01_delete_01_20",
+    "class_id": 1,
+    "removed": [
+      1,
+      20
+    ],
+    "player_mapping": {
+      "2": 1,
+      "3": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "18": 17,
+      "19": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.019192,
+    "objective_bound": 347.0,
+    "minimum_spread": 3,
+    "total_spread": 74,
+    "spread_distribution": {
+      "3": 3,
+      "4": 10,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_01_delete_02_05",
+    "class_id": 1,
+    "removed": [
+      2,
+      5
+    ],
+    "player_mapping": {
+      "1": 1,
+      "3": 2,
+      "4": 3,
+      "6": 4,
+      "7": 5,
+      "8": 6,
+      "9": 7,
+      "10": 8,
+      "11": 9,
+      "12": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.018166,
+    "objective_bound": 347.0,
+    "minimum_spread": 3,
+    "total_spread": 74,
+    "spread_distribution": {
+      "3": 4,
+      "4": 8,
+      "5": 6
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_01_delete_02_09",
+    "class_id": 1,
+    "removed": [
+      2,
+      9
+    ],
+    "player_mapping": {
+      "1": 1,
+      "3": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "10": 8,
+      "11": 9,
+      "12": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.018099,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 4,
+      "4": 7,
+      "5": 7
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_01_delete_02_10",
+    "class_id": 1,
+    "removed": [
+      2,
+      10
+    ],
+    "player_mapping": {
+      "1": 1,
+      "3": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "11": 9,
+      "12": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.017753,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 4,
+      "4": 7,
+      "5": 7
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_01_delete_02_13",
+    "class_id": 1,
+    "removed": [
+      2,
+      13
+    ],
+    "player_mapping": {
+      "1": 1,
+      "3": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.020900000000000002,
+    "objective_bound": 347.0,
+    "minimum_spread": 3,
+    "total_spread": 74,
+    "spread_distribution": {
+      "3": 4,
+      "4": 8,
+      "5": 6
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_01_delete_03_05",
+    "class_id": 1,
+    "removed": [
+      3,
+      5
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "4": 3,
+      "6": 4,
+      "7": 5,
+      "8": 6,
+      "9": 7,
+      "10": 8,
+      "11": 9,
+      "12": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.018281000000000002,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 4,
+      "4": 7,
+      "5": 7
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_01_delete_03_10",
+    "class_id": 1,
+    "removed": [
+      3,
+      10
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "11": 9,
+      "12": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.018336,
+    "objective_bound": 347.0,
+    "minimum_spread": 3,
+    "total_spread": 74,
+    "spread_distribution": {
+      "3": 3,
+      "4": 10,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_01_delete_03_15",
+    "class_id": 1,
+    "removed": [
+      3,
+      15
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.018116,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 4,
+      "4": 7,
+      "5": 7
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_01_delete_03_16",
+    "class_id": 1,
+    "removed": [
+      3,
+      16
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.019558000000000002,
+    "objective_bound": 347.0,
+    "minimum_spread": 3,
+    "total_spread": 74,
+    "spread_distribution": {
+      "3": 3,
+      "4": 10,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_01_delete_04_06",
+    "class_id": 1,
+    "removed": [
+      4,
+      6
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "5": 4,
+      "7": 5,
+      "8": 6,
+      "9": 7,
+      "10": 8,
+      "11": 9,
+      "12": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.0182,
+    "objective_bound": 347.0,
+    "minimum_spread": 3,
+    "total_spread": 74,
+    "spread_distribution": {
+      "3": 3,
+      "4": 10,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_01_delete_04_10",
+    "class_id": 1,
+    "removed": [
+      4,
+      10
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "11": 9,
+      "12": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.018860000000000002,
+    "objective_bound": 347.0,
+    "minimum_spread": 3,
+    "total_spread": 74,
+    "spread_distribution": {
+      "3": 3,
+      "4": 10,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_01_delete_04_13",
+    "class_id": 1,
+    "removed": [
+      4,
+      13
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.019535,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 4,
+      "4": 7,
+      "5": 7
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_01_delete_04_17",
+    "class_id": 1,
+    "removed": [
+      4,
+      17
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.010490000000000001,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 4,
+      "4": 7,
+      "5": 7
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_01_delete_05_20",
+    "class_id": 1,
+    "removed": [
+      5,
+      20
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "18": 17,
+      "19": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.013227000000000001,
+    "objective_bound": 347.0,
+    "minimum_spread": 3,
+    "total_spread": 74,
+    "spread_distribution": {
+      "3": 3,
+      "4": 10,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_01_delete_05_14",
+    "class_id": 1,
+    "removed": [
+      5,
+      14
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.021513,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 4,
+      "4": 7,
+      "5": 7
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_01_delete_06_11",
+    "class_id": 1,
+    "removed": [
+      6,
+      11
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "12": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.018236000000000002,
+    "objective_bound": 347.0,
+    "minimum_spread": 3,
+    "total_spread": 74,
+    "spread_distribution": {
+      "3": 3,
+      "4": 10,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_01_delete_06_12",
+    "class_id": 1,
+    "removed": [
+      6,
+      12
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.018023,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 4,
+      "4": 7,
+      "5": 7
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_01_delete_06_18",
+    "class_id": 1,
+    "removed": [
+      6,
+      18
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.019521,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 4,
+      "4": 7,
+      "5": 7
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_01_delete_07_09",
+    "class_id": 1,
+    "removed": [
+      7,
+      9
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "8": 7,
+      "10": 8,
+      "11": 9,
+      "12": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.020461,
+    "objective_bound": 347.0,
+    "minimum_spread": 3,
+    "total_spread": 74,
+    "spread_distribution": {
+      "3": 3,
+      "4": 10,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_01_delete_07_16",
+    "class_id": 1,
+    "removed": [
+      7,
+      16
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.011842,
+    "objective_bound": 347.0,
+    "minimum_spread": 3,
+    "total_spread": 74,
+    "spread_distribution": {
+      "3": 4,
+      "4": 8,
+      "5": 6
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_01_delete_07_13",
+    "class_id": 1,
+    "removed": [
+      7,
+      13
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.028406,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 4,
+      "4": 7,
+      "5": 7
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_01_delete_08_10",
+    "class_id": 1,
+    "removed": [
+      8,
+      10
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "9": 8,
+      "11": 9,
+      "12": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.018837,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 4,
+      "4": 7,
+      "5": 7
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_01_delete_08_15",
+    "class_id": 1,
+    "removed": [
+      8,
+      15
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.018356,
+    "objective_bound": 347.0,
+    "minimum_spread": 3,
+    "total_spread": 74,
+    "spread_distribution": {
+      "3": 3,
+      "4": 10,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_01_delete_08_17",
+    "class_id": 1,
+    "removed": [
+      8,
+      17
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.018098,
+    "objective_bound": 347.0,
+    "minimum_spread": 3,
+    "total_spread": 74,
+    "spread_distribution": {
+      "3": 3,
+      "4": 10,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_01_delete_08_19",
+    "class_id": 1,
+    "removed": [
+      8,
+      19
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "18": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.017842,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 4,
+      "4": 7,
+      "5": 7
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_01_delete_09_14",
+    "class_id": 1,
+    "removed": [
+      9,
+      14
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.018085,
+    "objective_bound": 347.0,
+    "minimum_spread": 3,
+    "total_spread": 74,
+    "spread_distribution": {
+      "3": 3,
+      "4": 10,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_01_delete_09_19",
+    "class_id": 1,
+    "removed": [
+      9,
+      19
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "18": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.0181,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 4,
+      "4": 7,
+      "5": 7
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_01_delete_11_14",
+    "class_id": 1,
+    "removed": [
+      11,
+      14
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "12": 11,
+      "13": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.018053,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 4,
+      "4": 7,
+      "5": 7
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_01_delete_11_15",
+    "class_id": 1,
+    "removed": [
+      11,
+      15
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.021628,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 4,
+      "4": 7,
+      "5": 7
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_01_delete_11_19",
+    "class_id": 1,
+    "removed": [
+      11,
+      19
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "18": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.019435,
+    "objective_bound": 347.0,
+    "minimum_spread": 3,
+    "total_spread": 74,
+    "spread_distribution": {
+      "3": 3,
+      "4": 10,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_01_delete_12_14",
+    "class_id": 1,
+    "removed": [
+      12,
+      14
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "13": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.020145,
+    "objective_bound": 347.0,
+    "minimum_spread": 3,
+    "total_spread": 74,
+    "spread_distribution": {
+      "3": 3,
+      "4": 10,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_01_delete_12_17",
+    "class_id": 1,
+    "removed": [
+      12,
+      17
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.018739000000000002,
+    "objective_bound": 347.0,
+    "minimum_spread": 3,
+    "total_spread": 74,
+    "spread_distribution": {
+      "3": 4,
+      "4": 8,
+      "5": 6
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_01_delete_12_20",
+    "class_id": 1,
+    "removed": [
+      12,
+      20
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "18": 17,
+      "19": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.017027,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 4,
+      "4": 7,
+      "5": 7
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_01_delete_13_18",
+    "class_id": 1,
+    "removed": [
+      13,
+      18
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.019010000000000003,
+    "objective_bound": 347.0,
+    "minimum_spread": 3,
+    "total_spread": 74,
+    "spread_distribution": {
+      "3": 3,
+      "4": 10,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_01_delete_15_18",
+    "class_id": 1,
+    "removed": [
+      15,
+      18
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "13": 13,
+      "14": 14,
+      "16": 15,
+      "17": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.0195,
+    "objective_bound": 347.0,
+    "minimum_spread": 3,
+    "total_spread": 74,
+    "spread_distribution": {
+      "3": 3,
+      "4": 10,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_01_delete_16_18",
+    "class_id": 1,
+    "removed": [
+      16,
+      18
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "13": 13,
+      "14": 14,
+      "15": 15,
+      "17": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.017201,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 4,
+      "4": 7,
+      "5": 7
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_01_delete_16_20",
+    "class_id": 1,
+    "removed": [
+      16,
+      20
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "13": 13,
+      "14": 14,
+      "15": 15,
+      "17": 16,
+      "18": 17,
+      "19": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.017039000000000002,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 4,
+      "4": 7,
+      "5": 7
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_02_delete_01_09",
+    "class_id": 2,
+    "removed": [
+      1,
+      9
+    ],
+    "player_mapping": {
+      "2": 1,
+      "3": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "10": 8,
+      "11": 9,
+      "12": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.017105000000000002,
+    "objective_bound": 347.0,
+    "minimum_spread": 3,
+    "total_spread": 74,
+    "spread_distribution": {
+      "3": 3,
+      "4": 10,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_02_delete_02_10",
+    "class_id": 2,
+    "removed": [
+      2,
+      10
+    ],
+    "player_mapping": {
+      "1": 1,
+      "3": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "11": 9,
+      "12": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.017115000000000002,
+    "objective_bound": 347.0,
+    "minimum_spread": 3,
+    "total_spread": 74,
+    "spread_distribution": {
+      "3": 4,
+      "4": 8,
+      "5": 6
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_02_delete_03_05",
+    "class_id": 2,
+    "removed": [
+      3,
+      5
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "4": 3,
+      "6": 4,
+      "7": 5,
+      "8": 6,
+      "9": 7,
+      "10": 8,
+      "11": 9,
+      "12": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.011594,
+    "objective_bound": 347.0,
+    "minimum_spread": 3,
+    "total_spread": 74,
+    "spread_distribution": {
+      "3": 4,
+      "4": 8,
+      "5": 6
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_02_delete_02_17",
+    "class_id": 2,
+    "removed": [
+      2,
+      17
+    ],
+    "player_mapping": {
+      "1": 1,
+      "3": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.027192,
+    "objective_bound": 347.0,
+    "minimum_spread": 3,
+    "total_spread": 74,
+    "spread_distribution": {
+      "3": 3,
+      "4": 10,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_02_delete_04_06",
+    "class_id": 2,
+    "removed": [
+      4,
+      6
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "5": 4,
+      "7": 5,
+      "8": 6,
+      "9": 7,
+      "10": 8,
+      "11": 9,
+      "12": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.011161,
+    "objective_bound": 347.0,
+    "minimum_spread": 3,
+    "total_spread": 74,
+    "spread_distribution": {
+      "3": 4,
+      "4": 8,
+      "5": 6
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_02_delete_03_16",
+    "class_id": 2,
+    "removed": [
+      3,
+      16
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.02826,
+    "objective_bound": 347.0,
+    "minimum_spread": 3,
+    "total_spread": 74,
+    "spread_distribution": {
+      "3": 2,
+      "4": 12,
+      "5": 4
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_02_delete_05_11",
+    "class_id": 2,
+    "removed": [
+      5,
+      11
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "12": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.017875000000000002,
+    "objective_bound": 347.0,
+    "minimum_spread": 3,
+    "total_spread": 74,
+    "spread_distribution": {
+      "3": 4,
+      "4": 8,
+      "5": 6
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_02_delete_06_12",
+    "class_id": 2,
+    "removed": [
+      6,
+      12
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.019277000000000002,
+    "objective_bound": 347.0,
+    "minimum_spread": 3,
+    "total_spread": 74,
+    "spread_distribution": {
+      "3": 2,
+      "4": 12,
+      "5": 4
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_02_delete_07_15",
+    "class_id": 2,
+    "removed": [
+      7,
+      15
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.018472000000000002,
+    "objective_bound": 347.0,
+    "minimum_spread": 3,
+    "total_spread": 74,
+    "spread_distribution": {
+      "3": 2,
+      "4": 12,
+      "5": 4
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_02_delete_08_17",
+    "class_id": 2,
+    "removed": [
+      8,
+      17
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.017529,
+    "objective_bound": 347.0,
+    "minimum_spread": 3,
+    "total_spread": 74,
+    "spread_distribution": {
+      "3": 2,
+      "4": 12,
+      "5": 4
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_02_delete_09_15",
+    "class_id": 2,
+    "removed": [
+      9,
+      15
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.017523,
+    "objective_bound": 347.0,
+    "minimum_spread": 3,
+    "total_spread": 74,
+    "spread_distribution": {
+      "3": 2,
+      "4": 12,
+      "5": 4
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_02_delete_12_20",
+    "class_id": 2,
+    "removed": [
+      12,
+      20
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "18": 17,
+      "19": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.019918,
+    "objective_bound": 347.0,
+    "minimum_spread": 3,
+    "total_spread": 74,
+    "spread_distribution": {
+      "3": 2,
+      "4": 12,
+      "5": 4
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_03_delete_01_05",
+    "class_id": 3,
+    "removed": [
+      1,
+      5
+    ],
+    "player_mapping": {
+      "2": 1,
+      "3": 2,
+      "4": 3,
+      "6": 4,
+      "7": 5,
+      "8": 6,
+      "9": 7,
+      "10": 8,
+      "11": 9,
+      "12": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.017132,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 3,
+      "4": 9,
+      "5": 6
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_03_delete_01_06",
+    "class_id": 3,
+    "removed": [
+      1,
+      6
+    ],
+    "player_mapping": {
+      "2": 1,
+      "3": 2,
+      "4": 3,
+      "5": 4,
+      "7": 5,
+      "8": 6,
+      "9": 7,
+      "10": 8,
+      "11": 9,
+      "12": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.016122,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 3,
+      "4": 9,
+      "5": 6
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_03_delete_01_19",
+    "class_id": 3,
+    "removed": [
+      1,
+      19
+    ],
+    "player_mapping": {
+      "2": 1,
+      "3": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "18": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.017762,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 4,
+      "4": 7,
+      "5": 7
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_03_delete_01_20",
+    "class_id": 3,
+    "removed": [
+      1,
+      20
+    ],
+    "player_mapping": {
+      "2": 1,
+      "3": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "18": 17,
+      "19": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.017673,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 4,
+      "4": 7,
+      "5": 7
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_03_delete_02_09",
+    "class_id": 3,
+    "removed": [
+      2,
+      9
+    ],
+    "player_mapping": {
+      "1": 1,
+      "3": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "10": 8,
+      "11": 9,
+      "12": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.017235,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 4,
+      "4": 7,
+      "5": 7
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_03_delete_02_11",
+    "class_id": 3,
+    "removed": [
+      2,
+      11
+    ],
+    "player_mapping": {
+      "1": 1,
+      "3": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "12": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.016954,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 4,
+      "4": 7,
+      "5": 7
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_03_delete_02_13",
+    "class_id": 3,
+    "removed": [
+      2,
+      13
+    ],
+    "player_mapping": {
+      "1": 1,
+      "3": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.017307,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 3,
+      "4": 9,
+      "5": 6
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_03_delete_02_16",
+    "class_id": 3,
+    "removed": [
+      2,
+      16
+    ],
+    "player_mapping": {
+      "1": 1,
+      "3": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.018482000000000002,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 3,
+      "4": 9,
+      "5": 6
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_03_delete_03_10",
+    "class_id": 3,
+    "removed": [
+      3,
+      10
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "11": 9,
+      "12": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.020110000000000003,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 4,
+      "4": 7,
+      "5": 7
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_03_delete_03_12",
+    "class_id": 3,
+    "removed": [
+      3,
+      12
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.011238000000000001,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 4,
+      "4": 7,
+      "5": 7
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_03_delete_03_13",
+    "class_id": 3,
+    "removed": [
+      3,
+      13
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.010406,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 3,
+      "4": 9,
+      "5": 6
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_03_delete_03_16",
+    "class_id": 3,
+    "removed": [
+      3,
+      16
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.010645,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 3,
+      "4": 9,
+      "5": 6
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_03_delete_04_05",
+    "class_id": 3,
+    "removed": [
+      4,
+      5
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "6": 4,
+      "7": 5,
+      "8": 6,
+      "9": 7,
+      "10": 8,
+      "11": 9,
+      "12": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.011761,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 3,
+      "4": 9,
+      "5": 6
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_03_delete_04_06",
+    "class_id": 3,
+    "removed": [
+      4,
+      6
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "5": 4,
+      "7": 5,
+      "8": 6,
+      "9": 7,
+      "10": 8,
+      "11": 9,
+      "12": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.018697000000000002,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 3,
+      "4": 9,
+      "5": 6
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_03_delete_04_17",
+    "class_id": 3,
+    "removed": [
+      4,
+      17
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.018324,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 4,
+      "4": 7,
+      "5": 7
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_03_delete_04_18",
+    "class_id": 3,
+    "removed": [
+      4,
+      18
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.018928,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 4,
+      "4": 7,
+      "5": 7
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_03_delete_05_11",
+    "class_id": 3,
+    "removed": [
+      5,
+      11
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "12": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.019803,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 4,
+      "4": 7,
+      "5": 7
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_03_delete_05_12",
+    "class_id": 3,
+    "removed": [
+      5,
+      12
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.019819,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 3,
+      "4": 9,
+      "5": 6
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_03_delete_06_09",
+    "class_id": 3,
+    "removed": [
+      6,
+      9
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "7": 6,
+      "8": 7,
+      "10": 8,
+      "11": 9,
+      "12": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.02111,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 3,
+      "4": 9,
+      "5": 6
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_03_delete_07_14",
+    "class_id": 3,
+    "removed": [
+      7,
+      14
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.015226000000000002,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 3,
+      "4": 9,
+      "5": 6
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_03_delete_06_10",
+    "class_id": 3,
+    "removed": [
+      6,
+      10
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "11": 9,
+      "12": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.047593,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 4,
+      "4": 7,
+      "5": 7
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_03_delete_07_15",
+    "class_id": 3,
+    "removed": [
+      7,
+      15
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.018241,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 3,
+      "4": 9,
+      "5": 6
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_03_delete_07_17",
+    "class_id": 3,
+    "removed": [
+      7,
+      17
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.02146,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 4,
+      "4": 7,
+      "5": 7
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_03_delete_07_19",
+    "class_id": 3,
+    "removed": [
+      7,
+      19
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "18": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.018095,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 4,
+      "4": 7,
+      "5": 7
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_03_delete_08_14",
+    "class_id": 3,
+    "removed": [
+      8,
+      14
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.009247,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 3,
+      "4": 9,
+      "5": 6
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_03_delete_08_15",
+    "class_id": 3,
+    "removed": [
+      8,
+      15
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.039808,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 3,
+      "4": 9,
+      "5": 6
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_03_delete_08_18",
+    "class_id": 3,
+    "removed": [
+      8,
+      18
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.045669,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 4,
+      "4": 7,
+      "5": 7
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_03_delete_08_20",
+    "class_id": 3,
+    "removed": [
+      8,
+      20
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "18": 17,
+      "19": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.033697000000000005,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 4,
+      "4": 7,
+      "5": 7
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_03_delete_09_14",
+    "class_id": 3,
+    "removed": [
+      9,
+      14
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.038305000000000006,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 4,
+      "4": 7,
+      "5": 7
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_03_delete_09_18",
+    "class_id": 3,
+    "removed": [
+      9,
+      18
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.031159000000000003,
+    "objective_bound": 436.0,
+    "minimum_spread": 4,
+    "total_spread": 72,
+    "spread_distribution": {
+      "4": 18
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_03_delete_10_15",
+    "class_id": 3,
+    "removed": [
+      10,
+      15
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.018222000000000002,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 4,
+      "4": 7,
+      "5": 7
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_03_delete_10_20",
+    "class_id": 3,
+    "removed": [
+      10,
+      20
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "18": 17,
+      "19": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.014829,
+    "objective_bound": 436.0,
+    "minimum_spread": 4,
+    "total_spread": 72,
+    "spread_distribution": {
+      "4": 18
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_03_delete_11_17",
+    "class_id": 3,
+    "removed": [
+      11,
+      17
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.008074000000000001,
+    "objective_bound": 436.0,
+    "minimum_spread": 4,
+    "total_spread": 72,
+    "spread_distribution": {
+      "4": 18
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_03_delete_11_15",
+    "class_id": 3,
+    "removed": [
+      11,
+      15
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.026384,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 4,
+      "4": 7,
+      "5": 7
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_03_delete_12_14",
+    "class_id": 3,
+    "removed": [
+      12,
+      14
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "13": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.01736,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 4,
+      "4": 7,
+      "5": 7
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_03_delete_12_19",
+    "class_id": 3,
+    "removed": [
+      12,
+      19
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "18": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.008107000000000001,
+    "objective_bound": 436.0,
+    "minimum_spread": 4,
+    "total_spread": 72,
+    "spread_distribution": {
+      "4": 18
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_03_delete_13_19",
+    "class_id": 3,
+    "removed": [
+      13,
+      19
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "18": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.009232,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 4,
+      "4": 7,
+      "5": 7
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_03_delete_13_18",
+    "class_id": 3,
+    "removed": [
+      13,
+      18
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.017515000000000003,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 4,
+      "4": 7,
+      "5": 7
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_03_delete_16_20",
+    "class_id": 3,
+    "removed": [
+      16,
+      20
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "13": 13,
+      "14": 14,
+      "15": 15,
+      "17": 16,
+      "18": 17,
+      "19": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.00971,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 4,
+      "4": 7,
+      "5": 7
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_03_delete_16_17",
+    "class_id": 3,
+    "removed": [
+      16,
+      17
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "13": 13,
+      "14": 14,
+      "15": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.026137,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 4,
+      "4": 7,
+      "5": 7
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_04_delete_01_07",
+    "class_id": 4,
+    "removed": [
+      1,
+      7
+    ],
+    "player_mapping": {
+      "2": 1,
+      "3": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "8": 6,
+      "9": 7,
+      "10": 8,
+      "11": 9,
+      "12": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.010423,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_04_delete_01_05",
+    "class_id": 4,
+    "removed": [
+      1,
+      5
+    ],
+    "player_mapping": {
+      "2": 1,
+      "3": 2,
+      "4": 3,
+      "6": 4,
+      "7": 5,
+      "8": 6,
+      "9": 7,
+      "10": 8,
+      "11": 9,
+      "12": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.026572000000000002,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_04_delete_01_19",
+    "class_id": 4,
+    "removed": [
+      1,
+      19
+    ],
+    "player_mapping": {
+      "2": 1,
+      "3": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "18": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.017551,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_04_delete_01_20",
+    "class_id": 4,
+    "removed": [
+      1,
+      20
+    ],
+    "player_mapping": {
+      "2": 1,
+      "3": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "18": 17,
+      "19": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.019846000000000003,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_04_delete_02_09",
+    "class_id": 4,
+    "removed": [
+      2,
+      9
+    ],
+    "player_mapping": {
+      "1": 1,
+      "3": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "10": 8,
+      "11": 9,
+      "12": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.017222,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_04_delete_02_12",
+    "class_id": 4,
+    "removed": [
+      2,
+      12
+    ],
+    "player_mapping": {
+      "1": 1,
+      "3": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.017202000000000002,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_04_delete_02_14",
+    "class_id": 4,
+    "removed": [
+      2,
+      14
+    ],
+    "player_mapping": {
+      "1": 1,
+      "3": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.019004,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_04_delete_02_16",
+    "class_id": 4,
+    "removed": [
+      2,
+      16
+    ],
+    "player_mapping": {
+      "1": 1,
+      "3": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.018581,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_04_delete_03_08",
+    "class_id": 4,
+    "removed": [
+      3,
+      8
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "9": 7,
+      "10": 8,
+      "11": 9,
+      "12": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.011234000000000001,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_04_delete_03_13",
+    "class_id": 4,
+    "removed": [
+      3,
+      13
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.008792000000000001,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_04_delete_03_06",
+    "class_id": 4,
+    "removed": [
+      3,
+      6
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "4": 3,
+      "5": 4,
+      "7": 5,
+      "8": 6,
+      "9": 7,
+      "10": 8,
+      "11": 9,
+      "12": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.044807,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_04_delete_03_15",
+    "class_id": 4,
+    "removed": [
+      3,
+      15
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.016174,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_04_delete_04_10",
+    "class_id": 4,
+    "removed": [
+      4,
+      10
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "11": 9,
+      "12": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.018209,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_04_delete_04_11",
+    "class_id": 4,
+    "removed": [
+      4,
+      11
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "12": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.017013,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_04_delete_04_18",
+    "class_id": 4,
+    "removed": [
+      4,
+      18
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.010053000000000001,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_04_delete_04_17",
+    "class_id": 4,
+    "removed": [
+      4,
+      17
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.038382,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_04_delete_05_12",
+    "class_id": 4,
+    "removed": [
+      5,
+      12
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.016616000000000002,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_04_delete_05_14",
+    "class_id": 4,
+    "removed": [
+      5,
+      14
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.017927000000000002,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_04_delete_05_16",
+    "class_id": 4,
+    "removed": [
+      5,
+      16
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.018829000000000002,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_04_delete_06_11",
+    "class_id": 4,
+    "removed": [
+      6,
+      11
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "12": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.016447,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_04_delete_06_17",
+    "class_id": 4,
+    "removed": [
+      6,
+      17
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.018248,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_04_delete_06_18",
+    "class_id": 4,
+    "removed": [
+      6,
+      18
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.018580000000000003,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_04_delete_07_09",
+    "class_id": 4,
+    "removed": [
+      7,
+      9
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "8": 7,
+      "10": 8,
+      "11": 9,
+      "12": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.020043000000000002,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_04_delete_07_14",
+    "class_id": 4,
+    "removed": [
+      7,
+      14
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.016777,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_04_delete_07_16",
+    "class_id": 4,
+    "removed": [
+      7,
+      16
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.018399000000000002,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_04_delete_08_10",
+    "class_id": 4,
+    "removed": [
+      8,
+      10
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "9": 8,
+      "11": 9,
+      "12": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.020645,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_04_delete_08_17",
+    "class_id": 4,
+    "removed": [
+      8,
+      17
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.017472,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_04_delete_08_18",
+    "class_id": 4,
+    "removed": [
+      8,
+      18
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.018049000000000003,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_04_delete_09_19",
+    "class_id": 4,
+    "removed": [
+      9,
+      19
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "18": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.01948,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_04_delete_09_20",
+    "class_id": 4,
+    "removed": [
+      9,
+      20
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "18": 17,
+      "19": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.02042,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_04_delete_10_13",
+    "class_id": 4,
+    "removed": [
+      10,
+      13
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "11": 10,
+      "12": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.018296,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_04_delete_10_15",
+    "class_id": 4,
+    "removed": [
+      10,
+      15
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.017014,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_04_delete_11_13",
+    "class_id": 4,
+    "removed": [
+      11,
+      13
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "12": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.017781,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_04_delete_11_15",
+    "class_id": 4,
+    "removed": [
+      11,
+      15
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.018217,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_04_delete_12_19",
+    "class_id": 4,
+    "removed": [
+      12,
+      19
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "18": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.017571,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_04_delete_12_20",
+    "class_id": 4,
+    "removed": [
+      12,
+      20
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "18": 17,
+      "19": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.017203,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_04_delete_13_18",
+    "class_id": 4,
+    "removed": [
+      13,
+      18
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.018305000000000002,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_04_delete_14_20",
+    "class_id": 4,
+    "removed": [
+      14,
+      20
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "13": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "18": 17,
+      "19": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.018735,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_04_delete_16_19",
+    "class_id": 4,
+    "removed": [
+      16,
+      19
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "13": 13,
+      "14": 14,
+      "15": 15,
+      "17": 16,
+      "18": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.010369000000000001,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_04_delete_15_17",
+    "class_id": 4,
+    "removed": [
+      15,
+      17
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "13": 13,
+      "14": 14,
+      "16": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.026582,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_05_delete_01_07",
+    "class_id": 5,
+    "removed": [
+      1,
+      7
+    ],
+    "player_mapping": {
+      "2": 1,
+      "3": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "8": 6,
+      "9": 7,
+      "10": 8,
+      "11": 9,
+      "12": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.018860000000000002,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 3,
+      "4": 9,
+      "5": 6
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_05_delete_01_17",
+    "class_id": 5,
+    "removed": [
+      1,
+      17
+    ],
+    "player_mapping": {
+      "2": 1,
+      "3": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.010984,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_05_delete_01_19",
+    "class_id": 5,
+    "removed": [
+      1,
+      19
+    ],
+    "player_mapping": {
+      "2": 1,
+      "3": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "18": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.011178,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 3,
+      "4": 9,
+      "5": 6
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_05_delete_02_05",
+    "class_id": 5,
+    "removed": [
+      2,
+      5
+    ],
+    "player_mapping": {
+      "1": 1,
+      "3": 2,
+      "4": 3,
+      "6": 4,
+      "7": 5,
+      "8": 6,
+      "9": 7,
+      "10": 8,
+      "11": 9,
+      "12": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.010149,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 3,
+      "4": 9,
+      "5": 6
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_05_delete_01_20",
+    "class_id": 5,
+    "removed": [
+      1,
+      20
+    ],
+    "player_mapping": {
+      "2": 1,
+      "3": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "18": 17,
+      "19": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.037071,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_05_delete_02_12",
+    "class_id": 5,
+    "removed": [
+      2,
+      12
+    ],
+    "player_mapping": {
+      "1": 1,
+      "3": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.011858,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_05_delete_02_14",
+    "class_id": 5,
+    "removed": [
+      2,
+      14
+    ],
+    "player_mapping": {
+      "1": 1,
+      "3": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.008651,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_05_delete_02_11",
+    "class_id": 5,
+    "removed": [
+      2,
+      11
+    ],
+    "player_mapping": {
+      "1": 1,
+      "3": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "12": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.044005,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 3,
+      "4": 9,
+      "5": 6
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_05_delete_03_09",
+    "class_id": 5,
+    "removed": [
+      3,
+      9
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "10": 8,
+      "11": 9,
+      "12": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.010928,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_05_delete_03_08",
+    "class_id": 5,
+    "removed": [
+      3,
+      8
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "9": 7,
+      "10": 8,
+      "11": 9,
+      "12": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.019270000000000002,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_05_delete_03_14",
+    "class_id": 5,
+    "removed": [
+      3,
+      14
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.01195,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_05_delete_03_13",
+    "class_id": 5,
+    "removed": [
+      3,
+      13
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.021279000000000003,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_05_delete_04_05",
+    "class_id": 5,
+    "removed": [
+      4,
+      5
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "6": 4,
+      "7": 5,
+      "8": 6,
+      "9": 7,
+      "10": 8,
+      "11": 9,
+      "12": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.018099,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_05_delete_04_09",
+    "class_id": 5,
+    "removed": [
+      4,
+      9
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "10": 8,
+      "11": 9,
+      "12": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.020024,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 3,
+      "4": 9,
+      "5": 6
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_05_delete_04_14",
+    "class_id": 5,
+    "removed": [
+      4,
+      14
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.017479,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 3,
+      "4": 9,
+      "5": 6
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_05_delete_04_17",
+    "class_id": 5,
+    "removed": [
+      4,
+      17
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.018082,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_05_delete_05_15",
+    "class_id": 5,
+    "removed": [
+      5,
+      15
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.01965,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_05_delete_05_18",
+    "class_id": 5,
+    "removed": [
+      5,
+      18
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.018339,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 3,
+      "4": 9,
+      "5": 6
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_05_delete_06_11",
+    "class_id": 5,
+    "removed": [
+      6,
+      11
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "12": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.009807,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_05_delete_06_09",
+    "class_id": 5,
+    "removed": [
+      6,
+      9
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "7": 6,
+      "8": 7,
+      "10": 8,
+      "11": 9,
+      "12": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.02585,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 3,
+      "4": 9,
+      "5": 6
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_05_delete_06_14",
+    "class_id": 5,
+    "removed": [
+      6,
+      14
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.019743,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 3,
+      "4": 9,
+      "5": 6
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_05_delete_06_17",
+    "class_id": 5,
+    "removed": [
+      6,
+      17
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.019958,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_05_delete_07_13",
+    "class_id": 5,
+    "removed": [
+      7,
+      13
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.011221,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_05_delete_07_12",
+    "class_id": 5,
+    "removed": [
+      7,
+      12
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.027379,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_05_delete_07_16",
+    "class_id": 5,
+    "removed": [
+      7,
+      16
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.017743000000000002,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 3,
+      "4": 9,
+      "5": 6
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_05_delete_08_10",
+    "class_id": 5,
+    "removed": [
+      8,
+      10
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "9": 8,
+      "11": 9,
+      "12": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.017875000000000002,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 3,
+      "4": 9,
+      "5": 6
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_05_delete_08_19",
+    "class_id": 5,
+    "removed": [
+      8,
+      19
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "18": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.017898,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_05_delete_08_20",
+    "class_id": 5,
+    "removed": [
+      8,
+      20
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "18": 17,
+      "19": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.017757000000000002,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 3,
+      "4": 9,
+      "5": 6
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_05_delete_09_18",
+    "class_id": 5,
+    "removed": [
+      9,
+      18
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.018727,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_05_delete_10_13",
+    "class_id": 5,
+    "removed": [
+      10,
+      13
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "11": 10,
+      "12": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.019174,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 3,
+      "4": 9,
+      "5": 6
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_05_delete_10_15",
+    "class_id": 5,
+    "removed": [
+      10,
+      15
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.018321,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_05_delete_10_16",
+    "class_id": 5,
+    "removed": [
+      10,
+      16
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.010425,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_05_delete_11_18",
+    "class_id": 5,
+    "removed": [
+      11,
+      18
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.010639000000000001,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 3,
+      "4": 9,
+      "5": 6
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_05_delete_11_15",
+    "class_id": 5,
+    "removed": [
+      11,
+      15
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.020006000000000003,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_05_delete_12_18",
+    "class_id": 5,
+    "removed": [
+      12,
+      18
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.016649,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_05_delete_12_19",
+    "class_id": 5,
+    "removed": [
+      12,
+      19
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "18": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.019107000000000002,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_05_delete_13_20",
+    "class_id": 5,
+    "removed": [
+      13,
+      20
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "18": 17,
+      "19": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.017054,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 3,
+      "4": 9,
+      "5": 6
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_05_delete_15_20",
+    "class_id": 5,
+    "removed": [
+      15,
+      20
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "13": 13,
+      "14": 14,
+      "16": 15,
+      "17": 16,
+      "18": 17,
+      "19": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.016817000000000002,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_05_delete_16_17",
+    "class_id": 5,
+    "removed": [
+      16,
+      17
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "13": 13,
+      "14": 14,
+      "15": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.016823,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 2,
+      "4": 11,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_05_delete_16_19",
+    "class_id": 5,
+    "removed": [
+      16,
+      19
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "13": 13,
+      "14": 14,
+      "15": 15,
+      "17": 16,
+      "18": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.01591,
+    "objective_bound": 348.0,
+    "minimum_spread": 3,
+    "total_spread": 75,
+    "spread_distribution": {
+      "3": 3,
+      "4": 9,
+      "5": 6
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_06_delete_01_05",
+    "class_id": 6,
+    "removed": [
+      1,
+      5
+    ],
+    "player_mapping": {
+      "2": 1,
+      "3": 2,
+      "4": 3,
+      "6": 4,
+      "7": 5,
+      "8": 6,
+      "9": 7,
+      "10": 8,
+      "11": 9,
+      "12": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.014561000000000001,
+    "objective_bound": 436.0,
+    "minimum_spread": 4,
+    "total_spread": 72,
+    "spread_distribution": {
+      "4": 18
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_06_delete_01_07",
+    "class_id": 6,
+    "removed": [
+      1,
+      7
+    ],
+    "player_mapping": {
+      "2": 1,
+      "3": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "8": 6,
+      "9": 7,
+      "10": 8,
+      "11": 9,
+      "12": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.016646,
+    "objective_bound": 349.0,
+    "minimum_spread": 3,
+    "total_spread": 76,
+    "spread_distribution": {
+      "3": 4,
+      "4": 6,
+      "5": 8
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_06_delete_01_17",
+    "class_id": 6,
+    "removed": [
+      1,
+      17
+    ],
+    "player_mapping": {
+      "2": 1,
+      "3": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.018642000000000002,
+    "objective_bound": 349.0,
+    "minimum_spread": 3,
+    "total_spread": 76,
+    "spread_distribution": {
+      "3": 4,
+      "4": 6,
+      "5": 8
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_06_delete_01_20",
+    "class_id": 6,
+    "removed": [
+      1,
+      20
+    ],
+    "player_mapping": {
+      "2": 1,
+      "3": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "18": 17,
+      "19": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.016771,
+    "objective_bound": 349.0,
+    "minimum_spread": 3,
+    "total_spread": 76,
+    "spread_distribution": {
+      "3": 4,
+      "4": 6,
+      "5": 8
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_06_delete_02_09",
+    "class_id": 6,
+    "removed": [
+      2,
+      9
+    ],
+    "player_mapping": {
+      "1": 1,
+      "3": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "10": 8,
+      "11": 9,
+      "12": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.014899,
+    "objective_bound": 436.0,
+    "minimum_spread": 4,
+    "total_spread": 72,
+    "spread_distribution": {
+      "4": 18
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_06_delete_02_12",
+    "class_id": 6,
+    "removed": [
+      2,
+      12
+    ],
+    "player_mapping": {
+      "1": 1,
+      "3": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.017001000000000002,
+    "objective_bound": 349.0,
+    "minimum_spread": 3,
+    "total_spread": 76,
+    "spread_distribution": {
+      "3": 4,
+      "4": 6,
+      "5": 8
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_06_delete_02_13",
+    "class_id": 6,
+    "removed": [
+      2,
+      13
+    ],
+    "player_mapping": {
+      "1": 1,
+      "3": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.016506,
+    "objective_bound": 349.0,
+    "minimum_spread": 3,
+    "total_spread": 76,
+    "spread_distribution": {
+      "3": 4,
+      "4": 6,
+      "5": 8
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_06_delete_02_16",
+    "class_id": 6,
+    "removed": [
+      2,
+      16
+    ],
+    "player_mapping": {
+      "1": 1,
+      "3": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.017364,
+    "objective_bound": 349.0,
+    "minimum_spread": 3,
+    "total_spread": 76,
+    "spread_distribution": {
+      "3": 4,
+      "4": 6,
+      "5": 8
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_06_delete_03_09",
+    "class_id": 6,
+    "removed": [
+      3,
+      9
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "10": 8,
+      "11": 9,
+      "12": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.019459,
+    "objective_bound": 349.0,
+    "minimum_spread": 3,
+    "total_spread": 76,
+    "spread_distribution": {
+      "3": 4,
+      "4": 6,
+      "5": 8
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_06_delete_03_12",
+    "class_id": 6,
+    "removed": [
+      3,
+      12
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.014552,
+    "objective_bound": 436.0,
+    "minimum_spread": 4,
+    "total_spread": 72,
+    "spread_distribution": {
+      "4": 18
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_06_delete_03_15",
+    "class_id": 6,
+    "removed": [
+      3,
+      15
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.009043,
+    "objective_bound": 349.0,
+    "minimum_spread": 3,
+    "total_spread": 76,
+    "spread_distribution": {
+      "3": 4,
+      "4": 6,
+      "5": 8
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_06_delete_03_14",
+    "class_id": 6,
+    "removed": [
+      3,
+      14
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.025174000000000002,
+    "objective_bound": 349.0,
+    "minimum_spread": 3,
+    "total_spread": 76,
+    "spread_distribution": {
+      "3": 4,
+      "4": 6,
+      "5": 8
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_06_delete_04_07",
+    "class_id": 6,
+    "removed": [
+      4,
+      7
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "5": 4,
+      "6": 5,
+      "8": 6,
+      "9": 7,
+      "10": 8,
+      "11": 9,
+      "12": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.007801000000000001,
+    "objective_bound": 436.0,
+    "minimum_spread": 4,
+    "total_spread": 72,
+    "spread_distribution": {
+      "4": 18
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_06_delete_04_05",
+    "class_id": 6,
+    "removed": [
+      4,
+      5
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "6": 4,
+      "7": 5,
+      "8": 6,
+      "9": 7,
+      "10": 8,
+      "11": 9,
+      "12": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.023452,
+    "objective_bound": 349.0,
+    "minimum_spread": 3,
+    "total_spread": 76,
+    "spread_distribution": {
+      "3": 4,
+      "4": 6,
+      "5": 8
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_06_delete_04_19",
+    "class_id": 6,
+    "removed": [
+      4,
+      19
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "18": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.009387000000000001,
+    "objective_bound": 349.0,
+    "minimum_spread": 3,
+    "total_spread": 76,
+    "spread_distribution": {
+      "3": 4,
+      "4": 6,
+      "5": 8
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_06_delete_04_18",
+    "class_id": 6,
+    "removed": [
+      4,
+      18
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.025255000000000003,
+    "objective_bound": 349.0,
+    "minimum_spread": 3,
+    "total_spread": 76,
+    "spread_distribution": {
+      "3": 4,
+      "4": 6,
+      "5": 8
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_06_delete_05_14",
+    "class_id": 6,
+    "removed": [
+      5,
+      14
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.017266,
+    "objective_bound": 349.0,
+    "minimum_spread": 3,
+    "total_spread": 76,
+    "spread_distribution": {
+      "3": 4,
+      "4": 6,
+      "5": 8
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_06_delete_05_16",
+    "class_id": 6,
+    "removed": [
+      5,
+      16
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.017311,
+    "objective_bound": 349.0,
+    "minimum_spread": 3,
+    "total_spread": 76,
+    "spread_distribution": {
+      "3": 4,
+      "4": 6,
+      "5": 8
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_06_delete_06_10",
+    "class_id": 6,
+    "removed": [
+      6,
+      10
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "11": 9,
+      "12": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.015458000000000001,
+    "objective_bound": 436.0,
+    "minimum_spread": 4,
+    "total_spread": 72,
+    "spread_distribution": {
+      "4": 18
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_06_delete_06_11",
+    "class_id": 6,
+    "removed": [
+      6,
+      11
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "12": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.015407,
+    "objective_bound": 349.0,
+    "minimum_spread": 3,
+    "total_spread": 76,
+    "spread_distribution": {
+      "3": 4,
+      "4": 6,
+      "5": 8
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_06_delete_06_18",
+    "class_id": 6,
+    "removed": [
+      6,
+      18
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.016658000000000003,
+    "objective_bound": 349.0,
+    "minimum_spread": 3,
+    "total_spread": 76,
+    "spread_distribution": {
+      "3": 4,
+      "4": 6,
+      "5": 8
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_06_delete_06_20",
+    "class_id": 6,
+    "removed": [
+      6,
+      20
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "18": 17,
+      "19": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.016738,
+    "objective_bound": 349.0,
+    "minimum_spread": 3,
+    "total_spread": 76,
+    "spread_distribution": {
+      "3": 4,
+      "4": 6,
+      "5": 8
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_06_delete_07_13",
+    "class_id": 6,
+    "removed": [
+      7,
+      13
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.015812,
+    "objective_bound": 349.0,
+    "minimum_spread": 3,
+    "total_spread": 76,
+    "spread_distribution": {
+      "3": 4,
+      "4": 6,
+      "5": 8
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_06_delete_07_15",
+    "class_id": 6,
+    "removed": [
+      7,
+      15
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.017824,
+    "objective_bound": 349.0,
+    "minimum_spread": 3,
+    "total_spread": 76,
+    "spread_distribution": {
+      "3": 4,
+      "4": 6,
+      "5": 8
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_06_delete_08_10",
+    "class_id": 6,
+    "removed": [
+      8,
+      10
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "9": 8,
+      "11": 9,
+      "12": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.015682,
+    "objective_bound": 349.0,
+    "minimum_spread": 3,
+    "total_spread": 76,
+    "spread_distribution": {
+      "3": 4,
+      "4": 6,
+      "5": 8
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_06_delete_08_11",
+    "class_id": 6,
+    "removed": [
+      8,
+      11
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "9": 8,
+      "10": 9,
+      "12": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.014392,
+    "objective_bound": 436.0,
+    "minimum_spread": 4,
+    "total_spread": 72,
+    "spread_distribution": {
+      "4": 18
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_06_delete_08_17",
+    "class_id": 6,
+    "removed": [
+      8,
+      17
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.016085000000000002,
+    "objective_bound": 349.0,
+    "minimum_spread": 3,
+    "total_spread": 76,
+    "spread_distribution": {
+      "3": 4,
+      "4": 6,
+      "5": 8
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_06_delete_08_19",
+    "class_id": 6,
+    "removed": [
+      8,
+      19
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "18": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.016035,
+    "objective_bound": 349.0,
+    "minimum_spread": 3,
+    "total_spread": 76,
+    "spread_distribution": {
+      "3": 4,
+      "4": 6,
+      "5": 8
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_06_delete_09_19",
+    "class_id": 6,
+    "removed": [
+      9,
+      19
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "18": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.016353,
+    "objective_bound": 349.0,
+    "minimum_spread": 3,
+    "total_spread": 76,
+    "spread_distribution": {
+      "3": 4,
+      "4": 6,
+      "5": 8
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_06_delete_09_20",
+    "class_id": 6,
+    "removed": [
+      9,
+      20
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "18": 17,
+      "19": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.018299000000000003,
+    "objective_bound": 349.0,
+    "minimum_spread": 3,
+    "total_spread": 76,
+    "spread_distribution": {
+      "3": 4,
+      "4": 6,
+      "5": 8
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_06_delete_10_15",
+    "class_id": 6,
+    "removed": [
+      10,
+      15
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.016279000000000002,
+    "objective_bound": 349.0,
+    "minimum_spread": 3,
+    "total_spread": 76,
+    "spread_distribution": {
+      "3": 4,
+      "4": 6,
+      "5": 8
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_06_delete_10_16",
+    "class_id": 6,
+    "removed": [
+      10,
+      16
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.017233000000000002,
+    "objective_bound": 349.0,
+    "minimum_spread": 3,
+    "total_spread": 76,
+    "spread_distribution": {
+      "3": 4,
+      "4": 6,
+      "5": 8
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_06_delete_11_13",
+    "class_id": 6,
+    "removed": [
+      11,
+      13
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "12": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.017653000000000002,
+    "objective_bound": 349.0,
+    "minimum_spread": 3,
+    "total_spread": 76,
+    "spread_distribution": {
+      "3": 4,
+      "4": 6,
+      "5": 8
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_06_delete_11_14",
+    "class_id": 6,
+    "removed": [
+      11,
+      14
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "12": 11,
+      "13": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.018455000000000003,
+    "objective_bound": 349.0,
+    "minimum_spread": 3,
+    "total_spread": 76,
+    "spread_distribution": {
+      "3": 4,
+      "4": 6,
+      "5": 8
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_06_delete_12_17",
+    "class_id": 6,
+    "removed": [
+      12,
+      17
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.016974,
+    "objective_bound": 349.0,
+    "minimum_spread": 3,
+    "total_spread": 76,
+    "spread_distribution": {
+      "3": 4,
+      "4": 6,
+      "5": 8
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_06_delete_12_18",
+    "class_id": 6,
+    "removed": [
+      12,
+      18
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.016209,
+    "objective_bound": 349.0,
+    "minimum_spread": 3,
+    "total_spread": 76,
+    "spread_distribution": {
+      "3": 4,
+      "4": 6,
+      "5": 8
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_06_delete_13_19",
+    "class_id": 6,
+    "removed": [
+      13,
+      19
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "18": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.014203,
+    "objective_bound": 436.0,
+    "minimum_spread": 4,
+    "total_spread": 72,
+    "spread_distribution": {
+      "4": 18
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_06_delete_14_17",
+    "class_id": 6,
+    "removed": [
+      14,
+      17
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "13": 13,
+      "15": 14,
+      "16": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.014404,
+    "objective_bound": 436.0,
+    "minimum_spread": 4,
+    "total_spread": 72,
+    "spread_distribution": {
+      "4": 18
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_06_delete_15_18",
+    "class_id": 6,
+    "removed": [
+      15,
+      18
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "13": 13,
+      "14": 14,
+      "16": 15,
+      "17": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.014414000000000001,
+    "objective_bound": 436.0,
+    "minimum_spread": 4,
+    "total_spread": 72,
+    "spread_distribution": {
+      "4": 18
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_06_delete_16_20",
+    "class_id": 6,
+    "removed": [
+      16,
+      20
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "13": 13,
+      "14": 14,
+      "15": 15,
+      "17": 16,
+      "18": 17,
+      "19": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.014273000000000001,
+    "objective_bound": 436.0,
+    "minimum_spread": 4,
+    "total_spread": 72,
+    "spread_distribution": {
+      "4": 18
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_07_delete_01_08",
+    "class_id": 7,
+    "removed": [
+      1,
+      8
+    ],
+    "player_mapping": {
+      "2": 1,
+      "3": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "9": 7,
+      "10": 8,
+      "11": 9,
+      "12": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.01828,
+    "objective_bound": 347.0,
+    "minimum_spread": 3,
+    "total_spread": 74,
+    "spread_distribution": {
+      "3": 3,
+      "4": 10,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_07_delete_02_12",
+    "class_id": 7,
+    "removed": [
+      2,
+      12
+    ],
+    "player_mapping": {
+      "1": 1,
+      "3": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.018247000000000003,
+    "objective_bound": 347.0,
+    "minimum_spread": 3,
+    "total_spread": 74,
+    "spread_distribution": {
+      "3": 2,
+      "4": 12,
+      "5": 4
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_07_delete_03_16",
+    "class_id": 7,
+    "removed": [
+      3,
+      16
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "4": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.01746,
+    "objective_bound": 347.0,
+    "minimum_spread": 3,
+    "total_spread": 74,
+    "spread_distribution": {
+      "3": 3,
+      "4": 10,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_07_delete_04_05",
+    "class_id": 7,
+    "removed": [
+      4,
+      5
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "6": 4,
+      "7": 5,
+      "8": 6,
+      "9": 7,
+      "10": 8,
+      "11": 9,
+      "12": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.016665000000000003,
+    "objective_bound": 347.0,
+    "minimum_spread": 3,
+    "total_spread": 74,
+    "spread_distribution": {
+      "3": 3,
+      "4": 10,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_07_delete_04_09",
+    "class_id": 7,
+    "removed": [
+      4,
+      9
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "10": 8,
+      "11": 9,
+      "12": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.018819000000000002,
+    "objective_bound": 347.0,
+    "minimum_spread": 3,
+    "total_spread": 74,
+    "spread_distribution": {
+      "3": 2,
+      "4": 12,
+      "5": 4
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_07_delete_04_13",
+    "class_id": 7,
+    "removed": [
+      4,
+      13
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.018802000000000003,
+    "objective_bound": 347.0,
+    "minimum_spread": 3,
+    "total_spread": 74,
+    "spread_distribution": {
+      "3": 2,
+      "4": 12,
+      "5": 4
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_07_delete_04_17",
+    "class_id": 7,
+    "removed": [
+      4,
+      17
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "5": 4,
+      "6": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.018767000000000002,
+    "objective_bound": 347.0,
+    "minimum_spread": 3,
+    "total_spread": 74,
+    "spread_distribution": {
+      "3": 2,
+      "4": 12,
+      "5": 4
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_07_delete_06_12",
+    "class_id": 7,
+    "removed": [
+      6,
+      12
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "7": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.010991,
+    "objective_bound": 347.0,
+    "minimum_spread": 3,
+    "total_spread": 74,
+    "spread_distribution": {
+      "3": 2,
+      "4": 12,
+      "5": 4
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_07_delete_07_16",
+    "class_id": 7,
+    "removed": [
+      7,
+      16
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "8": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.012943000000000001,
+    "objective_bound": 347.0,
+    "minimum_spread": 3,
+    "total_spread": 74,
+    "spread_distribution": {
+      "3": 3,
+      "4": 10,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_07_delete_08_10",
+    "class_id": 7,
+    "removed": [
+      8,
+      10
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "9": 8,
+      "11": 9,
+      "12": 10,
+      "13": 11,
+      "14": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.020502000000000003,
+    "objective_bound": 347.0,
+    "minimum_spread": 3,
+    "total_spread": 74,
+    "spread_distribution": {
+      "3": 2,
+      "4": 12,
+      "5": 4
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_07_delete_08_14",
+    "class_id": 7,
+    "removed": [
+      8,
+      14
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "15": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.017578,
+    "objective_bound": 347.0,
+    "minimum_spread": 3,
+    "total_spread": 74,
+    "spread_distribution": {
+      "3": 1,
+      "4": 14,
+      "5": 3
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_07_delete_08_18",
+    "class_id": 7,
+    "removed": [
+      8,
+      18
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "9": 8,
+      "10": 9,
+      "11": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.017381,
+    "objective_bound": 347.0,
+    "minimum_spread": 3,
+    "total_spread": 74,
+    "spread_distribution": {
+      "3": 3,
+      "4": 10,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_07_delete_12_15",
+    "class_id": 7,
+    "removed": [
+      12,
+      15
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "13": 12,
+      "14": 13,
+      "16": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.011312000000000001,
+    "objective_bound": 347.0,
+    "minimum_spread": 3,
+    "total_spread": 74,
+    "spread_distribution": {
+      "3": 1,
+      "4": 14,
+      "5": 3
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_07_delete_11_16",
+    "class_id": 7,
+    "removed": [
+      11,
+      16
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "12": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "17": 15,
+      "18": 16,
+      "19": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.026803,
+    "objective_bound": 347.0,
+    "minimum_spread": 3,
+    "total_spread": 74,
+    "spread_distribution": {
+      "3": 2,
+      "4": 12,
+      "5": 4
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_07_delete_16_20",
+    "class_id": 7,
+    "removed": [
+      16,
+      20
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "13": 13,
+      "14": 14,
+      "15": 15,
+      "17": 16,
+      "18": 17,
+      "19": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.010384000000000001,
+    "objective_bound": 347.0,
+    "minimum_spread": 3,
+    "total_spread": 74,
+    "spread_distribution": {
+      "3": 3,
+      "4": 10,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  },
+  {
+    "case": "class_07_delete_12_19",
+    "class_id": 7,
+    "removed": [
+      12,
+      19
+    ],
+    "player_mapping": {
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "13": 12,
+      "14": 13,
+      "15": 14,
+      "16": 15,
+      "17": 16,
+      "18": 17,
+      "20": 18
+    },
+    "status": "OPTIMAL",
+    "seconds": 0.019444,
+    "objective_bound": 347.0,
+    "minimum_spread": 3,
+    "total_spread": 74,
+    "spread_distribution": {
+      "3": 3,
+      "4": 10,
+      "5": 5
+    },
+    "fours_distribution": {
+      "3": 12,
+      "4": 6
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 33
+  }
+]

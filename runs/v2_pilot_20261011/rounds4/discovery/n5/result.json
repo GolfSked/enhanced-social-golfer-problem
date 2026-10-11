@@ -1,0 +1,9 @@
+{
+  "players": 5,
+  "rounds": 4,
+  "objective": "feasibility",
+  "status": "INFEASIBLE",
+  "evidence": "mathematical",
+  "reason": "Player count cannot be partitioned under the prescribed group mix",
+  "elapsed_seconds": 4.917033948004246e-06
+}

@@ -1,0 +1,10 @@
+{
+  "players": 18,
+  "rounds": 5,
+  "minimum_target": 4,
+  "total_target": 73,
+  "seconds": 60,
+  "workers": 2,
+  "seed": 202,
+  "source_sha256": {}
+}

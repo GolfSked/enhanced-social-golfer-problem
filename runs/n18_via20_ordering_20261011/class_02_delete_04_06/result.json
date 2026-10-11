@@ -1,0 +1,44 @@
+{
+  "case": "class_02_delete_04_06",
+  "class_id": 2,
+  "removed": [
+    4,
+    6
+  ],
+  "player_mapping": {
+    "1": 1,
+    "2": 2,
+    "3": 3,
+    "5": 4,
+    "7": 5,
+    "8": 6,
+    "9": 7,
+    "10": 8,
+    "11": 9,
+    "12": 10,
+    "13": 11,
+    "14": 12,
+    "15": 13,
+    "16": 14,
+    "17": 15,
+    "18": 16,
+    "19": 17,
+    "20": 18
+  },
+  "status": "OPTIMAL",
+  "seconds": 0.011161,
+  "objective_bound": 347.0,
+  "minimum_spread": 3,
+  "total_spread": 74,
+  "spread_distribution": {
+    "3": 4,
+    "4": 8,
+    "5": 6
+  },
+  "fours_distribution": {
+    "3": 12,
+    "4": 6
+  },
+  "unique_pairs": 120,
+  "unmet_pairs": 33
+}

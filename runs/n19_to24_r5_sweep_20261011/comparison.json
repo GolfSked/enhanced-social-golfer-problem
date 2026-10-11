@@ -1,0 +1,323 @@
+[
+  {
+    "players": 19,
+    "group_sizes": [
+      3,
+      4,
+      4,
+      4,
+      4
+    ],
+    "pilot_score": [
+      3,
+      76
+    ],
+    "new_score": [
+      3,
+      79
+    ],
+    "status": "FEASIBLE",
+    "solver_seconds": 120.00877200000001,
+    "solver_objective_bound": 479.0,
+    "mathematical_minimum_ceiling": 4,
+    "mathematical_total_ceiling": 91,
+    "individual_ceiling_by_fours_count": {
+      "4": 5,
+      "5": 4
+    },
+    "audit": {
+      "minimum_spread": 3,
+      "total_spread": 79,
+      "spread_distribution": {
+        "3": 1,
+        "4": 14,
+        "5": 4
+      },
+      "fours_distribution": {
+        "4": 15,
+        "5": 4
+      },
+      "unique_pairs": 135,
+      "unmet_pairs": 36
+    },
+    "minimum_proven": false,
+    "total_proven": false,
+    "groupmixer_audit": {
+      "minimum_spread": 4,
+      "total_spread": 79,
+      "spread_distribution": {
+        "4": 16,
+        "5": 3
+      },
+      "fours_distribution": {
+        "4": 15,
+        "5": 4
+      },
+      "unique_pairs": 135,
+      "unmet_pairs": 36
+    },
+    "groupmixer_score": [
+      4,
+      79
+    ],
+    "best_known_score": [
+      4,
+      79
+    ],
+    "best_minimum_proven": true
+  },
+  {
+    "players": 20,
+    "group_sizes": [
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "pilot_score": [
+      5,
+      100
+    ],
+    "new_score": [
+      5,
+      100
+    ],
+    "status": "OPTIMAL",
+    "solver_seconds": 0.287553,
+    "solver_objective_bound": 605.0,
+    "mathematical_minimum_ceiling": 5,
+    "mathematical_total_ceiling": 100,
+    "individual_ceiling_by_fours_count": {
+      "5": 5
+    },
+    "audit": {
+      "minimum_spread": 5,
+      "total_spread": 100,
+      "spread_distribution": {
+        "5": 20
+      },
+      "fours_distribution": {
+        "5": 20
+      },
+      "unique_pairs": 150,
+      "unmet_pairs": 40
+    },
+    "minimum_proven": true,
+    "total_proven": true,
+    "best_known_score": [
+      5,
+      100
+    ],
+    "best_minimum_proven": true
+  },
+  {
+    "players": 21,
+    "group_sizes": [
+      3,
+      3,
+      3,
+      4,
+      4,
+      4
+    ],
+    "pilot_score": [
+      4,
+      91
+    ],
+    "new_score": [
+      5,
+      105
+    ],
+    "status": "OPTIMAL",
+    "solver_seconds": 98.690565,
+    "solver_objective_bound": 635.0,
+    "mathematical_minimum_ceiling": 5,
+    "mathematical_total_ceiling": 105,
+    "individual_ceiling_by_fours_count": {
+      "2": 5,
+      "3": 5
+    },
+    "audit": {
+      "minimum_spread": 5,
+      "total_spread": 105,
+      "spread_distribution": {
+        "5": 21
+      },
+      "fours_distribution": {
+        "2": 3,
+        "3": 18
+      },
+      "unique_pairs": 135,
+      "unmet_pairs": 75
+    },
+    "minimum_proven": true,
+    "total_proven": true,
+    "best_known_score": [
+      5,
+      105
+    ],
+    "best_minimum_proven": true
+  },
+  {
+    "players": 22,
+    "group_sizes": [
+      3,
+      3,
+      4,
+      4,
+      4,
+      4
+    ],
+    "pilot_score": [
+      3,
+      96
+    ],
+    "new_score": [
+      5,
+      110
+    ],
+    "status": "OPTIMAL",
+    "solver_seconds": 31.581291,
+    "solver_objective_bound": 665.0,
+    "mathematical_minimum_ceiling": 5,
+    "mathematical_total_ceiling": 110,
+    "individual_ceiling_by_fours_count": {
+      "3": 5,
+      "4": 5
+    },
+    "audit": {
+      "minimum_spread": 5,
+      "total_spread": 110,
+      "spread_distribution": {
+        "5": 22
+      },
+      "fours_distribution": {
+        "3": 8,
+        "4": 14
+      },
+      "unique_pairs": 150,
+      "unmet_pairs": 81
+    },
+    "minimum_proven": true,
+    "total_proven": true,
+    "best_known_score": [
+      5,
+      110
+    ],
+    "best_minimum_proven": true
+  },
+  {
+    "players": 23,
+    "group_sizes": [
+      3,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "pilot_score": [
+      3,
+      101
+    ],
+    "new_score": [
+      4,
+      106
+    ],
+    "status": "FEASIBLE",
+    "solver_seconds": 120.01430400000001,
+    "solver_objective_bound": 695.0,
+    "mathematical_minimum_ceiling": 5,
+    "mathematical_total_ceiling": 115,
+    "individual_ceiling_by_fours_count": {
+      "4": 5,
+      "5": 5
+    },
+    "audit": {
+      "minimum_spread": 4,
+      "total_spread": 106,
+      "spread_distribution": {
+        "4": 9,
+        "5": 14
+      },
+      "fours_distribution": {
+        "4": 15,
+        "5": 8
+      },
+      "unique_pairs": 165,
+      "unmet_pairs": 88
+    },
+    "minimum_proven": false,
+    "total_proven": false,
+    "groupmixer_audit": {
+      "minimum_spread": 4,
+      "total_spread": 107,
+      "spread_distribution": {
+        "4": 8,
+        "5": 15
+      },
+      "fours_distribution": {
+        "4": 15,
+        "5": 8
+      },
+      "unique_pairs": 165,
+      "unmet_pairs": 88
+    },
+    "groupmixer_score": [
+      4,
+      107
+    ],
+    "best_known_score": [
+      4,
+      107
+    ],
+    "best_minimum_proven": false
+  },
+  {
+    "players": 24,
+    "group_sizes": [
+      4,
+      4,
+      4,
+      4,
+      4,
+      4
+    ],
+    "pilot_score": [
+      5,
+      120
+    ],
+    "new_score": [
+      5,
+      120
+    ],
+    "status": "OPTIMAL",
+    "solver_seconds": 0.7961320000000001,
+    "solver_objective_bound": 725.0,
+    "mathematical_minimum_ceiling": 5,
+    "mathematical_total_ceiling": 120,
+    "individual_ceiling_by_fours_count": {
+      "5": 5
+    },
+    "audit": {
+      "minimum_spread": 5,
+      "total_spread": 120,
+      "spread_distribution": {
+        "5": 24
+      },
+      "fours_distribution": {
+        "5": 24
+      },
+      "unique_pairs": 180,
+      "unmet_pairs": 96
+    },
+    "minimum_proven": true,
+    "total_proven": true,
+    "best_known_score": [
+      5,
+      120
+    ],
+    "best_minimum_proven": true
+  }
+]

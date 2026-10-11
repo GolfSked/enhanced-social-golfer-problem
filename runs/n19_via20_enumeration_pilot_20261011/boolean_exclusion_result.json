@@ -1,0 +1,6 @@
+{
+  "status": "INFEASIBLE",
+  "solver_seconds": 3.181106,
+  "excluded_assignments": 1336,
+  "meaning": "Independent Boolean model excludes all designs outside the recorded normalized assignments"
+}

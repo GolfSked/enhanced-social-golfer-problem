@@ -1,0 +1,9 @@
+{
+  "source": "/Users/jgojnich/Projects/enhanced-social-golfer-problem/runs/n19_to24_r5_sweep_20261011/run_n20/n20/schedule.csv",
+  "source_sha256": "1b6f8b9b5b66c4cc78b254b828ee28c1635add8c5d47e63bd3cd7d09f2aedb7a",
+  "script_sha256": "14823a84f986081a996e958b272824d1d456717db0832bd92c82d4d29f771147",
+  "seconds_per_deletion": 60,
+  "workers": 8,
+  "seed": 101,
+  "scope": "All tee orderings of these 20 deletion structures; not all n19 structures"
+}

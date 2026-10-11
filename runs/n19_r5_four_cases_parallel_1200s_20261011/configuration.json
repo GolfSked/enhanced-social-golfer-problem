@@ -1,0 +1,45 @@
+{
+  "players": 19,
+  "rounds": 5,
+  "minimum_target": 4,
+  "total_target": 80,
+  "patterns": [
+    [
+      3,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      2,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      1,
+      1,
+      1,
+      0
+    ]
+  ],
+  "seconds_per_case": 1200,
+  "workers": 4,
+  "seed": 101,
+  "execution": "Two concurrent cases, four workers each; up to two waves of 1200 seconds",
+  "hint": null,
+  "sha256": {
+    "run.py": "c850a95a560fc40fb3e77d6630b69e3f486fc450e8df52bb8f086f1ca16dcc36",
+    "model_snapshot.py": "df3db7cf0a8d82799c3aca16587d5c10d3f3574b665ded3c3449e971655e937b"
+  }
+}

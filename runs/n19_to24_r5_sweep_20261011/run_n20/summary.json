@@ -1,0 +1,47 @@
+{
+  "configuration": {
+    "rounds": 5,
+    "n": 20,
+    "time_limit": 120.0,
+    "workers": 4,
+    "seed": 101,
+    "max_players": 128,
+    "hint": "runs/v2_pilot_20261011/rounds5/n20/schedule.csv",
+    "out": "runs/n19_to24_r5_sweep_20261011/run_n20"
+  },
+  "environment": {
+    "python": "3.13.15",
+    "ortools": "9.14.6206",
+    "platform": "macOS-26.7.1-arm64-arm-64bit-Mach-O"
+  },
+  "source_sha256": {
+    "cp_sat_caseB_v2.py": "4a7740e2eb80e803fb45ac4a7e72a2d808251c26435527dfec2883a8d4b62fef",
+    "esgp_v2.py": "238099822499847c08be811666cf53a22cfedbc2c08cf6683b25e6eab5ba955f",
+    "requirements.txt": "9b67a9e322713be76fac4a8ac7a84dbe0b683d1963cb16909324143efd6237ac"
+  },
+  "minimum_proven": false,
+  "discovery": [],
+  "results": [
+    {
+      "players": 20,
+      "rounds": 5,
+      "objective": "minimum_then_total",
+      "status": "OPTIMAL",
+      "evidence": "CP-SAT",
+      "solver_seconds": 0.287553,
+      "minimum_spread": 5,
+      "total_spread": 100,
+      "spread_distribution": {
+        "5": 20
+      },
+      "fours_distribution": {
+        "5": 20
+      },
+      "unique_pairs": 150,
+      "unmet_pairs": 40,
+      "objective_value": 605.0,
+      "objective_bound": 605.0,
+      "elapsed_seconds": 0.3630850830231793
+    }
+  ]
+}

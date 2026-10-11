@@ -1,0 +1,15 @@
+{
+  "players": 18,
+  "rounds": 5,
+  "minimum_target": 4,
+  "total_target": 73,
+  "seconds": 1200,
+  "workers": 10,
+  "seed": 101,
+  "nonextendability": "Existential odd simple cycle in the triple graph",
+  "hint": null,
+  "sha256": {
+    "run.py": "dbb7d9f6235fa5270be61dcc71e3e3367ed3466473a4e3ebd551f9fdc6a8a4bd",
+    "boolean_model_snapshot.py": "4a7740e2eb80e803fb45ac4a7e72a2d808251c26435527dfec2883a8d4b62fef"
+  }
+}

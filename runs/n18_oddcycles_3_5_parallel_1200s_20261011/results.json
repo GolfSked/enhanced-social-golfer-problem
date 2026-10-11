@@ -1,0 +1,38 @@
+[
+  {
+    "cycle_length": 5,
+    "completed": true,
+    "elapsed_seconds": 1200.0366041670204,
+    "new_classes": 0,
+    "best_known": [
+      4,
+      72
+    ],
+    "exhausted": false,
+    "all_orderings_proven": true,
+    "attempts": [
+      {
+        "status": "UNKNOWN",
+        "seconds": 1199.9476160000002
+      }
+    ]
+  },
+  {
+    "cycle_length": 3,
+    "completed": true,
+    "elapsed_seconds": 1200.4791207499802,
+    "new_classes": 0,
+    "best_known": [
+      4,
+      72
+    ],
+    "exhausted": false,
+    "all_orderings_proven": true,
+    "attempts": [
+      {
+        "status": "UNKNOWN",
+        "seconds": 1200.387169
+      }
+    ]
+  }
+]

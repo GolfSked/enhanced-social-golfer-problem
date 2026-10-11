@@ -1,0 +1,13 @@
+{
+  "case": "1_1_1_1_0",
+  "pattern": [
+    1,
+    1,
+    1,
+    1,
+    0
+  ],
+  "status": "UNKNOWN",
+  "solver_seconds": 1200.0230390000002,
+  "configured_seconds": 1200
+}

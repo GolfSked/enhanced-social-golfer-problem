@@ -1,0 +1,16 @@
+{
+  "players": 19,
+  "rounds": 5,
+  "minimum_target": 4,
+  "total_target": 80,
+  "seconds": 1200,
+  "workers": 8,
+  "seed": 101,
+  "deleted_coordinate": [
+    0,
+    1
+  ],
+  "hint": "Normalized validated (4,79) witness; infeasible for target80",
+  "source_sha256": "1f65a9bab83b4f743181ab4038f2846d6479a165cfcced1ff3b4c62005b34023",
+  "script_sha256": "1b1f934ecec51ff5db7d176182fd42aa424eff9bb1f24af97a134de22fde4410"
+}

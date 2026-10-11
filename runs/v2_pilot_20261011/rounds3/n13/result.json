@@ -1,0 +1,9 @@
+{
+  "players": 13,
+  "rounds": 3,
+  "objective": "minimum_then_total",
+  "status": "INFEASIBLE",
+  "evidence": "mathematical",
+  "reason": "Four/four intersection count requires 3, balance permits 0",
+  "elapsed_seconds": 4.792003892362118e-06
+}

@@ -1,0 +1,6 @@
+{
+  "case": 4,
+  "status": "INFEASIBLE",
+  "seconds": 7.424765000000001,
+  "independent_nonbipartite_encoding": "all sixteen matching-compatible two-colourings rejected"
+}

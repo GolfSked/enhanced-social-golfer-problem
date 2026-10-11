@@ -1,0 +1,11 @@
+{
+  "seconds_per_invocation": 1200,
+  "generation_workers": 10,
+  "ordering_workers": 10,
+  "seconds_per_ordering": 60,
+  "sha256": {
+    "run.py": "dbe488675949c47ffb94505e929025d697d8079276eb18d186c7d090e60fa8d4",
+    "ordering_snapshot.py": "a96377b1ad293fec13b72f2e724dd8d35bed99b368c39959b4e7f1b3e5f8a9ad"
+  },
+  "generation_cap_seconds": 60
+}

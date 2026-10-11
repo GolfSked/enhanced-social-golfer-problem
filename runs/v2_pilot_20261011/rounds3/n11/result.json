@@ -1,0 +1,9 @@
+{
+  "players": 11,
+  "rounds": 3,
+  "objective": "minimum_then_total",
+  "status": "INFEASIBLE",
+  "evidence": "mathematical",
+  "reason": "A group cannot split across the next round without repeating a pair",
+  "elapsed_seconds": 2.1249870769679546e-06
+}

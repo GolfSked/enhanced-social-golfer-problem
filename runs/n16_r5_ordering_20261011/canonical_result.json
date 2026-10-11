@@ -1,0 +1,19 @@
+{
+  "status": "OPTIMAL",
+  "solver_seconds": 0.25527,
+  "scope": "Global optimum; only player relabelling symmetry is fixed",
+  "minimum_spread": 2,
+  "total_spread": 51,
+  "spread_distribution": {
+    "2": 4,
+    "3": 5,
+    "4": 7
+  },
+  "fours_distribution": {
+    "5": 16
+  },
+  "unique_pairs": 120,
+  "unmet_pairs": 0,
+  "objective_value": 181.0,
+  "objective_bound": 181.0
+}

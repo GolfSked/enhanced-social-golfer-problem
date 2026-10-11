@@ -1,0 +1,9 @@
+{
+  "players": 11,
+  "rounds": 4,
+  "objective": "minimum_then_total",
+  "status": "INFEASIBLE",
+  "evidence": "mathematical",
+  "reason": "Balanced partner count exceeds the available distinct partners",
+  "elapsed_seconds": 3.00002284348011e-06
+}

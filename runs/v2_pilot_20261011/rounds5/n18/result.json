@@ -1,0 +1,24 @@
+{
+  "players": 18,
+  "rounds": 5,
+  "objective": "minimum_then_total",
+  "status": "FEASIBLE",
+  "evidence": "CP-SAT",
+  "solver_seconds": 10.005933,
+  "minimum_spread": 3,
+  "total_spread": 73,
+  "spread_distribution": {
+    "3": 3,
+    "4": 11,
+    "5": 4
+  },
+  "fours_distribution": {
+    "3": 12,
+    "4": 6
+  },
+  "unique_pairs": 120,
+  "unmet_pairs": 33,
+  "objective_value": 346.0,
+  "objective_bound": 448.0,
+  "elapsed_seconds": 10.073410165961832
+}
