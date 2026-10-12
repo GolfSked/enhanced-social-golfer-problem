@@ -1,0 +1,23 @@
+{
+  "players": 23,
+  "rounds": 5,
+  "score": [
+    5,
+    115
+  ],
+  "matched": true,
+  "result_id": "b90e772b-c1d2-4637-9a2f-bb0a0f741e6d",
+  "metrics": {
+    "minimum_spread": 5,
+    "total_spread": 115,
+    "spread_distribution": {
+      "5": 23
+    },
+    "fours_distribution": {
+      "4": 15,
+      "5": 8
+    },
+    "unique_pairs": 165,
+    "unmet_pairs": 88
+  }
+}

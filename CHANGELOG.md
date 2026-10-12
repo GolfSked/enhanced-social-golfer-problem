@@ -6,6 +6,7 @@
 - Preserve the original v1.1 solver and move the curated four-round schedules to `solutions/optimal-4-rounds/`.
 - Establish a minimum of nine players for three and four rounds, and fifteen for five rounds, under the prescribed group mix and balance rules.
 - Complete the five-round 15–24 investigation, including global minimum-first fairness proofs of **(4,72) for 18 players** and **(4,79) for 19 players**. Preserve solver snapshots, unsuccessful searches, schedules, and audit evidence under `runs/`. See the [proof status](runs/FAIRNESS_STATUS.md) and [18-player proof](runs/n18_six_intersection_cases_20261012/PROOF.md).
+- Independently validate GroupMixer matches for all ten five-round optima from 15 through 24 players, including the final 23-player (5,115) result. Preserve configurations, result data, CSV schedules and screenshots.
 - Add regression checks for model equivalence, schedule validation, and feasible-count range handling.
 
 Thank you to **Guido of [GroupMixer](https://groupmixer.app/)** for adding **“Different selected groups visited”** to group counting during this work. It helped us express tee-slot diversity in GroupMixer and compare its schedules with our independently validated results. GroupMixer comparisons supported the investigation; the optimality proofs are documented separately in this repository.

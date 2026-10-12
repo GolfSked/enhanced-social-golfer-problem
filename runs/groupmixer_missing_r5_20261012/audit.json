@@ -1,0 +1,163 @@
+[
+  {
+    "players": 15,
+    "rounds": 5,
+    "expected": [
+      3,
+      51
+    ],
+    "score": [
+      3,
+      51
+    ],
+    "matched": true,
+    "result_id": "a98fd27f-0dcb-47f0-bcb1-4cc94a8c60c8",
+    "metrics": {
+      "minimum_spread": 3,
+      "total_spread": 51,
+      "spread_distribution": {
+        "3": 9,
+        "4": 6
+      },
+      "fours_distribution": {
+        "4": 15
+      },
+      "unique_pairs": 105,
+      "unmet_pairs": 0
+    }
+  },
+  {
+    "players": 16,
+    "rounds": 5,
+    "expected": [
+      2,
+      51
+    ],
+    "score": [
+      2,
+      51
+    ],
+    "matched": true,
+    "result_id": "93587579-bb82-4eaf-8371-be7548fe40e4",
+    "metrics": {
+      "minimum_spread": 2,
+      "total_spread": 51,
+      "spread_distribution": {
+        "2": 3,
+        "3": 7,
+        "4": 6
+      },
+      "fours_distribution": {
+        "5": 16
+      },
+      "unique_pairs": 120,
+      "unmet_pairs": 0
+    }
+  },
+  {
+    "players": 20,
+    "rounds": 5,
+    "expected": [
+      5,
+      100
+    ],
+    "score": [
+      5,
+      100
+    ],
+    "matched": true,
+    "result_id": "7e01a9b0-ce0e-4d16-8269-9352820bae6c",
+    "metrics": {
+      "minimum_spread": 5,
+      "total_spread": 100,
+      "spread_distribution": {
+        "5": 20
+      },
+      "fours_distribution": {
+        "5": 20
+      },
+      "unique_pairs": 150,
+      "unmet_pairs": 40
+    }
+  },
+  {
+    "players": 21,
+    "rounds": 5,
+    "expected": [
+      5,
+      105
+    ],
+    "score": [
+      5,
+      105
+    ],
+    "matched": true,
+    "result_id": "de06b1b1-bae3-4fe5-b9fc-4ccd9ed6f320",
+    "metrics": {
+      "minimum_spread": 5,
+      "total_spread": 105,
+      "spread_distribution": {
+        "5": 21
+      },
+      "fours_distribution": {
+        "2": 3,
+        "3": 18
+      },
+      "unique_pairs": 135,
+      "unmet_pairs": 75
+    }
+  },
+  {
+    "players": 22,
+    "rounds": 5,
+    "expected": [
+      5,
+      110
+    ],
+    "score": [
+      5,
+      110
+    ],
+    "matched": true,
+    "result_id": "c0dd834e-68eb-4d7b-a5db-a0905285f174",
+    "metrics": {
+      "minimum_spread": 5,
+      "total_spread": 110,
+      "spread_distribution": {
+        "5": 22
+      },
+      "fours_distribution": {
+        "3": 8,
+        "4": 14
+      },
+      "unique_pairs": 150,
+      "unmet_pairs": 81
+    }
+  },
+  {
+    "players": 24,
+    "rounds": 5,
+    "expected": [
+      5,
+      120
+    ],
+    "score": [
+      5,
+      120
+    ],
+    "matched": true,
+    "result_id": "890c569f-c8ba-40f6-a387-60af26d3fe1d",
+    "metrics": {
+      "minimum_spread": 5,
+      "total_spread": 120,
+      "spread_distribution": {
+        "5": 24
+      },
+      "fours_distribution": {
+        "5": 24
+      },
+      "unique_pairs": 180,
+      "unmet_pairs": 96
+    }
+  }
+]

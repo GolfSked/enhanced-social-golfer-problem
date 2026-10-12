@@ -203,3 +203,16 @@ Together these exhaust both families and **prove (4,72) globally optimal for
 The earlier UNKNOWN entries above record historical results and are superseded
 by this proof. No case remains pending. See
 [proof and audit](n18_six_intersection_cases_20261012/PROOF.md).
+
+## 12 October 2026: remaining GroupMixer comparisons
+
+The six previously untested five-round cases all matched our optima: n15(3,51), n16(2,51), n20(5,100), n21(5,105), n22(5,110), n24(5,120). All saved assignments independently validate under strict ESGP rules. Combined with the earlier n17–19 matches, nine of ten are matched. The earlier n23 GroupMixer result (4,107) remains below (5,115) and was not rerun. No run remains pending. See [comparison and evidence](groupmixer_missing_r5_20261012/README.md).
+
+## 12 October 2026: all ten GroupMixer five-round matches complete
+
+The final n23 rerun matched(5,115), independently validated: all23 players
+visit five distinct slots, fifteen have four fours and eight have five,165
+unique pairs and zero repeats. Live completion93.9seconds within120-second
+budget; no ESGP schedule supplied. GroupMixer has now matched all ten
+five-round15–24 optima. Earlier n23(4,107) remains historical evidence.
+No run remains pending. See [final23-player comparison](groupmixer_n23_r5_final_20261012/README.md).
