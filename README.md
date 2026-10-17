@@ -6,7 +6,7 @@ Fairness maximizes the minimum number of distinct tee slots received by any play
 
 ## Interactive schedule explorers
 
-The [Golf Schedule Explorer](https://jgojnich-a11y.github.io/enhanced-social-golfer-problem/)
+The [Golf Schedule Explorer](https://golfsked.github.io/enhanced-social-golfer-problem/)
 provides three-, four- and five-round schedules for 15–24 golfers. Add your own
 names, course labels and starting times. Standalone HTML files and URL parameter
 instructions are in [the explorer guide](solutions/SCHEDULE_EXPLORERS.md).

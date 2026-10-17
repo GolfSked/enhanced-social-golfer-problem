@@ -16,7 +16,7 @@ the Codex visualization skill, and `--round-count 3`, `4` or `5`.
 `.github/workflows/pages.yml` tests, stages and publishes changes on `main`.
 In GitHub Settings → Pages, select **GitHub Actions** as the build source.
 The expected project URL is:
-`https://jgojnich-a11y.github.io/enhanced-social-golfer-problem/`.
+`https://golfsked.github.io/enhanced-social-golfer-problem/`.
 
 ## Analytics
 

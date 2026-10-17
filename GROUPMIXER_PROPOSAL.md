@@ -29,11 +29,11 @@ an 8 GiB process limit was not imposed.
 
 Public reference material:
 
-- Repository: https://github.com/jgojnich-a11y/enhanced-social-golfer-problem
-- Schedule: https://github.com/jgojnich-a11y/enhanced-social-golfer-problem/blob/main/solutions/optimal-4-rounds/n18_sol.csv
-- Proof and audit: https://github.com/jgojnich-a11y/enhanced-social-golfer-problem/tree/main/runs/n18_canonical_two_rounds_20261003
-- Full case definition: https://github.com/jgojnich-a11y/enhanced-social-golfer-problem/blob/main/N18_BENCHMARK_CASE.md
-- Fresh no-hint evidence: https://github.com/jgojnich-a11y/enhanced-social-golfer-problem/tree/main/runs/n18_cold_benchmark_20261003
+- Repository: https://github.com/GolfSked/enhanced-social-golfer-problem
+- Schedule: https://github.com/GolfSked/enhanced-social-golfer-problem/blob/main/solutions/optimal-4-rounds/n18_sol.csv
+- Proof and audit: https://github.com/GolfSked/enhanced-social-golfer-problem/tree/main/runs/n18_canonical_two_rounds_20261003
+- Full case definition: https://github.com/GolfSked/enhanced-social-golfer-problem/blob/main/N18_BENCHMARK_CASE.md
+- Fresh no-hint evidence: https://github.com/GolfSked/enhanced-social-golfer-problem/tree/main/runs/n18_cold_benchmark_20261003
 
 The optimum and reference schedule are evaluation evidence, not embedded
 answers or hints for a benchmarked solver.
