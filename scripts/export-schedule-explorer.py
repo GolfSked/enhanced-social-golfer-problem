@@ -1,5 +1,6 @@
 """Export the visualization fragment, forwarding URL roster names to its frame."""
 import argparse
+from html import escape
 from pathlib import Path
 import subprocess
 import sys
@@ -17,4 +18,11 @@ marker = '  const initialGlobals = {\n    widgetState: state,'
 assert html.count(marker) == 1, 'Standalone shell changed; check URL integration'
 roster = Path(__file__).with_name('explorer-url-roster.js').read_text()
 html = html.replace(marker, roster + f'\n  state = explorerUrlRoster(state, globalThis.location.search, {args.round_count});\n' + marker)
+theme = (Path(__file__).resolve().parents[1] / 'web' / 'explorer-theme.css').read_text()
+theme_style = '<style id="golf-explorer-theme">' + theme + '</style>'
+# srcdoc is escaped in the outer page. Embed the same skin inside and outside
+# the frame so there are no stylesheet requests and standalone downloads work.
+assert html.count('&lt;/head&gt;') == 1
+html = html.replace('&lt;/head&gt;', escape(theme_style) + '\n&lt;/head&gt;', 1)
+html = html.replace('</head>', theme_style + '\n</head>', 1)
 args.destination.write_text(html)

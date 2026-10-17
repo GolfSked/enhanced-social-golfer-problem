@@ -83,3 +83,10 @@ for(let n=15;n<=24;n++){
  e['#ag-names'].value='Alice\nBob';e['#ag-apply'].events.click();assert(e['#ag-detail'].textContent.includes('Alice'));
 }
 console.log('Three-round URL support, all 30 views, names and third-round editing passed.');
+for(const word of ['three','four','five']){
+ const html=fs.readFileSync(`solutions/${word}-round-schedule-explorer.html`,'utf8');
+ assert(html.includes('id="golf-explorer-theme"'));
+ assert(html.includes('id=&quot;golf-explorer-theme&quot;'));
+ for(const color of ['#f8f6ef','#173d33','#315b47','#bacd9b','#d6dcb0','#e8d8a4'])assert(html.includes(color));
+}
+console.log('Landing-page palette is embedded in each explorer and its sandboxed frame.');

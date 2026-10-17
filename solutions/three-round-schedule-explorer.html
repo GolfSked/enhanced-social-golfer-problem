@@ -5,18 +5,54 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="referrer" content="no-referrer">
 <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eval' blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; style-src 'unsafe-inline' blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; img-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; font-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; media-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; worker-src blob:; connect-src blob: data:; frame-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
-<title>Three Round Grids</title>
+<title>Three Round</title>
 <style>:root{color-scheme:light dark;background:light-dark(rgb(255 255 255), rgb(24 24 24))}html,body{margin:0}body{box-sizing:border-box;padding:1rem;background:inherit}iframe{display:block;width:100%;height:calc(100vh - 2rem);margin:0 auto;border:0}</style>
+<style id="golf-explorer-theme">/* Shared with the landing page. Embedded in each standalone export. */
+:root {
+  color-scheme: light !important;
+  --background: #f8f6ef;
+  --foreground: #173d33;
+  --card: #e9eddf;
+  --card-foreground: #173d33;
+  --popover: #fffef9;
+  --popover-foreground: #173d33;
+  --primary: #245441;
+  --primary-foreground: #fffef9;
+  --secondary: #fffef9;
+  --secondary-foreground: #173d33;
+  --muted: #e9eddf;
+  --muted-foreground: #52665c;
+  --accent: #e9eddf;
+  --accent-foreground: #173d33;
+  --border: #d9ded3;
+  --input: #bdc7b8;
+  --ring: #245441;
+  --destructive: #a2372b;
+  --viz-series-1: #315b47;
+  --viz-series-2: #bacd9b;
+  --viz-series-3: #d6dcb0;
+  --viz-series-4: #e8d8a4;
+  --viz-series-5: #c9b4a2;
+  --viz-series-6: #b3c7c4;
+}
+html, body { background: var(--background); color: var(--foreground); }
+:is(#all-golf-grids, #three-golf-grids, #five-golf-grids) .ag-cell {
+  background: var(--gc) !important;
+}
+:is(#all-golf-grids, #three-golf-grids, #five-golf-grids) .ag-cell[style*="--viz-series-1"] {
+  color: #fffef9;
+}
+</style>
 </head>
 <body>
-<iframe id="codex-visualization" sandbox="allow-scripts" referrerpolicy="no-referrer" title="Three Round Grids" data-srcdoc="&lt;!doctype html&gt;
+<iframe id="codex-visualization" sandbox="allow-scripts" referrerpolicy="no-referrer" title="Three Round" data-srcdoc="&lt;!doctype html&gt;
 &lt;html lang=&quot;en&quot; data-visualize-standalone&gt;
 &lt;head&gt;
 &lt;meta charset=&quot;utf-8&quot;&gt;
 &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
 &lt;meta name=&quot;referrer&quot; content=&quot;no-referrer&quot;&gt;
 &lt;meta http-equiv=&quot;Content-Security-Policy&quot; content=&quot;default-src &#x27;none&#x27;; script-src &#x27;unsafe-inline&#x27; &#x27;unsafe-eval&#x27; &#x27;wasm-unsafe-eval&#x27; blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; style-src &#x27;unsafe-inline&#x27; blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; img-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; font-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; media-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; worker-src blob:; connect-src blob: data:; frame-src &#x27;none&#x27;; object-src &#x27;none&#x27;; base-uri &#x27;none&#x27;; form-action &#x27;none&#x27;&quot;&gt;
-&lt;title&gt;Three Round Grids&lt;/title&gt;
+&lt;title&gt;Three Round&lt;/title&gt;
 &lt;style&gt;:root {
   color-scheme: light dark;
   background-color: var(
@@ -1248,6 +1284,42 @@ svg.lucide {
 }
 
 html&gt;body{padding:0}&lt;/style&gt;
+&lt;style id=&quot;golf-explorer-theme&quot;&gt;/* Shared with the landing page. Embedded in each standalone export. */
+:root {
+  color-scheme: light !important;
+  --background: #f8f6ef;
+  --foreground: #173d33;
+  --card: #e9eddf;
+  --card-foreground: #173d33;
+  --popover: #fffef9;
+  --popover-foreground: #173d33;
+  --primary: #245441;
+  --primary-foreground: #fffef9;
+  --secondary: #fffef9;
+  --secondary-foreground: #173d33;
+  --muted: #e9eddf;
+  --muted-foreground: #52665c;
+  --accent: #e9eddf;
+  --accent-foreground: #173d33;
+  --border: #d9ded3;
+  --input: #bdc7b8;
+  --ring: #245441;
+  --destructive: #a2372b;
+  --viz-series-1: #315b47;
+  --viz-series-2: #bacd9b;
+  --viz-series-3: #d6dcb0;
+  --viz-series-4: #e8d8a4;
+  --viz-series-5: #c9b4a2;
+  --viz-series-6: #b3c7c4;
+}
+html, body { background: var(--background); color: var(--foreground); }
+:is(#all-golf-grids, #three-golf-grids, #five-golf-grids) .ag-cell {
+  background: var(--gc) !important;
+}
+:is(#all-golf-grids, #three-golf-grids, #five-golf-grids) .ag-cell[style*=&quot;--viz-series-1&quot;] {
+  color: #fffef9;
+}
+&lt;/style&gt;
 &lt;/head&gt;
 &lt;body&gt;
 &lt;script type=&quot;application/json&quot; id=&quot;codex-visualization-widget-state&quot;&gt;__CODEX_VISUALIZATION_WIDGET_STATE__&lt;/script&gt;
