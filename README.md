@@ -4,6 +4,13 @@ Golf schedules with configurable rounds (default four), unique partners, balance
 
 Fairness maximizes the minimum number of distinct tee slots received by any player, then the total across all players. Average start time is not part of this objective. The older hogging metric is retained only in historical comparisons.
 
+## Interactive schedule explorers
+
+The [Golf Schedule Explorer](https://jgojnich-a11y.github.io/enhanced-social-golfer-problem/)
+provides three-, four- and five-round schedules for 15–24 golfers. Add your own
+names, course labels and starting times. Standalone HTML files and URL parameter
+instructions are in [the explorer guide](solutions/SCHEDULE_EXPLORERS.md).
+
 ## Proven results
 
 For four rounds, the fairness optima for every player count from 15 through 24 are proven. The [schedule collection](solutions/README.md) contains ten independently validated schedules, readable tee-time tables, and proof links. See [proof status](runs/FAIRNESS_STATUS.md) for the methods and evidence.

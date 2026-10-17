@@ -1,0 +1,50 @@
+name: Publish schedule explorers
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'web/**'
+      - 'solutions/*-round-schedule-explorer.html'
+      - 'scripts/build-pages.py'
+      - 'scripts/explorer-url-roster.js'
+      - 'tests/check_explorer_url.cjs'
+      - 'LICENSE'
+      - '.github/workflows/pages.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Check all explorers
+        run: node tests/check_explorer_url.cjs
+      - name: Stage the public site
+        run: python3 scripts/build-pages.py
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/configure-pages@v5
+      - name: Publish
+        id: deployment
+        uses: actions/deploy-pages@v4

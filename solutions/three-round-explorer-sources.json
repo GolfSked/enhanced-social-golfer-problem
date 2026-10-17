@@ -1,0 +1,62 @@
+{
+  "15": {
+    "source": "runs/v2_pilot_20261011/rounds3/n15/schedule.csv",
+    "minimum_spread": 2,
+    "total_spread": 36,
+    "status": "OPTIMAL"
+  },
+  "16": {
+    "source": "runs/v2_pilot_20261011/rounds3/n16/schedule.csv",
+    "minimum_spread": 2,
+    "total_spread": 36,
+    "status": "OPTIMAL"
+  },
+  "17": {
+    "source": "runs/v2_pilot_20261011/rounds3/n17/schedule.csv",
+    "minimum_spread": 2,
+    "total_spread": 50,
+    "status": "OPTIMAL"
+  },
+  "18": {
+    "source": "runs/v2_pilot_20261011/rounds3/n18/schedule.csv",
+    "minimum_spread": 3,
+    "total_spread": 54,
+    "status": "OPTIMAL"
+  },
+  "19": {
+    "source": "runs/three_round_explorer_20261017/n19/n19/schedule.csv",
+    "minimum_spread": 2,
+    "total_spread": 54,
+    "status": "OPTIMAL"
+  },
+  "20": {
+    "source": "runs/three_round_explorer_20261017/n20/n20/schedule.csv",
+    "minimum_spread": 3,
+    "total_spread": 60,
+    "status": "OPTIMAL"
+  },
+  "21": {
+    "source": "runs/three_round_explorer_20261017/n21/n21/schedule.csv",
+    "minimum_spread": 3,
+    "total_spread": 63,
+    "status": "OPTIMAL"
+  },
+  "22": {
+    "source": "runs/three_round_explorer_20261017/n22/n22/schedule.csv",
+    "minimum_spread": 3,
+    "total_spread": 66,
+    "status": "OPTIMAL"
+  },
+  "23": {
+    "source": "runs/three_round_explorer_20261017/n23/n23/schedule.csv",
+    "minimum_spread": 3,
+    "total_spread": 69,
+    "status": "OPTIMAL"
+  },
+  "24": {
+    "source": "runs/three_round_explorer_20261017/n24/n24/schedule.csv",
+    "minimum_spread": 3,
+    "total_spread": 72,
+    "status": "OPTIMAL"
+  }
+}

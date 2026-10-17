@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Golf schedules for 15–24 players. Explore three, four or five rounds with unique partners, balanced groups, and fair tee slots. Add your own golfers and courses.">
+  <meta name="referrer" content="no-referrer">
+  <title>Golf Schedule Explorer · John Gojnich</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header wrap">
+    <a class="brand" href="./" aria-label="Golf Schedule Explorer home"><span class="brand-mark" aria-hidden="true">G<span>↗</span></span>Golf Schedule Explorer</a>
+    <nav aria-label="Main"><a href="#how-it-works">How it works</a><a href="https://github.com/jgojnich-a11y/enhanced-social-golfer-problem">Source &amp; research ↗</a></nav>
+  </header>
+  <main>
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy"><p class="eyebrow">THE ENHANCED SOCIAL GOLFER PROJECT</p>
+        <h1>New partners.<br>Every round.</h1>
+        <p class="intro">A good golf trip starts with a good draw. Explore schedules for 15–24 golfers that mix your playing partners, balance the triples and fours, and spread the tee slots fairly.</p>
+        <a class="button" href="four-round-schedule-explorer.html">Explore four rounds <span aria-hidden="true">↗</span></a>
+        <p class="quiet">Or choose three or five rounds below. No account needed.</p>
+      </div>
+      <figure class="hero-figure">
+        <div class="figure-head"><span>16 GOLFERS</span><span>ROUND 1 / FOUR FOURS</span></div>
+        <div class="golf-grid" role="img" aria-label="The saved 16-player schedule arranged on a four by four grid. Each row is a first-round foursome.">
+          <span class="tier-a">15</span><span class="tier-a">14</span><span class="tier-a">16</span><span class="tier-a">13</span>
+          <span class="tier-b">12</span><span class="tier-b">11</span><span class="tier-b">10</span><span class="tier-b">9</span>
+          <span class="tier-c">7</span><span class="tier-c">8</span><span class="tier-c">6</span><span class="tier-c">5</span>
+          <span class="tier-d">4</span><span class="tier-d">3</span><span class="tier-d">2</span><span class="tier-d">1</span>
+        </div>
+        <figcaption><span class="figure-label">One golfer, one cell.</span> Change the round to see the groups change.</figcaption>
+      </figure>
+    </section>
+    <section class="choose wrap" aria-labelledby="choose-title">
+      <div class="section-heading"><p class="eyebrow">MAKE IT YOUR DRAW</p><h2 id="choose-title">How many rounds?</h2></div>
+      <div class="round-options">
+        <a class="round-option" href="three-round-schedule-explorer.html"><span class="round-number">03</span><div><h3>Three rounds</h3><p>A shorter trip, with a fresh group each day.</p></div><span class="arrow" aria-hidden="true">↗</span></a>
+        <a class="round-option featured" href="four-round-schedule-explorer.html"><span class="round-number">04</span><div><h3>Four rounds</h3><p>The original collection. A good place to start.</p></div><span class="arrow" aria-hidden="true">↗</span></a>
+        <a class="round-option" href="five-round-schedule-explorer.html"><span class="round-number">05</span><div><h3>Five rounds</h3><p>More golf. More partners to meet.</p></div><span class="arrow" aria-hidden="true">↗</span></a>
+      </div>
+      <p class="quiet">Every explorer opens with 16 golfers and Round 1. Select any player count from 15 to 24.</p>
+    </section>
+    <section class="how wrap" id="how-it-works" aria-labelledby="how-title">
+      <div class="section-heading"><p class="eyebrow">A FEW SIMPLE STEPS</p><h2 id="how-title">Your golfers. Your courses.</h2></div>
+      <ol class="steps">
+        <li><h3>Choose your draw</h3><p>Open an explorer and select the number of golfers. Use <strong>Colour by</strong> to move between rounds; each colour corresponds to a tee time.</p></li>
+        <li><h3>Make it yours</h3><p>Expand <strong>Replace player numbers with names</strong> and enter one name per line. In <strong>Edit rounds</strong>, enter your course labels, first tee times and intervals, then apply your changes.</p></li>
+        <li><h3>Read the grid</h3><p>Each cell is a golfer. Rows give the first-round groups, columns the second-round groups. Matching numbers in partial squares A, B and C give the later groups. Empty cells are simply empty.</p></li>
+      </ol>
+      <details class="sharing"><summary>Set up a shareable link</summary><div>
+        <p>Add names with <code>players=Alice:Bob:Charlie:…</code>, in player-number order. A list of 15–24 names selects that player count. Add one <code>round=</code> entry for each round, in order:</p>
+        <pre><code>?round=Moruya|11:35&amp;round=Narooma|10:00</code></pre>
+        <p>A round is <code>Course|HH:MM|interval</code>. Leave off the interval to use seven minutes. Encode spaces as <code>%20</code>. The remaining rounds use the defaults. URL settings take precedence over saved settings when you reopen a link.</p>
+        <p><a href="four-round-schedule-explorer.html?round=8-November%20Moruya%7C11%3A35&amp;round=9-November%20Narooma%7C10%3A00&amp;round=10-November%20Catalina%7C11%3A26&amp;round=11-November%20Moruya%7C11%3A00">Try a four-course example →</a></p>
+        <p class="quiet">Names included in a URL are visible to recipients and may appear in hosting logs. You can instead enter them in the name editor. Browser edits do not change the URL or the published files.</p>
+      </div></details>
+    </section>
+    <section class="research" aria-labelledby="research-title"><div class="wrap research-inner">
+      <div><p class="eyebrow">MORE THAN A RANDOM SHUFFLE</p><h2 id="research-title">A little mathematics.<br>A better mix.</h2></div>
+      <div><p>Every golfer plays once per round, and no pair plays together twice. The groups favour fours, with triples filling the remainder; participation in fours differs by at most one between golfers.</p>
+      <p>Fairness first maximises the smallest number of distinct tee slots received by any golfer, then the total across everyone. It measures <strong>slot variety</strong>, rather than average start time. Editing tee times changes the clock labels, not that objective.</p>
+      <a href="https://github.com/jgojnich-a11y/enhanced-social-golfer-problem/blob/main/runs/FAIRNESS_STATUS.md">Read the results and proof evidence ↗</a>
+      </div>
+    </div></section>
+  </main>
+  <footer class="wrap site-footer"><div><strong>Golf Schedule Explorer</strong><p>By John Gojnich · <a href="LICENSE.txt">MIT License</a></p></div><div><a href="https://github.com/jgojnich-a11y/enhanced-social-golfer-problem">View the project ↗</a><p>No added visitor analytics or advertising. <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection">GitHub hosting logs</a> still apply.</p></div></footer>
+</body>
+</html>
