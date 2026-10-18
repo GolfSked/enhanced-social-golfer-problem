@@ -1,4 +1,4 @@
-<div id="five-golf-grids">
+<div id="five-golf-grids" data-version="__EXPLORER_VERSION__">
 <h2>Our five-round schedules · 15–24 golfers</h2>
 <div class="ag-top-controls"><label class="form-label">Colour by<select id="ag-r" class="form-select"><option value="0">Round 1 · rows</option><option value="1">Round 2 · columns</option><option value="2">Round 3 · partial A</option><option value="3">Round 4 · partial B</option><option value="4">Round 5 · partial C</option></select></label><label class="form-label">Golfers<select id="ag-n" class="form-select"></select></label></div>
 <div id="ag-url-error" role="alert" class="text-destructive" hidden></div>
@@ -14,17 +14,18 @@
 <div class="viz-controls"><button id="ag-apply-rounds" type="button" class="btn btn-primary">Apply rounds</button></div>
 </details>
 <h3 id="ag-course"></h3>
-<div id="ag-board" class="ag-board" role="img" aria-label="Player grid: first-round groups are rows, second-round groups are columns"></div>
+<div id="ag-board" class="ag-board" role="group" aria-label="Player grid: first-round groups are rows, second-round groups are columns"></div>
+<div class="ag-highlight-help"><span id="ag-selection" aria-live="polite" class="text-small">Hover, focus or tap a golfer to trace their tee group.</span><button id="ag-clear" type="button" class="btn" hidden>Clear highlight</button></div>
 <div id="ag-legend" class="viz-row"></div>
 <div id="ag-detail" aria-live="polite" class="text-small"></div>
 <hr>
 <div class="ag-panels"><section><h3>Partial A · round 3</h3><div id="ag-a" class="ag-mini"></div></section><section><h3>Partial B · round 4</h3><div id="ag-b" class="ag-mini"></div></section><section><h3>Partial C · round 5</h3><div id="ag-c" class="ag-mini"></div></section></div>
 <div id="ag-check" class="text-small"></div>
 <hr>
-<details><summary>Replace player numbers with names</summary><label class="form-label" for="ag-names">One name per line, in player order (P1, P2, … P24). Leave a line blank to keep its player number.</label><textarea id="ag-names" class="form-control" rows="8" placeholder="Player 1 name&#10;Player 2 name"></textarea><div class="viz-controls"><button type="button" id="ag-apply" class="btn btn-primary">Apply names</button></div></details>
+<details><summary>Replace player numbers with names</summary><label class="form-label" for="ag-names">One name per line, in player order (P1, P2, … P24). Leave a line blank to keep its player number. Enter 15–24 player slots to select that schedule automatically.</label><textarea id="ag-names" class="form-control" rows="8" placeholder="Player 1 name&#10;Player 2 name"></textarea><div id="ag-name-message" role="status" aria-live="polite" class="text-small"></div><div class="viz-controls"><button type="button" id="ag-apply" class="btn btn-primary">Apply names</button></div></details>
 <hr>
 <footer>
-<p class="text-small">Golf Schedule Explorer · John Gojnich · MIT License</p>
+<p class="text-small">Golf Schedule Explorer · John Gojnich · MIT License · <span id="ag-version">v__EXPLORER_VERSION__</span></p>
 <details><summary>About &amp; licence</summary>
 <p>Five-round schedules from the <a href="https://github.com/GolfSked/enhanced-social-golfer-problem" target="_blank" rel="noopener noreferrer">Enhanced Social Golfer Problem project</a>. Player names change display labels only; group memberships and tee times remain those of the saved schedules.</p>
 <h3>MIT License</h3>
@@ -50,6 +51,15 @@
 #five-golf-grids #ag-detail{margin:12px 0}
 #five-golf-grids .ag-cell{overflow-wrap:anywhere;min-width:0;padding:4px}
 @media(max-width:560px){#five-golf-grids .ag-top-controls{width:100%;max-width:320px;margin:0 auto;grid-template-columns:minmax(0,1fr)}#five-golf-grids .ag-board{width:100%;max-width:320px;margin:24px auto}#five-golf-grids .ag-panels{grid-template-columns:1fr;max-width:320px;margin:16px auto}#five-golf-grids .ag-cell{min-height:44px}}
+#five-golf-grids button.ag-cell{border:0;font:inherit;cursor:pointer;appearance:none;text-align:center}
+#five-golf-grids button.ag-cell:focus-visible{outline:3px solid var(--ring);outline-offset:3px}
+#five-golf-grids .ag-cell.ag-highlighted{font-weight:700;box-shadow:inset 0 0 0 3px var(--ring)}
+#five-golf-grids .ag-cell.ag-other{opacity:.48}
+#five-golf-grids .ag-tee-group{display:inline;border:0;padding:3px 5px;border-radius:4px;background:transparent;color:inherit;font:inherit;text-align:left;cursor:pointer}
+#five-golf-grids .ag-tee-group.ag-highlighted{font-weight:700;background:var(--accent);box-shadow:inset 0 -2px var(--ring)}
+#five-golf-grids .ag-key.ag-highlighted{font-weight:700;text-decoration:underline;text-underline-offset:4px}
+#five-golf-grids .ag-highlight-help{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin:10px 0}
+#five-golf-grids .ag-highlight-help [hidden]{display:none}
 </style>
 <script>
 (()=>{
@@ -71,8 +81,24 @@ const color=g=>`var(--viz-series-${g+1})`;
 function syncRoundEditor(){for(let r=0;r<5;r++){const cfg=roundSettings[r]||{course:`Round ${r+1}`,start:'10:00',interval:7};root.querySelector('#ag-course-'+r).value=cfg.course;root.querySelector('#ag-start-'+r).value=cfg.start;root.querySelector('#ag-interval-'+r).value=cfg.interval}}
 const roundTitle=r=>roundSettings[r]?.course||`Round ${r+1}`;
 const time=g=>{const cfg=roundSettings[rd]||{start:'10:00',interval:7};const [h,m]=cfg.start.split(':').map(Number);const total=h*60+m+g*cfg.interval;return `${String(Math.floor(total/60)%24).padStart(2,'0')}:${String(total%60).padStart(2,'0')}${total>=1440?' (+1 day)':''}`};
-function cell(text,g,label){const el=document.createElement('div');el.className='ag-cell tabular-nums';el.textContent=text;el.style.setProperty('--gc',g===null?'var(--muted)':color(g));if(label)el.setAttribute('aria-label',label);return el}
+let hoveredGroup=null,pinnedGroup=null,marks=[],teeLabels=[],legendLabels=[];
+function paintHighlight(){
+ const group=hoveredGroup??pinnedGroup,d=data[n];
+ for(const {el,p,interactive} of marks){const same=group!==null&&d.groups[p][rd]===group;el.classList.toggle('ag-highlighted',same);el.classList.toggle('ag-other',group!==null&&!same);if(interactive)el.setAttribute('aria-pressed',String(pinnedGroup!==null&&d.groups[p][rd]===pinnedGroup))}
+ for(const {el,g} of [...teeLabels,...legendLabels])el.classList.toggle('ag-highlighted',group===g);
+ root.querySelector('#ag-clear').hidden=pinnedGroup===null;
+ root.querySelector('#ag-selection').textContent=group===null?'Hover, focus or tap a golfer to trace their tee group.':`${roundTitle(rd)} · group ${group+1} · ${time(group)} · ${d.rounds[rd][group].map(name).join(', ')}${pinnedGroup===group?' · pinned':''}`;
+}
+function bindGroup(el,g){
+ el.addEventListener('pointerenter',e=>{if(e.pointerType!=='touch'){hoveredGroup=g;paintHighlight()}});
+ el.addEventListener('pointerleave',()=>{hoveredGroup=null;paintHighlight()});
+ el.addEventListener('focus',()=>{hoveredGroup=g;paintHighlight()});
+ el.addEventListener('blur',()=>{hoveredGroup=null;paintHighlight()});
+ el.addEventListener('click',()=>{pinnedGroup=pinnedGroup===g?null:g;hoveredGroup=null;paintHighlight()});
+}
+function cell(text,g,label,interactive=false){const el=document.createElement(interactive?'button':'div');if(interactive)el.type='button';el.className='ag-cell tabular-nums';el.textContent=text;el.style.setProperty('--gc',g===null?'var(--muted)':color(g));if(label)el.setAttribute('aria-label',label);return el}
 function draw(){
+ hoveredGroup=null;pinnedGroup=null;marks=[];teeLabels=[];legendLabels=[];
  np.value=n;rp.value=rd;
  const suffix=['rows','columns','partial A','partial B','partial C'];
  for(let r=0;r<5;r++)rp.options[r].textContent=`${roundTitle(r)} · ${suffix[r]}`;
@@ -82,11 +108,12 @@ function draw(){
  const d=data[n],G=d.rounds[0].length,board=root.querySelector('#ag-board');board.replaceChildren();board.style.gridTemplateColumns=`28px repeat(${G},minmax(0,1fr))`;
  const label=t=>{const el=document.createElement('div');el.className='ag-label text-small';el.textContent=t;board.append(el)};
  label('');for(let c=0;c<G;c++)label('C'+(c+1));
- for(let r=0;r<G;r++){label('R'+(r+1));for(let c=0;c<G;c++){const p=d.grid[r][c],g=p===null?null:d.groups[p][rd];board.append(cell(p===null?'∅':name(p),g,p===null?'Empty cell':`${name(p)}, tee time ${time(g)}`))}}
- const legend=root.querySelector('#ag-legend');legend.replaceChildren();for(let g=0;g<G;g++){const key=document.createElement('span');key.className='ag-key';const sw=document.createElement('span');sw.className='ag-swatch';sw.style.setProperty('--gc',color(g));key.append(sw,document.createTextNode(time(g)));legend.append(key)}
- root.querySelector('#ag-detail').textContent=d.rounds[rd].map((ps,g)=>`${time(g)}: ${ps.map(name).join(', ')}`).join(' · ');
- for(const [id,kind] of [['ag-a',2],['ag-b',3],['ag-c',4]]){const el=root.querySelector('#'+id);el.replaceChildren();el.style.gridTemplateColumns=`repeat(${G},minmax(0,1fr))`;for(const row of d.grid)for(const p of row){const gs=p===null?null:d.groups[p];el.append(cell(gs===null?'∅':gs[kind]+1,gs===null?null:gs[kind]))}}
+ for(let r=0;r<G;r++){label('R'+(r+1));for(let c=0;c<G;c++){const p=d.grid[r][c],g=p===null?null:d.groups[p][rd];const el=cell(p===null?'∅':name(p),g,p===null?'Empty cell':`${name(p)}, group ${g+1}, tee time ${time(g)}. Activate to pin the group.`,p!==null);if(p!==null){marks.push({el,p,interactive:true});bindGroup(el,g)}board.append(el)}}
+ const legend=root.querySelector('#ag-legend');legend.replaceChildren();for(let g=0;g<G;g++){const key=document.createElement('span');key.className='ag-key';const sw=document.createElement('span');sw.className='ag-swatch';sw.style.setProperty('--gc',color(g));key.append(sw,document.createTextNode(time(g)));legendLabels.push({el:key,g});legend.append(key)}
+ const detail=root.querySelector('#ag-detail');detail.replaceChildren();d.rounds[rd].forEach((ps,g)=>{if(g)detail.append(document.createTextNode(' · '));const el=document.createElement('button');el.type='button';el.className='ag-tee-group';el.textContent=`${time(g)}: ${ps.map(name).join(', ')}`;el.setAttribute('aria-label',`Highlight group ${g+1}, ${time(g)}: ${ps.map(name).join(', ')}`);teeLabels.push({el,g});bindGroup(el,g);detail.append(el)});
+ for(const [id,kind] of [['ag-a',2],['ag-b',3],['ag-c',4]]){const el=root.querySelector('#'+id);el.replaceChildren();el.style.gridTemplateColumns=`repeat(${G},minmax(0,1fr))`;for(const row of d.grid)for(const p of row){const gs=p===null?null:d.groups[p];const mark=cell(gs===null?'∅':gs[kind]+1,gs===null?null:gs[kind],gs===null?'Empty cell':`${name(p)}: ${roundTitle(kind)} ${gs[kind]+1}`);if(p!==null)marks.push({el:mark,p,interactive:false});el.append(mark)}}
  root.querySelector('#ag-check').textContent=`${G}×${G} grid · ${G*G-n} empty cells · group sizes ${d.rounds[rd].map(ps=>ps.length).join(', ')} · fairness (${d.minimum}, ${d.total}) · exact saved schedule`;
+ paintHighlight();
 }
 function save(){window.openai?.setWidgetState({modelContent:{players:n,round:rd+1,names,roundSettings,roundSettingsError},privateContent:null}).catch(()=>{})}
 root.querySelector('#ag-apply-rounds').addEventListener('click',()=>{
@@ -101,9 +128,21 @@ root.querySelector('#ag-apply-rounds').addEventListener('click',()=>{
  }
  roundSettings=settings;roundSettingsError='';draw();syncRoundEditor();save();
 });
-root.querySelector('#ag-apply').addEventListener('click',()=>{names=root.querySelector('#ag-names').value.split(/\r?\n/).slice(0,24).map(s=>s.trim().slice(0,100));draw();save()});
+root.querySelector('#ag-apply').addEventListener('click',()=>{
+ const entries=root.querySelector('#ag-names').value.split(/\r?\n/).map(s=>s.trim().slice(0,100));
+ while(entries.length&&entries[entries.length-1]==='')entries.pop();
+ const message=root.querySelector('#ag-name-message');
+ if(entries.length>24){message.textContent=`You entered ${entries.length} player slots. This explorer supports at most 24; names were not applied.`;message.setAttribute('role','alert');return}
+ names=entries;
+ if(entries.length>=15)n=entries.length;
+ message.setAttribute('role','status');
+ message.textContent=entries.length>=15?`Applied names and selected ${n} golfers.`:`Applied ${entries.filter(Boolean).length} names; kept the ${n}-golfer schedule.`;
+ draw();save();
+});
 np.addEventListener('change',()=>{n=Number(np.value);draw();save()});rp.addEventListener('change',()=>{rd=Number(rp.value);draw();save()});
 window.addEventListener('openai:set_globals',e=>{const s=e.detail?.globals?.widgetState?.modelContent;if(Array.isArray(s?.names)){names=s.names.slice(0,24).map(x=>typeof x==='string'?x:'');root.querySelector('#ag-names').value=names.join('\n')}if(Array.isArray(s?.roundSettings))roundSettings=s.roundSettings;roundSettingsError=s?.roundSettingsError||'';if(s&&data[s.players])n=Number(s.players);if(s&&Number.isInteger(s.round)&&s.round>=1&&s.round<=5)rd=s.round-1;draw()});
+root.querySelector('#ag-clear').addEventListener('click',()=>{pinnedGroup=null;hoveredGroup=null;paintHighlight()});
+root.addEventListener('keydown',e=>{if(e.key==='Escape'){pinnedGroup=null;hoveredGroup=null;paintHighlight()}});
 syncRoundEditor();draw();
 })();
 </script>

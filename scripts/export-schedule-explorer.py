@@ -19,6 +19,12 @@ assert html.count(marker) == 1, 'Standalone shell changed; check URL integration
 roster = Path(__file__).with_name('explorer-url-roster.js').read_text()
 html = html.replace(marker, roster + f'\n  state = explorerUrlRoster(state, globalThis.location.search, {args.round_count});\n' + marker)
 theme = (Path(__file__).resolve().parents[1] / 'web' / 'explorer-theme.css').read_text()
+version = (Path(__file__).resolve().parents[1] / 'web' / 'version.txt').read_text().strip()
+assert version and all(c.isalnum() or c in '.-' for c in version)
+html = html.replace('__EXPLORER_VERSION__', version)
+version_meta = f'<meta name="application-version" content="{version}">'
+html = html.replace('&lt;/head&gt;', escape(version_meta) + '\n&lt;/head&gt;', 1)
+html = html.replace('</head>', version_meta + '\n</head>', 1)
 theme_style = '<style id="golf-explorer-theme">' + theme + '</style>'
 # srcdoc is escaped in the outer page. Embed the same skin inside and outside
 # the frame so there are no stylesheet requests and standalone downloads work.

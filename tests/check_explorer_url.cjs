@@ -16,11 +16,13 @@ for(const q of ['?round=X|25:00','?round=X|10:60','?round=X|10:00|0','?round=X|1
 assert.equal(parse('?round=Royal%20Moruya%20%26%20Club%7C11%3A35').roundSettings[0].course,'Royal Moruya & Club');
 assert.equal(parse('?players=Bran:Train&round=Moruya|11:35').names[0],'Bran');
 class El{
- constructor(){this.children=[];this.options=[];this.style={setProperty(){}};this.events={};this.value='';this.previousElementSibling={textContent:''}}
- append(...xs){this.children.push(...xs)}replaceChildren(){this.children=[]}setAttribute(){}addEventListener(n,f){this.events[n]=f}
+ constructor(tag='div'){this.tag=tag;this.children=[];this.options=[];this.style={setProperty(){}};this.events={};this.value='';this.attrs={};this.classes=new Set();this.classList={toggle:(c,v)=>v?this.classes.add(c):this.classes.delete(c)};this.previousElementSibling={textContent:''};this._text=''}
+ get textContent(){return this._text+this.children.map(c=>typeof c==='string'?c:c.textContent).join('')}
+ set textContent(s){this._text=String(s);this.children=[]}
+ append(...xs){this.children.push(...xs)}replaceChildren(){this.children=[];this._text=''}setAttribute(k,v){this.attrs[k]=v}addEventListener(n,f){this.events[n]=f}
 }
 function render(modelContent, rounds=4){
- const els={};const root={querySelector(s){return els[s]??=new El()}};
+ const els={};els.rootEvents={};const root={querySelector(s){return els[s]??=new El()},addEventListener(n,f){els.rootEvents[n]=f}};
  root.querySelector('#ag-r').options=Array.from({length:rounds},()=>({textContent:''}));
  const html=fs.readFileSync(`solutions/${({3:'three',4:'four',5:'five'})[rounds]}-round-schedule-explorer.html`,'utf8');
  // Source fragment script is HTML-escaped in the standalone export.
@@ -28,7 +30,7 @@ function render(modelContent, rounds=4){
  const decode=s=>s.replace(/&quot;/g,'"').replace(/&#x27;/g,"'").replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&amp;/g,'&');
  const scripts=[...decode(escaped).matchAll(/<script>([\s\S]*?)<\/script>/g)];
  const source=scripts.find(m=>m[1].includes(`const root=document.getElementById('${({3:'three',4:'all',5:'five'})[rounds]}-golf-grids')`))[1];
- vm.runInNewContext(source,{document:{getElementById(){return root},createElement(){return new El()},createTextNode(s){return s}},window:{openai:{widgetState:{modelContent},setWidgetState(){return Promise.resolve()}},addEventListener(){}}});
+ vm.runInNewContext(source,{document:{getElementById(){return root},createElement(tag){return new El(tag)},createTextNode(s){return s}},window:{openai:{widgetState:{modelContent},setWidgetState(){return Promise.resolve()}},addEventListener(){}}});
  return els;
 }
 let els=render({...config,round:1});
@@ -87,6 +89,37 @@ for(const word of ['three','four','five']){
  const html=fs.readFileSync(`solutions/${word}-round-schedule-explorer.html`,'utf8');
  assert(html.includes('id="golf-explorer-theme"'));
  assert(html.includes('id=&quot;golf-explorer-theme&quot;'));
- for(const color of ['#f8f6ef','#173d33','#315b47','#bacd9b','#d6dcb0','#e8d8a4'])assert(html.includes(color));
+ for(const color of ['#f8f6ef','#173d33','#315b47','#bacd9b','#e8dfca','#e8d8a4'])assert(html.includes(color));
 }
 console.log('Landing-page palette is embedded in each explorer and its sandboxed frame.');
+
+for(const rounds of [3,4,5]){
+ for(const count of [15,18,24]){
+  const e=render({},rounds);const entries=Array.from({length:count},(_,i)=>i===3?'':`Name ${i+1}`);
+  e['#ag-names'].value=entries.join('\n')+'\n\n';e['#ag-apply'].events.click();
+  assert.equal(e['#ag-n'].value,count);assert(e['#ag-name-message'].textContent.includes(`selected ${count}`));assert(e['#ag-detail'].textContent.includes('P4'));
+ }
+ const e=render({players:18},rounds);
+ e['#ag-names'].value='Alice\nBob';e['#ag-apply'].events.click();assert.equal(e['#ag-n'].value,18);
+ const previous=e['#ag-detail'].textContent;
+ e['#ag-names'].value=Array.from({length:25},(_,i)=>`Too many ${i}`).join('\n');e['#ag-apply'].events.click();
+ assert.equal(e['#ag-n'].value,18);assert.equal(e['#ag-detail'].textContent,previous);assert(e['#ag-name-message'].textContent.includes('not applied'));
+ for(let n=15;n<=24;n++)for(let round=1;round<=rounds;round++){
+  const view=render({players:n,round},rounds);const cells=view['#ag-board'].children.filter(c=>c.tag==='button');assert.equal(cells.length,n);
+  const c=cells[0];c.events.pointerenter({pointerType:'mouse'});
+  const size=cells.filter(c=>c.classes.has('ag-highlighted')).length;assert(size===3||size===4);
+  for(const id of ['#ag-a',...(rounds>=4?['#ag-b']:[]),...(rounds===5?['#ag-c']:[])])assert.equal(view[id].children.filter(c=>c.classes.has('ag-highlighted')).length,size);
+  assert.equal(view['#ag-detail'].children.filter(c=>c.classes?.has('ag-highlighted')).length,1);
+  c.events.pointerleave();assert.equal(cells.filter(c=>c.classes.has('ag-highlighted')).length,0);
+  c.events.click();c.events.pointerleave();assert.equal(cells.filter(c=>c.attrs['aria-pressed']==='true').length,size);
+  view.rootEvents.keydown({key:'Escape'});assert.equal(cells.filter(c=>c.classes.has('ag-highlighted')).length,0);
+  c.events.focus();assert.equal(cells.filter(c=>c.classes.has('ag-highlighted')).length,size);c.events.blur();
+  c.events.click();view['#ag-clear'].events.click();assert.equal(cells.filter(c=>c.classes.has('ag-highlighted')).length,0);
+ }
+}
+const version=fs.readFileSync('web/version.txt','utf8').trim();
+for(const word of ['three','four','five']){
+ const html=fs.readFileSync(`solutions/${word}-round-schedule-explorer.html`,'utf8');
+ assert(html.includes(`<meta name="application-version" content="${version}">`));assert(!html.includes('__EXPLORER_VERSION__'));
+}
+console.log('All 120 views pass linked hover/focus/pin checks; name counts, blank slots, overflow and release versions verified.');

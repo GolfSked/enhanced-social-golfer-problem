@@ -7,6 +7,7 @@
 <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eval' blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; style-src 'unsafe-inline' blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; img-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; font-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; media-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; worker-src blob:; connect-src blob: data:; frame-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
 <title>Five Round</title>
 <style>:root{color-scheme:light dark;background:light-dark(rgb(255 255 255), rgb(24 24 24))}html,body{margin:0}body{box-sizing:border-box;padding:1rem;background:inherit}iframe{display:block;width:100%;height:calc(100vh - 2rem);margin:0 auto;border:0}</style>
+<meta name="application-version" content="1.1.0">
 <style id="golf-explorer-theme">/* Shared with the landing page. Embedded in each standalone export. */
 :root {
   color-scheme: light !important;
@@ -29,8 +30,8 @@
   --ring: #245441;
   --destructive: #a2372b;
   --viz-series-1: #315b47;
-  --viz-series-2: #bacd9b;
-  --viz-series-3: #d6dcb0;
+  --viz-series-2: #e8dfca;
+  --viz-series-3: #bacd9b;
   --viz-series-4: #e8d8a4;
   --viz-series-5: #c9b4a2;
   --viz-series-6: #b3c7c4;
@@ -1284,6 +1285,7 @@ svg.lucide {
 }
 
 html&gt;body{padding:0}&lt;/style&gt;
+&lt;meta name=&quot;application-version&quot; content=&quot;1.1.0&quot;&gt;
 &lt;style id=&quot;golf-explorer-theme&quot;&gt;/* Shared with the landing page. Embedded in each standalone export. */
 :root {
   color-scheme: light !important;
@@ -1306,8 +1308,8 @@ html&gt;body{padding:0}&lt;/style&gt;
   --ring: #245441;
   --destructive: #a2372b;
   --viz-series-1: #315b47;
-  --viz-series-2: #bacd9b;
-  --viz-series-3: #d6dcb0;
+  --viz-series-2: #e8dfca;
+  --viz-series-3: #bacd9b;
   --viz-series-4: #e8d8a4;
   --viz-series-5: #c9b4a2;
   --viz-series-6: #b3c7c4;
@@ -1609,7 +1611,7 @@ html, body { background: var(--background); color: var(--foreground); }
   syncTheme();
 })();
 &lt;/script&gt;
-&lt;div id=&quot;five-golf-grids&quot;&gt;
+&lt;div id=&quot;five-golf-grids&quot; data-version=&quot;1.1.0&quot;&gt;
 &lt;h2&gt;Our five-round schedules · 15–24 golfers&lt;/h2&gt;
 &lt;div class=&quot;ag-top-controls&quot;&gt;&lt;label class=&quot;form-label&quot;&gt;Colour by&lt;select id=&quot;ag-r&quot; class=&quot;form-select&quot;&gt;&lt;option value=&quot;0&quot;&gt;Round 1 · rows&lt;/option&gt;&lt;option value=&quot;1&quot;&gt;Round 2 · columns&lt;/option&gt;&lt;option value=&quot;2&quot;&gt;Round 3 · partial A&lt;/option&gt;&lt;option value=&quot;3&quot;&gt;Round 4 · partial B&lt;/option&gt;&lt;option value=&quot;4&quot;&gt;Round 5 · partial C&lt;/option&gt;&lt;/select&gt;&lt;/label&gt;&lt;label class=&quot;form-label&quot;&gt;Golfers&lt;select id=&quot;ag-n&quot; class=&quot;form-select&quot;&gt;&lt;/select&gt;&lt;/label&gt;&lt;/div&gt;
 &lt;div id=&quot;ag-url-error&quot; role=&quot;alert&quot; class=&quot;text-destructive&quot; hidden&gt;&lt;/div&gt;
@@ -1625,17 +1627,18 @@ html, body { background: var(--background); color: var(--foreground); }
 &lt;div class=&quot;viz-controls&quot;&gt;&lt;button id=&quot;ag-apply-rounds&quot; type=&quot;button&quot; class=&quot;btn btn-primary&quot;&gt;Apply rounds&lt;/button&gt;&lt;/div&gt;
 &lt;/details&gt;
 &lt;h3 id=&quot;ag-course&quot;&gt;&lt;/h3&gt;
-&lt;div id=&quot;ag-board&quot; class=&quot;ag-board&quot; role=&quot;img&quot; aria-label=&quot;Player grid: first-round groups are rows, second-round groups are columns&quot;&gt;&lt;/div&gt;
+&lt;div id=&quot;ag-board&quot; class=&quot;ag-board&quot; role=&quot;group&quot; aria-label=&quot;Player grid: first-round groups are rows, second-round groups are columns&quot;&gt;&lt;/div&gt;
+&lt;div class=&quot;ag-highlight-help&quot;&gt;&lt;span id=&quot;ag-selection&quot; aria-live=&quot;polite&quot; class=&quot;text-small&quot;&gt;Hover, focus or tap a golfer to trace their tee group.&lt;/span&gt;&lt;button id=&quot;ag-clear&quot; type=&quot;button&quot; class=&quot;btn&quot; hidden&gt;Clear highlight&lt;/button&gt;&lt;/div&gt;
 &lt;div id=&quot;ag-legend&quot; class=&quot;viz-row&quot;&gt;&lt;/div&gt;
 &lt;div id=&quot;ag-detail&quot; aria-live=&quot;polite&quot; class=&quot;text-small&quot;&gt;&lt;/div&gt;
 &lt;hr&gt;
 &lt;div class=&quot;ag-panels&quot;&gt;&lt;section&gt;&lt;h3&gt;Partial A · round 3&lt;/h3&gt;&lt;div id=&quot;ag-a&quot; class=&quot;ag-mini&quot;&gt;&lt;/div&gt;&lt;/section&gt;&lt;section&gt;&lt;h3&gt;Partial B · round 4&lt;/h3&gt;&lt;div id=&quot;ag-b&quot; class=&quot;ag-mini&quot;&gt;&lt;/div&gt;&lt;/section&gt;&lt;section&gt;&lt;h3&gt;Partial C · round 5&lt;/h3&gt;&lt;div id=&quot;ag-c&quot; class=&quot;ag-mini&quot;&gt;&lt;/div&gt;&lt;/section&gt;&lt;/div&gt;
 &lt;div id=&quot;ag-check&quot; class=&quot;text-small&quot;&gt;&lt;/div&gt;
 &lt;hr&gt;
-&lt;details&gt;&lt;summary&gt;Replace player numbers with names&lt;/summary&gt;&lt;label class=&quot;form-label&quot; for=&quot;ag-names&quot;&gt;One name per line, in player order (P1, P2, … P24). Leave a line blank to keep its player number.&lt;/label&gt;&lt;textarea id=&quot;ag-names&quot; class=&quot;form-control&quot; rows=&quot;8&quot; placeholder=&quot;Player 1 name&amp;#10;Player 2 name&quot;&gt;&lt;/textarea&gt;&lt;div class=&quot;viz-controls&quot;&gt;&lt;button type=&quot;button&quot; id=&quot;ag-apply&quot; class=&quot;btn btn-primary&quot;&gt;Apply names&lt;/button&gt;&lt;/div&gt;&lt;/details&gt;
+&lt;details&gt;&lt;summary&gt;Replace player numbers with names&lt;/summary&gt;&lt;label class=&quot;form-label&quot; for=&quot;ag-names&quot;&gt;One name per line, in player order (P1, P2, … P24). Leave a line blank to keep its player number. Enter 15–24 player slots to select that schedule automatically.&lt;/label&gt;&lt;textarea id=&quot;ag-names&quot; class=&quot;form-control&quot; rows=&quot;8&quot; placeholder=&quot;Player 1 name&amp;#10;Player 2 name&quot;&gt;&lt;/textarea&gt;&lt;div id=&quot;ag-name-message&quot; role=&quot;status&quot; aria-live=&quot;polite&quot; class=&quot;text-small&quot;&gt;&lt;/div&gt;&lt;div class=&quot;viz-controls&quot;&gt;&lt;button type=&quot;button&quot; id=&quot;ag-apply&quot; class=&quot;btn btn-primary&quot;&gt;Apply names&lt;/button&gt;&lt;/div&gt;&lt;/details&gt;
 &lt;hr&gt;
 &lt;footer&gt;
-&lt;p class=&quot;text-small&quot;&gt;Golf Schedule Explorer · John Gojnich · MIT License&lt;/p&gt;
+&lt;p class=&quot;text-small&quot;&gt;Golf Schedule Explorer · John Gojnich · MIT License · &lt;span id=&quot;ag-version&quot;&gt;v1.1.0&lt;/span&gt;&lt;/p&gt;
 &lt;details&gt;&lt;summary&gt;About &amp;amp; licence&lt;/summary&gt;
 &lt;p&gt;Five-round schedules from the &lt;a href=&quot;https://github.com/GolfSked/enhanced-social-golfer-problem&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Enhanced Social Golfer Problem project&lt;/a&gt;. Player names change display labels only; group memberships and tee times remain those of the saved schedules.&lt;/p&gt;
 &lt;h3&gt;MIT License&lt;/h3&gt;
@@ -1661,6 +1664,15 @@ html, body { background: var(--background); color: var(--foreground); }
 #five-golf-grids #ag-detail{margin:12px 0}
 #five-golf-grids .ag-cell{overflow-wrap:anywhere;min-width:0;padding:4px}
 @media(max-width:560px){#five-golf-grids .ag-top-controls{width:100%;max-width:320px;margin:0 auto;grid-template-columns:minmax(0,1fr)}#five-golf-grids .ag-board{width:100%;max-width:320px;margin:24px auto}#five-golf-grids .ag-panels{grid-template-columns:1fr;max-width:320px;margin:16px auto}#five-golf-grids .ag-cell{min-height:44px}}
+#five-golf-grids button.ag-cell{border:0;font:inherit;cursor:pointer;appearance:none;text-align:center}
+#five-golf-grids button.ag-cell:focus-visible{outline:3px solid var(--ring);outline-offset:3px}
+#five-golf-grids .ag-cell.ag-highlighted{font-weight:700;box-shadow:inset 0 0 0 3px var(--ring)}
+#five-golf-grids .ag-cell.ag-other{opacity:.48}
+#five-golf-grids .ag-tee-group{display:inline;border:0;padding:3px 5px;border-radius:4px;background:transparent;color:inherit;font:inherit;text-align:left;cursor:pointer}
+#five-golf-grids .ag-tee-group.ag-highlighted{font-weight:700;background:var(--accent);box-shadow:inset 0 -2px var(--ring)}
+#five-golf-grids .ag-key.ag-highlighted{font-weight:700;text-decoration:underline;text-underline-offset:4px}
+#five-golf-grids .ag-highlight-help{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin:10px 0}
+#five-golf-grids .ag-highlight-help [hidden]{display:none}
 &lt;/style&gt;
 &lt;script&gt;
 (()=&gt;{
@@ -1682,8 +1694,24 @@ const color=g=&gt;`var(--viz-series-${g+1})`;
 function syncRoundEditor(){for(let r=0;r&lt;5;r++){const cfg=roundSettings[r]||{course:`Round ${r+1}`,start:&#x27;10:00&#x27;,interval:7};root.querySelector(&#x27;#ag-course-&#x27;+r).value=cfg.course;root.querySelector(&#x27;#ag-start-&#x27;+r).value=cfg.start;root.querySelector(&#x27;#ag-interval-&#x27;+r).value=cfg.interval}}
 const roundTitle=r=&gt;roundSettings[r]?.course||`Round ${r+1}`;
 const time=g=&gt;{const cfg=roundSettings[rd]||{start:&#x27;10:00&#x27;,interval:7};const [h,m]=cfg.start.split(&#x27;:&#x27;).map(Number);const total=h*60+m+g*cfg.interval;return `${String(Math.floor(total/60)%24).padStart(2,&#x27;0&#x27;)}:${String(total%60).padStart(2,&#x27;0&#x27;)}${total&gt;=1440?&#x27; (+1 day)&#x27;:&#x27;&#x27;}`};
-function cell(text,g,label){const el=document.createElement(&#x27;div&#x27;);el.className=&#x27;ag-cell tabular-nums&#x27;;el.textContent=text;el.style.setProperty(&#x27;--gc&#x27;,g===null?&#x27;var(--muted)&#x27;:color(g));if(label)el.setAttribute(&#x27;aria-label&#x27;,label);return el}
+let hoveredGroup=null,pinnedGroup=null,marks=[],teeLabels=[],legendLabels=[];
+function paintHighlight(){
+ const group=hoveredGroup??pinnedGroup,d=data[n];
+ for(const {el,p,interactive} of marks){const same=group!==null&amp;&amp;d.groups[p][rd]===group;el.classList.toggle(&#x27;ag-highlighted&#x27;,same);el.classList.toggle(&#x27;ag-other&#x27;,group!==null&amp;&amp;!same);if(interactive)el.setAttribute(&#x27;aria-pressed&#x27;,String(pinnedGroup!==null&amp;&amp;d.groups[p][rd]===pinnedGroup))}
+ for(const {el,g} of [...teeLabels,...legendLabels])el.classList.toggle(&#x27;ag-highlighted&#x27;,group===g);
+ root.querySelector(&#x27;#ag-clear&#x27;).hidden=pinnedGroup===null;
+ root.querySelector(&#x27;#ag-selection&#x27;).textContent=group===null?&#x27;Hover, focus or tap a golfer to trace their tee group.&#x27;:`${roundTitle(rd)} · group ${group+1} · ${time(group)} · ${d.rounds[rd][group].map(name).join(&#x27;, &#x27;)}${pinnedGroup===group?&#x27; · pinned&#x27;:&#x27;&#x27;}`;
+}
+function bindGroup(el,g){
+ el.addEventListener(&#x27;pointerenter&#x27;,e=&gt;{if(e.pointerType!==&#x27;touch&#x27;){hoveredGroup=g;paintHighlight()}});
+ el.addEventListener(&#x27;pointerleave&#x27;,()=&gt;{hoveredGroup=null;paintHighlight()});
+ el.addEventListener(&#x27;focus&#x27;,()=&gt;{hoveredGroup=g;paintHighlight()});
+ el.addEventListener(&#x27;blur&#x27;,()=&gt;{hoveredGroup=null;paintHighlight()});
+ el.addEventListener(&#x27;click&#x27;,()=&gt;{pinnedGroup=pinnedGroup===g?null:g;hoveredGroup=null;paintHighlight()});
+}
+function cell(text,g,label,interactive=false){const el=document.createElement(interactive?&#x27;button&#x27;:&#x27;div&#x27;);if(interactive)el.type=&#x27;button&#x27;;el.className=&#x27;ag-cell tabular-nums&#x27;;el.textContent=text;el.style.setProperty(&#x27;--gc&#x27;,g===null?&#x27;var(--muted)&#x27;:color(g));if(label)el.setAttribute(&#x27;aria-label&#x27;,label);return el}
 function draw(){
+ hoveredGroup=null;pinnedGroup=null;marks=[];teeLabels=[];legendLabels=[];
  np.value=n;rp.value=rd;
  const suffix=[&#x27;rows&#x27;,&#x27;columns&#x27;,&#x27;partial A&#x27;,&#x27;partial B&#x27;,&#x27;partial C&#x27;];
  for(let r=0;r&lt;5;r++)rp.options[r].textContent=`${roundTitle(r)} · ${suffix[r]}`;
@@ -1693,11 +1721,12 @@ function draw(){
  const d=data[n],G=d.rounds[0].length,board=root.querySelector(&#x27;#ag-board&#x27;);board.replaceChildren();board.style.gridTemplateColumns=`28px repeat(${G},minmax(0,1fr))`;
  const label=t=&gt;{const el=document.createElement(&#x27;div&#x27;);el.className=&#x27;ag-label text-small&#x27;;el.textContent=t;board.append(el)};
  label(&#x27;&#x27;);for(let c=0;c&lt;G;c++)label(&#x27;C&#x27;+(c+1));
- for(let r=0;r&lt;G;r++){label(&#x27;R&#x27;+(r+1));for(let c=0;c&lt;G;c++){const p=d.grid[r][c],g=p===null?null:d.groups[p][rd];board.append(cell(p===null?&#x27;∅&#x27;:name(p),g,p===null?&#x27;Empty cell&#x27;:`${name(p)}, tee time ${time(g)}`))}}
- const legend=root.querySelector(&#x27;#ag-legend&#x27;);legend.replaceChildren();for(let g=0;g&lt;G;g++){const key=document.createElement(&#x27;span&#x27;);key.className=&#x27;ag-key&#x27;;const sw=document.createElement(&#x27;span&#x27;);sw.className=&#x27;ag-swatch&#x27;;sw.style.setProperty(&#x27;--gc&#x27;,color(g));key.append(sw,document.createTextNode(time(g)));legend.append(key)}
- root.querySelector(&#x27;#ag-detail&#x27;).textContent=d.rounds[rd].map((ps,g)=&gt;`${time(g)}: ${ps.map(name).join(&#x27;, &#x27;)}`).join(&#x27; · &#x27;);
- for(const [id,kind] of [[&#x27;ag-a&#x27;,2],[&#x27;ag-b&#x27;,3],[&#x27;ag-c&#x27;,4]]){const el=root.querySelector(&#x27;#&#x27;+id);el.replaceChildren();el.style.gridTemplateColumns=`repeat(${G},minmax(0,1fr))`;for(const row of d.grid)for(const p of row){const gs=p===null?null:d.groups[p];el.append(cell(gs===null?&#x27;∅&#x27;:gs[kind]+1,gs===null?null:gs[kind]))}}
+ for(let r=0;r&lt;G;r++){label(&#x27;R&#x27;+(r+1));for(let c=0;c&lt;G;c++){const p=d.grid[r][c],g=p===null?null:d.groups[p][rd];const el=cell(p===null?&#x27;∅&#x27;:name(p),g,p===null?&#x27;Empty cell&#x27;:`${name(p)}, group ${g+1}, tee time ${time(g)}. Activate to pin the group.`,p!==null);if(p!==null){marks.push({el,p,interactive:true});bindGroup(el,g)}board.append(el)}}
+ const legend=root.querySelector(&#x27;#ag-legend&#x27;);legend.replaceChildren();for(let g=0;g&lt;G;g++){const key=document.createElement(&#x27;span&#x27;);key.className=&#x27;ag-key&#x27;;const sw=document.createElement(&#x27;span&#x27;);sw.className=&#x27;ag-swatch&#x27;;sw.style.setProperty(&#x27;--gc&#x27;,color(g));key.append(sw,document.createTextNode(time(g)));legendLabels.push({el:key,g});legend.append(key)}
+ const detail=root.querySelector(&#x27;#ag-detail&#x27;);detail.replaceChildren();d.rounds[rd].forEach((ps,g)=&gt;{if(g)detail.append(document.createTextNode(&#x27; · &#x27;));const el=document.createElement(&#x27;button&#x27;);el.type=&#x27;button&#x27;;el.className=&#x27;ag-tee-group&#x27;;el.textContent=`${time(g)}: ${ps.map(name).join(&#x27;, &#x27;)}`;el.setAttribute(&#x27;aria-label&#x27;,`Highlight group ${g+1}, ${time(g)}: ${ps.map(name).join(&#x27;, &#x27;)}`);teeLabels.push({el,g});bindGroup(el,g);detail.append(el)});
+ for(const [id,kind] of [[&#x27;ag-a&#x27;,2],[&#x27;ag-b&#x27;,3],[&#x27;ag-c&#x27;,4]]){const el=root.querySelector(&#x27;#&#x27;+id);el.replaceChildren();el.style.gridTemplateColumns=`repeat(${G},minmax(0,1fr))`;for(const row of d.grid)for(const p of row){const gs=p===null?null:d.groups[p];const mark=cell(gs===null?&#x27;∅&#x27;:gs[kind]+1,gs===null?null:gs[kind],gs===null?&#x27;Empty cell&#x27;:`${name(p)}: ${roundTitle(kind)} ${gs[kind]+1}`);if(p!==null)marks.push({el:mark,p,interactive:false});el.append(mark)}}
  root.querySelector(&#x27;#ag-check&#x27;).textContent=`${G}×${G} grid · ${G*G-n} empty cells · group sizes ${d.rounds[rd].map(ps=&gt;ps.length).join(&#x27;, &#x27;)} · fairness (${d.minimum}, ${d.total}) · exact saved schedule`;
+ paintHighlight();
 }
 function save(){window.openai?.setWidgetState({modelContent:{players:n,round:rd+1,names,roundSettings,roundSettingsError},privateContent:null}).catch(()=&gt;{})}
 root.querySelector(&#x27;#ag-apply-rounds&#x27;).addEventListener(&#x27;click&#x27;,()=&gt;{
@@ -1712,9 +1741,21 @@ root.querySelector(&#x27;#ag-apply-rounds&#x27;).addEventListener(&#x27;click&#x
  }
  roundSettings=settings;roundSettingsError=&#x27;&#x27;;draw();syncRoundEditor();save();
 });
-root.querySelector(&#x27;#ag-apply&#x27;).addEventListener(&#x27;click&#x27;,()=&gt;{names=root.querySelector(&#x27;#ag-names&#x27;).value.split(/\r?\n/).slice(0,24).map(s=&gt;s.trim().slice(0,100));draw();save()});
+root.querySelector(&#x27;#ag-apply&#x27;).addEventListener(&#x27;click&#x27;,()=&gt;{
+ const entries=root.querySelector(&#x27;#ag-names&#x27;).value.split(/\r?\n/).map(s=&gt;s.trim().slice(0,100));
+ while(entries.length&amp;&amp;entries[entries.length-1]===&#x27;&#x27;)entries.pop();
+ const message=root.querySelector(&#x27;#ag-name-message&#x27;);
+ if(entries.length&gt;24){message.textContent=`You entered ${entries.length} player slots. This explorer supports at most 24; names were not applied.`;message.setAttribute(&#x27;role&#x27;,&#x27;alert&#x27;);return}
+ names=entries;
+ if(entries.length&gt;=15)n=entries.length;
+ message.setAttribute(&#x27;role&#x27;,&#x27;status&#x27;);
+ message.textContent=entries.length&gt;=15?`Applied names and selected ${n} golfers.`:`Applied ${entries.filter(Boolean).length} names; kept the ${n}-golfer schedule.`;
+ draw();save();
+});
 np.addEventListener(&#x27;change&#x27;,()=&gt;{n=Number(np.value);draw();save()});rp.addEventListener(&#x27;change&#x27;,()=&gt;{rd=Number(rp.value);draw();save()});
 window.addEventListener(&#x27;openai:set_globals&#x27;,e=&gt;{const s=e.detail?.globals?.widgetState?.modelContent;if(Array.isArray(s?.names)){names=s.names.slice(0,24).map(x=&gt;typeof x===&#x27;string&#x27;?x:&#x27;&#x27;);root.querySelector(&#x27;#ag-names&#x27;).value=names.join(&#x27;\n&#x27;)}if(Array.isArray(s?.roundSettings))roundSettings=s.roundSettings;roundSettingsError=s?.roundSettingsError||&#x27;&#x27;;if(s&amp;&amp;data[s.players])n=Number(s.players);if(s&amp;&amp;Number.isInteger(s.round)&amp;&amp;s.round&gt;=1&amp;&amp;s.round&lt;=5)rd=s.round-1;draw()});
+root.querySelector(&#x27;#ag-clear&#x27;).addEventListener(&#x27;click&#x27;,()=&gt;{pinnedGroup=null;hoveredGroup=null;paintHighlight()});
+root.addEventListener(&#x27;keydown&#x27;,e=&gt;{if(e.key===&#x27;Escape&#x27;){pinnedGroup=null;hoveredGroup=null;paintHighlight()}});
 syncRoundEditor();draw();
 })();
 &lt;/script&gt;

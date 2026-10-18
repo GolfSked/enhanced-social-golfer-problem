@@ -7,6 +7,14 @@ to 16 golfers, coloured by Round 1. Previously saved selections take precedence.
 Use **Edit rounds** for course labels, first tee times and intervals, and
 **Replace player numbers with names** for one name per line in player order.
 These edits change presentation, not group memberships or tee-slot indices.
+Applying 15–24 player slots automatically selects that player-count schedule.
+Trailing blank lines are ignored; internal blank lines retain unnamed player
+slots. Fewer than 15 slots keep the selected count for partial naming. More than
+24 slots display an error without applying the names.
+
+Hover over or keyboard-focus a golfer to highlight their current tee group and
+its listing. The same golfers are marked across the partial squares. Click or
+tap to pin the highlight; use **Clear highlight** or Escape to clear it.
 
 URL parameters:
 
@@ -45,6 +53,10 @@ group mix, partner uniqueness, participation balance and expected fairness-score
 checks in `scripts/build-five-round-explorer.py`. Proof evidence remains in the
 run directories and `runs/FAIRNESS_STATUS.md`.
 
-Run `node tests/check_explorer_url.cjs` from the repository root to check both
-exports, URL settings, editor updates, all thirty three-round views and all
-fifty five-round views. All explorers retain the project MIT licence and attribution.
+Run `node tests/check_explorer_url.cjs` from the repository root to check all
+exports, URL settings, name-count changes, editor updates and linked highlighting
+in all 120 views. All explorers retain the project MIT licence and attribution.
+
+The footer and HTML `application-version` metadata show the release version.
+`web/version.txt` is its source. The homepage and all explorers share the palette
+in `web/explorer-theme.css`; exported HTML embeds it to remain self-contained.

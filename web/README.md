@@ -13,6 +13,11 @@ The homepage is `web/index.html`; the three standalone exports remain in
 `web/explorer-sources/`. The export helper accepts a renderer path supplied by
 the Codex visualization skill, and `--round-count 3`, `4` or `5`.
 
+`web/explorer-theme.css` is the shared palette for the homepage and explorer
+exports. Re-export the three explorers after changing it; the homepage loads
+the same file directly. `web/version.txt` supplies the visible release number
+and the explorers' `application-version` metadata.
+
 `.github/workflows/pages.yml` tests, stages and publishes changes on `main`.
 In GitHub Settings → Pages, select **GitHub Actions** as the build source.
 The expected project URL is:
