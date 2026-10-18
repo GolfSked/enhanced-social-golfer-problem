@@ -7,7 +7,7 @@
 <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eval' blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; style-src 'unsafe-inline' blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; img-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; font-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; media-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; worker-src blob:; connect-src blob: data:; frame-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
 <title>Four Round</title>
 <style>:root{color-scheme:light dark;background:light-dark(rgb(255 255 255), rgb(24 24 24))}html,body{margin:0}body{box-sizing:border-box;padding:1rem;background:inherit}iframe{display:block;width:100%;height:calc(100vh - 2rem);margin:0 auto;border:0}</style>
-<meta name="application-version" content="1.1.0">
+<meta name="application-version" content="1.1.1">
 <style id="golf-explorer-theme">/* Shared with the landing page. Embedded in each standalone export. */
 :root {
   color-scheme: light !important;
@@ -1285,7 +1285,7 @@ svg.lucide {
 }
 
 html&gt;body{padding:0}&lt;/style&gt;
-&lt;meta name=&quot;application-version&quot; content=&quot;1.1.0&quot;&gt;
+&lt;meta name=&quot;application-version&quot; content=&quot;1.1.1&quot;&gt;
 &lt;style id=&quot;golf-explorer-theme&quot;&gt;/* Shared with the landing page. Embedded in each standalone export. */
 :root {
   color-scheme: light !important;
@@ -1611,7 +1611,7 @@ html, body { background: var(--background); color: var(--foreground); }
   syncTheme();
 })();
 &lt;/script&gt;
-&lt;div id=&quot;all-golf-grids&quot; data-version=&quot;1.1.0&quot;&gt;
+&lt;div id=&quot;all-golf-grids&quot; data-version=&quot;1.1.1&quot;&gt;
 &lt;h2&gt;Our four-round schedules · 15–24 golfers&lt;/h2&gt;
 &lt;div class=&quot;ag-top-controls&quot;&gt;&lt;label class=&quot;form-label&quot;&gt;Colour by&lt;select id=&quot;ag-r&quot; class=&quot;form-select&quot;&gt;&lt;option value=&quot;0&quot;&gt;Round 1 · rows&lt;/option&gt;&lt;option value=&quot;1&quot;&gt;Round 2 · columns&lt;/option&gt;&lt;option value=&quot;2&quot;&gt;Round 3 · partial A&lt;/option&gt;&lt;option value=&quot;3&quot;&gt;Round 4 · partial B&lt;/option&gt;&lt;/select&gt;&lt;/label&gt;&lt;label class=&quot;form-label&quot;&gt;Golfers&lt;select id=&quot;ag-n&quot; class=&quot;form-select&quot;&gt;&lt;/select&gt;&lt;/label&gt;&lt;/div&gt;
 &lt;div id=&quot;ag-url-error&quot; role=&quot;alert&quot; class=&quot;text-destructive&quot; hidden&gt;&lt;/div&gt;
@@ -1637,7 +1637,7 @@ html, body { background: var(--background); color: var(--foreground); }
 &lt;details&gt;&lt;summary&gt;Replace player numbers with names&lt;/summary&gt;&lt;label class=&quot;form-label&quot; for=&quot;ag-names&quot;&gt;One name per line, in player order (P1, P2, … P24). Leave a line blank to keep its player number. Enter 15–24 player slots to select that schedule automatically.&lt;/label&gt;&lt;textarea id=&quot;ag-names&quot; class=&quot;form-control&quot; rows=&quot;8&quot; placeholder=&quot;Player 1 name&amp;#10;Player 2 name&quot;&gt;&lt;/textarea&gt;&lt;div id=&quot;ag-name-message&quot; role=&quot;status&quot; aria-live=&quot;polite&quot; class=&quot;text-small&quot;&gt;&lt;/div&gt;&lt;div class=&quot;viz-controls&quot;&gt;&lt;button type=&quot;button&quot; id=&quot;ag-apply&quot; class=&quot;btn btn-primary&quot;&gt;Apply names&lt;/button&gt;&lt;/div&gt;&lt;/details&gt;
 &lt;hr&gt;
 &lt;footer&gt;
-&lt;p class=&quot;text-small&quot;&gt;Golf Schedule Explorer · John Gojnich · MIT License · &lt;span id=&quot;ag-version&quot;&gt;v1.1.0&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;text-small&quot;&gt;Golf Schedule Explorer · John Gojnich · MIT License · &lt;span id=&quot;ag-version&quot;&gt;v1.1.1&lt;/span&gt;&lt;/p&gt;
 &lt;details&gt;&lt;summary&gt;About &amp;amp; licence&lt;/summary&gt;
 &lt;p&gt;Four-round schedules from the &lt;a href=&quot;https://github.com/GolfSked/enhanced-social-golfer-problem&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Enhanced Social Golfer Problem project&lt;/a&gt;. Player names change display labels only; group memberships and tee times remain those of the saved schedules.&lt;/p&gt;
 &lt;h3&gt;MIT License&lt;/h3&gt;
@@ -1689,9 +1689,10 @@ const name=p=&gt;names[p-1]?.trim()||&#x27;P&#x27;+p;
 root.querySelector(&#x27;#ag-names&#x27;).value=names.join(&#x27;\n&#x27;);
 if(state&amp;&amp;data[state.players])n=Number(state.players);
 if(state&amp;&amp;Number.isInteger(state.round)&amp;&amp;state.round&gt;=1&amp;&amp;state.round&lt;=4)rd=state.round-1;
+const courseLabel=value=&gt;value.replace(/%20/gi,&#x27; &#x27;).trim();
 const color=g=&gt;`var(--viz-series-${g+1})`;
-function syncRoundEditor(){for(let r=0;r&lt;4;r++){const cfg=roundSettings[r]||{course:`Round ${r+1}`,start:&#x27;10:00&#x27;,interval:7};root.querySelector(&#x27;#ag-course-&#x27;+r).value=cfg.course;root.querySelector(&#x27;#ag-start-&#x27;+r).value=cfg.start;root.querySelector(&#x27;#ag-interval-&#x27;+r).value=cfg.interval}}
-const roundTitle=r=&gt;roundSettings[r]?.course||`Round ${r+1}`;
+function syncRoundEditor(){for(let r=0;r&lt;4;r++){const cfg=roundSettings[r]||{course:`Round ${r+1}`,start:&#x27;10:00&#x27;,interval:7};root.querySelector(&#x27;#ag-course-&#x27;+r).value=courseLabel(cfg.course);root.querySelector(&#x27;#ag-start-&#x27;+r).value=cfg.start;root.querySelector(&#x27;#ag-interval-&#x27;+r).value=cfg.interval}}
+const roundTitle=r=&gt;courseLabel(roundSettings[r]?.course||&#x27;&#x27;)||`Round ${r+1}`;
 const time=g=&gt;{const cfg=roundSettings[rd]||{start:&#x27;10:00&#x27;,interval:7};const [h,m]=cfg.start.split(&#x27;:&#x27;).map(Number);const total=h*60+m+g*cfg.interval;return `${String(Math.floor(total/60)%24).padStart(2,&#x27;0&#x27;)}:${String(total%60).padStart(2,&#x27;0&#x27;)}${total&gt;=1440?&#x27; (+1 day)&#x27;:&#x27;&#x27;}`};
 let hoveredGroup=null,pinnedGroup=null,marks=[],teeLabels=[],legendLabels=[];
 function paintHighlight(){
@@ -1731,7 +1732,7 @@ function save(){window.openai?.setWidgetState({modelContent:{players:n,round:rd+
 root.querySelector(&#x27;#ag-apply-rounds&#x27;).addEventListener(&#x27;click&#x27;,()=&gt;{
  const settings=[];const error=root.querySelector(&#x27;#ag-round-error&#x27;);error.hidden=true;
  for(let r=0;r&lt;4;r++){
-  const course=root.querySelector(&#x27;#ag-course-&#x27;+r).value.trim().slice(0,100)||`Round ${r+1}`;
+  const course=courseLabel(root.querySelector(&#x27;#ag-course-&#x27;+r).value).slice(0,100)||`Round ${r+1}`;
   const start=root.querySelector(&#x27;#ag-start-&#x27;+r).value;
   const raw=root.querySelector(&#x27;#ag-interval-&#x27;+r).value;
   const interval=Number(raw);
@@ -2434,6 +2435,9 @@ function explorerUrlRoster(state, search, roundCount = 4) {
     if (!error) entries.forEach((entry, i) => {
       if (error) return;
       const fields = entry.split('|').map(s => s.trim());
+      // Some shared links encode an already escaped space (%2520).
+      // Repair only spaces in labels, without decoding field separators.
+      fields[0] = fields[0].replace(/%20/gi, ' ').trim();
       const [course, start, intervalText] = fields;
       const interval = intervalText === undefined ? 7 : Number(intervalText);
       if (fields.length < 2 || fields.length > 3 || !course || course.length > 100 ||

@@ -19,6 +19,9 @@ function explorerUrlRoster(state, search, roundCount = 4) {
     if (!error) entries.forEach((entry, i) => {
       if (error) return;
       const fields = entry.split('|').map(s => s.trim());
+      // Some shared links encode an already escaped space (%2520).
+      // Repair only spaces in labels, without decoding field separators.
+      fields[0] = fields[0].replace(/%20/gi, ' ').trim();
       const [course, start, intervalText] = fields;
       const interval = intervalText === undefined ? 7 : Number(intervalText);
       if (fields.length < 2 || fields.length > 3 || !course || course.length > 100 ||

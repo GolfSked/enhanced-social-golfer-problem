@@ -15,6 +15,9 @@ for(const q of ['?round=X|25:00','?round=X|10:60','?round=X|10:00|0','?round=X|1
 }
 assert.equal(parse('?round=Royal%20Moruya%20%26%20Club%7C11%3A35').roundSettings[0].course,'Royal Moruya & Club');
 assert.equal(parse('?players=Bran:Train&round=Moruya|11:35').names[0],'Bran');
+assert.equal(parse('?round=8-November%2520Moruya|11:35').roundSettings[0].course,'8-November Moruya');
+assert.equal(parse('?round=100%25%2520Golf|11:35').roundSettings[0].course,'100% Golf');
+assert.equal(parse('?round=A%257CB%2520Club|11:35').roundSettings[0].course,'A%7CB Club');
 class El{
  constructor(tag='div'){this.tag=tag;this.children=[];this.options=[];this.style={setProperty(){}};this.events={};this.value='';this.attrs={};this.classes=new Set();this.classList={toggle:(c,v)=>v?this.classes.add(c):this.classes.delete(c)};this.previousElementSibling={textContent:''};this._text=''}
  get textContent(){return this._text+this.children.map(c=>typeof c==='string'?c:c.textContent).join('')}
@@ -123,3 +126,11 @@ for(const word of ['three','four','five']){
  assert(html.includes(`<meta name="application-version" content="${version}">`));assert(!html.includes('__EXPLORER_VERSION__'));
 }
 console.log('All 120 views pass linked hover/focus/pin checks; name counts, blank slots, overflow and release versions verified.');
+for(const rounds of [3,4,5]){
+ const e=render({roundSettings:[{course:'8-November%20Moruya',start:'11:35',interval:7}]},rounds);
+ assert(e['#ag-course'].textContent.includes('8-November Moruya'));
+ assert.equal(e['#ag-course-0'].value,'8-November Moruya');
+ e['#ag-course-0'].value='100%20Golf';e['#ag-apply-rounds'].events.click();
+ assert(e['#ag-course'].textContent.includes('100 Golf'));
+}
+console.log('Encoded spaces are repaired in URLs, restored labels and round editors; percent signs and separators are preserved.');
