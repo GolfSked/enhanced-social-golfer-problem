@@ -1,5 +1,9 @@
 # Version history
 
+## Explorer v1.3.0 — 18 October 2026
+
+- Adopt the balanced 16-player, four-round witness: P1–P12 visit three distinct tee positions and P13–P16 visit two. This retains the proven fairness optimum (2,44), exact fours and no repeated pairs. Other schedules are unchanged. [Experiment and validation](runs/n16_balanced_tee_positions_20261018/README.md).
+
 ## v2.0 — 12 October 2026
 
 - Configurable positive round counts, defaulting to four, with an interface for individual cases and ranges containing ten feasible player counts from the smallest feasible count. Infeasible counts are recorded; unresolved counts stop discovery or collection.

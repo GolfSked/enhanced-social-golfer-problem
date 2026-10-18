@@ -27,9 +27,14 @@
     ],
     "validation": "passed",
     "schedule": "solutions/optimal-4-rounds/n16_sol.csv",
-    "source": "runs/n15_to24_fair_sweep_20261002/n16/solution_n16_sol.csv",
-    "sha256": "00b6b2e8bb77468794fbe8e8349b83545384c3de00c82d2f4e626a7a14f712bb",
-    "proof": "runs/n15_to24_fair_sweep_20261002/n16/run.json"
+    "source": "runs/n16_balanced_tee_positions_20261018/first-twelve-schedule.csv",
+    "sha256": "8750ad6864645a554bed0d69d9ef4a522d30d9ac312c12ed9240cc44995ce3d5",
+    "proof": "runs/n15_to24_fair_sweep_20261002/n16/run.json",
+    "spread_distribution": {
+      "2": 4,
+      "3": 12
+    },
+    "additional_fairness": "Distinct positions differ by at most one; P1\u2013P12 have 3, P13\u2013P16 have 2"
   },
   {
     "players": 17,

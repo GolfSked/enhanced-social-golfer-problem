@@ -1,0 +1,52 @@
+{
+  "status": "VALIDATED_WITNESS",
+  "players": 16,
+  "rounds": 4,
+  "method": "Permute tee order only; keep all group memberships",
+  "orderings_tested_until_first_witness": 578,
+  "old_to_new_slots_1based": [
+    [
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      1,
+      2,
+      4,
+      3
+    ],
+    [
+      1,
+      2,
+      3,
+      4
+    ],
+    [
+      1,
+      2,
+      4,
+      3
+    ]
+  ],
+  "two_position_players": [
+    2,
+    6,
+    12,
+    15
+  ],
+  "validation": {
+    "minimum_spread": 2,
+    "total_spread": 44,
+    "spread_distribution": {
+      "2": 4,
+      "3": 12
+    },
+    "fours_distribution": {
+      "4": 16
+    },
+    "unique_pairs": 96,
+    "unmet_pairs": 24
+  }
+}

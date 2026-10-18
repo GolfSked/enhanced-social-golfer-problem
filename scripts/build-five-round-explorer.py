@@ -53,6 +53,8 @@ s=s.replace("[['ag-a',2],['ag-b',3],['ag-pairs',4]]", "[['ag-a',2],['ag-b',3],['
 s=s.replace("kind===4?`${gs[2]+1}·${gs[3]+1}`:gs[kind]+1", "gs[kind]+1").replace('gs===null||kind===4?null:gs[kind]','gs===null?null:gs[kind]')
 s=s.replace("kind===4?'group pair':roundTitle(kind)", "roundTitle(kind)")
 s=s.replace("kind===4?`${gs[2]+1}, ${gs[3]+1}`:gs[kind]+1", "gs[kind]+1")
+# The balanced placeholder allocation is specific to four rounds.
+s=s.replace("+(n===16?' · P1–P12: 3 distinct tee positions each; P13–P16: 2 each':'')", '')
 args.output_fragment.write_text(s)
 Path('solutions/five-round-explorer-sources.json').write_text(json.dumps(manifest,indent=2)+'\n')
 assert 'ag-pairs' not in s

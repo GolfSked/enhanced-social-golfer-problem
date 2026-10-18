@@ -1,0 +1,117 @@
+{
+  "schema_version": "v1",
+  "scenario": {
+    "people": [
+      {
+        "id": "person_1",
+        "attributes": {}
+      },
+      {
+        "id": "person_2",
+        "attributes": {}
+      },
+      {
+        "id": "person_3",
+        "attributes": {}
+      },
+      {
+        "id": "person_4",
+        "attributes": {}
+      },
+      {
+        "id": "person_5",
+        "attributes": {}
+      },
+      {
+        "id": "person_6",
+        "attributes": {}
+      },
+      {
+        "id": "person_7",
+        "attributes": {}
+      },
+      {
+        "id": "person_8",
+        "attributes": {}
+      },
+      {
+        "id": "person_9",
+        "attributes": {}
+      },
+      {
+        "id": "person_10",
+        "attributes": {}
+      },
+      {
+        "id": "person_11",
+        "attributes": {}
+      },
+      {
+        "id": "person_12",
+        "attributes": {}
+      },
+      {
+        "id": "person_13",
+        "attributes": {}
+      },
+      {
+        "id": "person_14",
+        "attributes": {}
+      },
+      {
+        "id": "person_15",
+        "attributes": {}
+      },
+      {
+        "id": "person_16",
+        "attributes": {}
+      }
+    ],
+    "groups": [
+      {
+        "id": "quick-group-1",
+        "capacity": 4
+      },
+      {
+        "id": "quick-group-2",
+        "capacity": 4
+      },
+      {
+        "id": "quick-group-3",
+        "capacity": 4
+      },
+      {
+        "id": "quick-group-4",
+        "capacity": 4
+      }
+    ],
+    "session_count": 4
+  },
+  "objectives": [
+    {
+      "type": "avoid_repeats",
+      "max_encounters_per_pair": 1,
+      "penalty_curve": "squared",
+      "weight": 10000
+    }
+  ],
+  "constraints": [
+    {
+      "id": "distinct-range",
+      "type": "group_visit_count",
+      "group_aggregation": "distinct",
+      "min": 2,
+      "max": 3,
+      "penalty_weight": 10000,
+      "penalty_curve": "linear"
+    },
+    {
+      "id": "prefer-three",
+      "type": "group_visit_count",
+      "group_aggregation": "distinct",
+      "min": 3,
+      "penalty_weight": 1,
+      "penalty_curve": "linear"
+    }
+  ]
+}

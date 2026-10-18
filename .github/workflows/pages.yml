@@ -8,6 +8,9 @@ on:
       - 'scripts/build-pages.py'
       - 'scripts/explorer-url-roster.js'
       - 'tests/check_explorer_url.cjs'
+      - 'tests/check_n16_balanced_schedule.py'
+      - 'solutions/optimal-4-rounds/n16_sol.csv'
+      - 'solutions/optimal-4-rounds/validation.json'
       - 'LICENSE'
       - '.github/workflows/pages.yml'
   workflow_dispatch:
@@ -29,6 +32,8 @@ jobs:
           node-version: '24'
       - name: Check all explorers
         run: node tests/check_explorer_url.cjs
+      - name: Check balanced 16-player schedule
+        run: python3 tests/check_n16_balanced_schedule.py
       - name: Stage the public site
         run: python3 scripts/build-pages.py
       - uses: actions/upload-pages-artifact@v4

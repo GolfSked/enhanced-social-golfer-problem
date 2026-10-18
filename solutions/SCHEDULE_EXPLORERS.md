@@ -60,3 +60,5 @@ in all 120 views. All explorers retain the project MIT licence and attribution.
 The footer and HTML `application-version` metadata show the release version.
 `web/version.txt` is its source. The homepage and all explorers share the palette
 in `web/explorer-theme.css`; exported HTML embeds it to remain self-contained.
+
+The 16-player, four-round schedule additionally balances distinct tee-position counts within one: **P1–P12 receive three positions and P13–P16 receive two**. Names follow roster order. It retains the proven optimum (minimum 2, total 44). [Validation and source](../runs/n16_balanced_tee_positions_20261018/README.md). This additional rule has not been applied to other player counts or round counts.

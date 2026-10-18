@@ -20,3 +20,5 @@ The 15–16-player proofs come from solver OPTIMAL results; 17–19 use exhausti
 Older schedules, logs and comparisons are preserved in [the dated archive](archive/2026-10-03/README.md). The historical 18-player total-only score 66 has minimum 2; the selected minimum-first fairness optimum is (3,65). Detailed experimental audits remain in `runs/`.
 
 Run new experiments under `runs/` to keep this collection clean. Regeneration script: `scripts/organize_solutions.py` (one-time migration; refuses to overwrite an existing collection).
+
+The 16-player, four-round schedule additionally balances distinct tee-position counts within one: **P1–P12 receive three positions and P13–P16 receive two**. Names follow roster order. It retains the proven optimum (minimum 2, total 44). [Validation and source](../runs/n16_balanced_tee_positions_20261018/README.md). This additional rule has not been applied to other player counts or round counts.

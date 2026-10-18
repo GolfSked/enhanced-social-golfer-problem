@@ -1,0 +1,34 @@
+{
+  "old_to_new_player_numbers": {
+    "1": 1,
+    "3": 2,
+    "4": 3,
+    "5": 4,
+    "7": 5,
+    "8": 6,
+    "9": 7,
+    "10": 8,
+    "11": 9,
+    "13": 10,
+    "14": 11,
+    "16": 12,
+    "2": 13,
+    "6": 14,
+    "12": 15,
+    "15": 16
+  },
+  "validation": {
+    "minimum_spread": 2,
+    "total_spread": 44,
+    "spread_distribution": {
+      "2": 4,
+      "3": 12
+    },
+    "fours_distribution": {
+      "4": 16
+    },
+    "unique_pairs": 96,
+    "unmet_pairs": 24
+  },
+  "verified_first_twelve_have_three_positions": true
+}
