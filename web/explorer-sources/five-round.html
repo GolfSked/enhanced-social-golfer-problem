@@ -1,8 +1,8 @@
 <div id="five-golf-grids" data-version="__EXPLORER_VERSION__">
 <h2>Our five-round schedules · 15–24 golfers</h2>
-<div class="ag-top-controls"><label class="form-label">Colour by<select id="ag-r" class="form-select"><option value="0">Round 1 · rows</option><option value="1">Round 2 · columns</option><option value="2">Round 3 · partial A</option><option value="3">Round 4 · partial B</option><option value="4">Round 5 · partial C</option></select></label><label class="form-label">Golfers<select id="ag-n" class="form-select"></select></label></div>
+<div class="ag-header-layout"><label class="form-label">Colour by<select id="ag-r" class="form-select"><option value="0">Round 1 · rows</option><option value="1">Round 2 · columns</option><option value="2">Round 3 · partial A</option><option value="3">Round 4 · partial B</option><option value="4">Round 5 · partial C</option></select></label>
 <div id="ag-url-error" role="alert" class="text-destructive" hidden></div>
-<details><summary>Edit rounds</summary>
+<details class="ag-edit-rounds"><summary>Edit rounds</summary>
 <div class="table-responsive"><table class="table table-sm"><thead><tr><th>Round</th><th>Course / label</th><th>First tee</th><th>Interval (min)</th></tr></thead><tbody>
 <tr><th scope="row">1</th><td><input id="ag-course-0" class="form-control" aria-label="Round 1 course or label" maxlength="100"></td><td><input id="ag-start-0" class="form-control" type="time" aria-label="Round 1 first tee" required></td><td><input id="ag-interval-0" class="form-control" type="number" min="1" max="60" step="1" aria-label="Round 1 interval in minutes" required></td></tr>
 <tr><th scope="row">2</th><td><input id="ag-course-1" class="form-control" aria-label="Round 2 course or label" maxlength="100"></td><td><input id="ag-start-1" class="form-control" type="time" aria-label="Round 2 first tee" required></td><td><input id="ag-interval-1" class="form-control" type="number" min="1" max="60" step="1" aria-label="Round 2 interval in minutes" required></td></tr>
@@ -13,6 +13,11 @@
 <div id="ag-round-error" role="alert" class="text-destructive" hidden></div>
 <div class="viz-controls"><button id="ag-apply-rounds" type="button" class="btn btn-primary">Apply rounds</button></div>
 </details>
+<details class="ag-golfers"><summary>Golfers · <span id="ag-golfers-count">16</span></summary>
+<label class="form-label">Number of golfers<select id="ag-n" class="form-select"></select></label>
+<p class="text-small text-muted">Set automatically when you apply 15–24 names.</p>
+</details>
+</div>
 <h3 id="ag-course"></h3>
 <div id="ag-board" class="ag-board" role="group" aria-label="Player grid: first-round groups are rows, second-round groups are columns"></div>
 <div class="ag-highlight-help"><span id="ag-selection" aria-live="polite" class="text-small">Hover, focus or tap a golfer to trace their tee group.</span><button id="ag-clear" type="button" class="btn" hidden>Clear highlight</button></div>
@@ -38,7 +43,7 @@
 </div>
 <style>
 #five-golf-grids{color:var(--foreground)}
-#five-golf-grids .ag-top-controls{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:22px;width:calc(66.666667% - 7.333333px);align-items:end}
+
 #five-golf-grids .ag-board{display:grid;gap:7px;width:calc(66.666667% - 7.333333px);margin:24px 0;text-align:center;align-items:center}
 #five-golf-grids .ag-cell{display:flex;align-items:center;justify-content:center;min-height:56px;border-radius:8px;background:color-mix(in srgb,var(--gc) 22%,var(--background));color:var(--foreground)}
 #five-golf-grids .ag-label{text-align:center;color:var(--muted-foreground)}
@@ -50,7 +55,7 @@
 #five-golf-grids #ag-legend{gap:14px;margin:16px 0}
 #five-golf-grids #ag-detail{margin:12px 0}
 #five-golf-grids .ag-cell{overflow-wrap:anywhere;min-width:0;padding:4px}
-@media(max-width:560px){#five-golf-grids .ag-top-controls{width:100%;max-width:320px;margin:0 auto;grid-template-columns:minmax(0,1fr)}#five-golf-grids .ag-board{width:100%;max-width:320px;margin:24px auto}#five-golf-grids .ag-panels{grid-template-columns:1fr;max-width:320px;margin:16px auto}#five-golf-grids .ag-cell{min-height:44px}}
+@media(max-width:560px){#five-golf-grids .ag-board{width:100%;max-width:320px;margin:24px auto}#five-golf-grids .ag-panels{grid-template-columns:1fr;max-width:320px;margin:16px auto}#five-golf-grids .ag-cell{min-height:44px}}
 #five-golf-grids button.ag-cell{border:0;font:inherit;cursor:pointer;appearance:none;text-align:center}
 #five-golf-grids button.ag-cell:focus-visible{outline:3px solid var(--ring);outline-offset:3px}
 #five-golf-grids .ag-cell.ag-highlighted{font-weight:700;box-shadow:inset 0 0 0 3px var(--ring)}
@@ -60,6 +65,15 @@
 #five-golf-grids .ag-key.ag-highlighted{font-weight:700;text-decoration:underline;text-underline-offset:4px}
 #five-golf-grids .ag-highlight-help{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin:10px 0}
 #five-golf-grids .ag-highlight-help [hidden]{display:none}
+#five-golf-grids .ag-header-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:10px 22px;width:calc(66.666667% - 7.333333px);align-items:start}
+#five-golf-grids .ag-header-layout>.form-label{grid-column:1/-1;width:calc((100% - 22px)/2)}
+#five-golf-grids .ag-header-layout>#ag-url-error{grid-column:1/-1}
+#five-golf-grids .ag-header-layout .ag-edit-rounds[open]{grid-column:1/-1}
+#five-golf-grids .ag-golfers{grid-column:2}
+#five-golf-grids .ag-golfers summary{color:var(--muted-foreground)}
+#five-golf-grids .ag-golfers .form-label{margin-top:10px}
+#five-golf-grids .ag-golfers p{margin:8px 0 0}
+@media(max-width:560px){#five-golf-grids .ag-header-layout{width:100%;max-width:320px;margin:0 auto;grid-template-columns:minmax(0,1fr);gap:2px}#five-golf-grids .ag-header-layout>.form-label{width:100%;margin-bottom:8px}#five-golf-grids .ag-golfers{grid-column:1}}
 </style>
 <script>
 (()=>{
@@ -100,7 +114,7 @@ function bindGroup(el,g){
 function cell(text,g,label,interactive=false){const el=document.createElement(interactive?'button':'div');if(interactive)el.type='button';el.className='ag-cell tabular-nums';el.textContent=text;el.style.setProperty('--gc',g===null?'var(--muted)':color(g));if(label)el.setAttribute('aria-label',label);return el}
 function draw(){
  hoveredGroup=null;pinnedGroup=null;marks=[];teeLabels=[];legendLabels=[];
- np.value=n;rp.value=rd;
+ np.value=n;rp.value=rd;root.querySelector('#ag-golfers-count').textContent=n;
  const suffix=['rows','columns','partial A','partial B','partial C'];
  for(let r=0;r<5;r++)rp.options[r].textContent=`${roundTitle(r)} · ${suffix[r]}`;
  root.querySelector('#ag-course').textContent=`${roundTitle(rd)} · first tee ${time(0)} · ${roundSettings[rd]?.interval||7}-minute intervals`;

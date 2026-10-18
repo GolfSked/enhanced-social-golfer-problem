@@ -44,6 +44,7 @@ s=re.sub(r'const data=.*?;\nconst np=', 'const data='+json.dumps(data,separators
 s=s.replace('all-golf-grids','three-golf-grids').replace('Four-round','Three-round').replace('Our four-round schedules','Our three-round schedules')
 s=s.replace('width:calc(66.666667% - 7.333333px);margin:24px 0;', 'width:100%;max-width:320px;margin:24px auto;')
 s=s.replace('width:calc(66.666667% - 7.333333px);align-items:end', 'width:100%;max-width:320px;margin:0 auto;align-items:end')
+s=s.replace('width:calc(66.666667% - 7.333333px);align-items:start', 'width:100%;max-width:320px;margin:0 auto;align-items:start')
 s=s.replace('<option value="3">Round 4 · partial B</option>','')
 s=re.sub(r'<tr><th scope="row">4</th>.*?</tr>','',s)
 s=re.sub(r'<section><h3>Partial B.*?</section>','',s)

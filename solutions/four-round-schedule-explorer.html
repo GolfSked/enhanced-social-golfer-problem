@@ -7,7 +7,7 @@
 <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eval' blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; style-src 'unsafe-inline' blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; img-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; font-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; media-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; worker-src blob:; connect-src blob: data:; frame-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
 <title>Four Round</title>
 <style>:root{color-scheme:light dark;background:light-dark(rgb(255 255 255), rgb(24 24 24))}html,body{margin:0}body{box-sizing:border-box;padding:1rem;background:inherit}iframe{display:block;width:100%;height:calc(100vh - 2rem);margin:0 auto;border:0}</style>
-<meta name="application-version" content="1.1.1">
+<meta name="application-version" content="1.2.0">
 <style id="golf-explorer-theme">/* Shared with the landing page. Embedded in each standalone export. */
 :root {
   color-scheme: light !important;
@@ -1285,7 +1285,7 @@ svg.lucide {
 }
 
 html&gt;body{padding:0}&lt;/style&gt;
-&lt;meta name=&quot;application-version&quot; content=&quot;1.1.1&quot;&gt;
+&lt;meta name=&quot;application-version&quot; content=&quot;1.2.0&quot;&gt;
 &lt;style id=&quot;golf-explorer-theme&quot;&gt;/* Shared with the landing page. Embedded in each standalone export. */
 :root {
   color-scheme: light !important;
@@ -1611,11 +1611,11 @@ html, body { background: var(--background); color: var(--foreground); }
   syncTheme();
 })();
 &lt;/script&gt;
-&lt;div id=&quot;all-golf-grids&quot; data-version=&quot;1.1.1&quot;&gt;
+&lt;div id=&quot;all-golf-grids&quot; data-version=&quot;1.2.0&quot;&gt;
 &lt;h2&gt;Our four-round schedules · 15–24 golfers&lt;/h2&gt;
-&lt;div class=&quot;ag-top-controls&quot;&gt;&lt;label class=&quot;form-label&quot;&gt;Colour by&lt;select id=&quot;ag-r&quot; class=&quot;form-select&quot;&gt;&lt;option value=&quot;0&quot;&gt;Round 1 · rows&lt;/option&gt;&lt;option value=&quot;1&quot;&gt;Round 2 · columns&lt;/option&gt;&lt;option value=&quot;2&quot;&gt;Round 3 · partial A&lt;/option&gt;&lt;option value=&quot;3&quot;&gt;Round 4 · partial B&lt;/option&gt;&lt;/select&gt;&lt;/label&gt;&lt;label class=&quot;form-label&quot;&gt;Golfers&lt;select id=&quot;ag-n&quot; class=&quot;form-select&quot;&gt;&lt;/select&gt;&lt;/label&gt;&lt;/div&gt;
+&lt;div class=&quot;ag-header-layout&quot;&gt;&lt;label class=&quot;form-label&quot;&gt;Colour by&lt;select id=&quot;ag-r&quot; class=&quot;form-select&quot;&gt;&lt;option value=&quot;0&quot;&gt;Round 1 · rows&lt;/option&gt;&lt;option value=&quot;1&quot;&gt;Round 2 · columns&lt;/option&gt;&lt;option value=&quot;2&quot;&gt;Round 3 · partial A&lt;/option&gt;&lt;option value=&quot;3&quot;&gt;Round 4 · partial B&lt;/option&gt;&lt;/select&gt;&lt;/label&gt;
 &lt;div id=&quot;ag-url-error&quot; role=&quot;alert&quot; class=&quot;text-destructive&quot; hidden&gt;&lt;/div&gt;
-&lt;details&gt;&lt;summary&gt;Edit rounds&lt;/summary&gt;
+&lt;details class=&quot;ag-edit-rounds&quot;&gt;&lt;summary&gt;Edit rounds&lt;/summary&gt;
 &lt;div class=&quot;table-responsive&quot;&gt;&lt;table class=&quot;table table-sm&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Round&lt;/th&gt;&lt;th&gt;Course / label&lt;/th&gt;&lt;th&gt;First tee&lt;/th&gt;&lt;th&gt;Interval (min)&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;
 &lt;tr&gt;&lt;th scope=&quot;row&quot;&gt;1&lt;/th&gt;&lt;td&gt;&lt;input id=&quot;ag-course-0&quot; class=&quot;form-control&quot; aria-label=&quot;Round 1 course or label&quot; maxlength=&quot;100&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;input id=&quot;ag-start-0&quot; class=&quot;form-control&quot; type=&quot;time&quot; aria-label=&quot;Round 1 first tee&quot; required&gt;&lt;/td&gt;&lt;td&gt;&lt;input id=&quot;ag-interval-0&quot; class=&quot;form-control&quot; type=&quot;number&quot; min=&quot;1&quot; max=&quot;60&quot; step=&quot;1&quot; aria-label=&quot;Round 1 interval in minutes&quot; required&gt;&lt;/td&gt;&lt;/tr&gt;
 &lt;tr&gt;&lt;th scope=&quot;row&quot;&gt;2&lt;/th&gt;&lt;td&gt;&lt;input id=&quot;ag-course-1&quot; class=&quot;form-control&quot; aria-label=&quot;Round 2 course or label&quot; maxlength=&quot;100&quot;&gt;&lt;/td&gt;&lt;td&gt;&lt;input id=&quot;ag-start-1&quot; class=&quot;form-control&quot; type=&quot;time&quot; aria-label=&quot;Round 2 first tee&quot; required&gt;&lt;/td&gt;&lt;td&gt;&lt;input id=&quot;ag-interval-1&quot; class=&quot;form-control&quot; type=&quot;number&quot; min=&quot;1&quot; max=&quot;60&quot; step=&quot;1&quot; aria-label=&quot;Round 2 interval in minutes&quot; required&gt;&lt;/td&gt;&lt;/tr&gt;
@@ -1625,6 +1625,11 @@ html, body { background: var(--background); color: var(--foreground); }
 &lt;div id=&quot;ag-round-error&quot; role=&quot;alert&quot; class=&quot;text-destructive&quot; hidden&gt;&lt;/div&gt;
 &lt;div class=&quot;viz-controls&quot;&gt;&lt;button id=&quot;ag-apply-rounds&quot; type=&quot;button&quot; class=&quot;btn btn-primary&quot;&gt;Apply rounds&lt;/button&gt;&lt;/div&gt;
 &lt;/details&gt;
+&lt;details class=&quot;ag-golfers&quot;&gt;&lt;summary&gt;Golfers · &lt;span id=&quot;ag-golfers-count&quot;&gt;16&lt;/span&gt;&lt;/summary&gt;
+&lt;label class=&quot;form-label&quot;&gt;Number of golfers&lt;select id=&quot;ag-n&quot; class=&quot;form-select&quot;&gt;&lt;/select&gt;&lt;/label&gt;
+&lt;p class=&quot;text-small text-muted&quot;&gt;Set automatically when you apply 15–24 names.&lt;/p&gt;
+&lt;/details&gt;
+&lt;/div&gt;
 &lt;h3 id=&quot;ag-course&quot;&gt;&lt;/h3&gt;
 &lt;div id=&quot;ag-board&quot; class=&quot;ag-board&quot; role=&quot;group&quot; aria-label=&quot;Player grid: first-round groups are rows, second-round groups are columns&quot;&gt;&lt;/div&gt;
 &lt;div class=&quot;ag-highlight-help&quot;&gt;&lt;span id=&quot;ag-selection&quot; aria-live=&quot;polite&quot; class=&quot;text-small&quot;&gt;Hover, focus or tap a golfer to trace their tee group.&lt;/span&gt;&lt;button id=&quot;ag-clear&quot; type=&quot;button&quot; class=&quot;btn&quot; hidden&gt;Clear highlight&lt;/button&gt;&lt;/div&gt;
@@ -1637,7 +1642,7 @@ html, body { background: var(--background); color: var(--foreground); }
 &lt;details&gt;&lt;summary&gt;Replace player numbers with names&lt;/summary&gt;&lt;label class=&quot;form-label&quot; for=&quot;ag-names&quot;&gt;One name per line, in player order (P1, P2, … P24). Leave a line blank to keep its player number. Enter 15–24 player slots to select that schedule automatically.&lt;/label&gt;&lt;textarea id=&quot;ag-names&quot; class=&quot;form-control&quot; rows=&quot;8&quot; placeholder=&quot;Player 1 name&amp;#10;Player 2 name&quot;&gt;&lt;/textarea&gt;&lt;div id=&quot;ag-name-message&quot; role=&quot;status&quot; aria-live=&quot;polite&quot; class=&quot;text-small&quot;&gt;&lt;/div&gt;&lt;div class=&quot;viz-controls&quot;&gt;&lt;button type=&quot;button&quot; id=&quot;ag-apply&quot; class=&quot;btn btn-primary&quot;&gt;Apply names&lt;/button&gt;&lt;/div&gt;&lt;/details&gt;
 &lt;hr&gt;
 &lt;footer&gt;
-&lt;p class=&quot;text-small&quot;&gt;Golf Schedule Explorer · John Gojnich · MIT License · &lt;span id=&quot;ag-version&quot;&gt;v1.1.1&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;text-small&quot;&gt;Golf Schedule Explorer · John Gojnich · MIT License · &lt;span id=&quot;ag-version&quot;&gt;v1.2.0&lt;/span&gt;&lt;/p&gt;
 &lt;details&gt;&lt;summary&gt;About &amp;amp; licence&lt;/summary&gt;
 &lt;p&gt;Four-round schedules from the &lt;a href=&quot;https://github.com/GolfSked/enhanced-social-golfer-problem&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Enhanced Social Golfer Problem project&lt;/a&gt;. Player names change display labels only; group memberships and tee times remain those of the saved schedules.&lt;/p&gt;
 &lt;h3&gt;MIT License&lt;/h3&gt;
@@ -1650,7 +1655,7 @@ html, body { background: var(--background); color: var(--foreground); }
 &lt;/div&gt;
 &lt;style&gt;
 #all-golf-grids{color:var(--foreground)}
-#all-golf-grids .ag-top-controls{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:22px;width:calc(66.666667% - 7.333333px);align-items:end}
+
 #all-golf-grids .ag-board{display:grid;gap:7px;width:calc(66.666667% - 7.333333px);margin:24px 0;text-align:center;align-items:center}
 #all-golf-grids .ag-cell{display:flex;align-items:center;justify-content:center;min-height:56px;border-radius:8px;background:color-mix(in srgb,var(--gc) 22%,var(--background));color:var(--foreground)}
 #all-golf-grids .ag-label{text-align:center;color:var(--muted-foreground)}
@@ -1662,7 +1667,7 @@ html, body { background: var(--background); color: var(--foreground); }
 #all-golf-grids #ag-legend{gap:14px;margin:16px 0}
 #all-golf-grids #ag-detail{margin:12px 0}
 #all-golf-grids .ag-cell{overflow-wrap:anywhere;min-width:0;padding:4px}
-@media(max-width:560px){#all-golf-grids .ag-top-controls{width:100%;max-width:320px;margin:0 auto;grid-template-columns:minmax(0,1fr)}#all-golf-grids .ag-board{width:100%;max-width:320px;margin:24px auto}#all-golf-grids .ag-panels{grid-template-columns:1fr;max-width:320px;margin:16px auto}#all-golf-grids .ag-cell{min-height:44px}}
+@media(max-width:560px){#all-golf-grids .ag-board{width:100%;max-width:320px;margin:24px auto}#all-golf-grids .ag-panels{grid-template-columns:1fr;max-width:320px;margin:16px auto}#all-golf-grids .ag-cell{min-height:44px}}
 #all-golf-grids button.ag-cell{border:0;font:inherit;cursor:pointer;appearance:none;text-align:center}
 #all-golf-grids button.ag-cell:focus-visible{outline:3px solid var(--ring);outline-offset:3px}
 #all-golf-grids .ag-cell.ag-highlighted{font-weight:700;box-shadow:inset 0 0 0 3px var(--ring)}
@@ -1672,6 +1677,15 @@ html, body { background: var(--background); color: var(--foreground); }
 #all-golf-grids .ag-key.ag-highlighted{font-weight:700;text-decoration:underline;text-underline-offset:4px}
 #all-golf-grids .ag-highlight-help{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin:10px 0}
 #all-golf-grids .ag-highlight-help [hidden]{display:none}
+#all-golf-grids .ag-header-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:10px 22px;width:calc(66.666667% - 7.333333px);align-items:start}
+#all-golf-grids .ag-header-layout&gt;.form-label{grid-column:1/-1;width:calc((100% - 22px)/2)}
+#all-golf-grids .ag-header-layout&gt;#ag-url-error{grid-column:1/-1}
+#all-golf-grids .ag-header-layout .ag-edit-rounds[open]{grid-column:1/-1}
+#all-golf-grids .ag-golfers{grid-column:2}
+#all-golf-grids .ag-golfers summary{color:var(--muted-foreground)}
+#all-golf-grids .ag-golfers .form-label{margin-top:10px}
+#all-golf-grids .ag-golfers p{margin:8px 0 0}
+@media(max-width:560px){#all-golf-grids .ag-header-layout{width:100%;max-width:320px;margin:0 auto;grid-template-columns:minmax(0,1fr);gap:2px}#all-golf-grids .ag-header-layout&gt;.form-label{width:100%;margin-bottom:8px}#all-golf-grids .ag-golfers{grid-column:1}}
 &lt;/style&gt;
 &lt;script&gt;
 (()=&gt;{
@@ -1712,7 +1726,7 @@ function bindGroup(el,g){
 function cell(text,g,label,interactive=false){const el=document.createElement(interactive?&#x27;button&#x27;:&#x27;div&#x27;);if(interactive)el.type=&#x27;button&#x27;;el.className=&#x27;ag-cell tabular-nums&#x27;;el.textContent=text;el.style.setProperty(&#x27;--gc&#x27;,g===null?&#x27;var(--muted)&#x27;:color(g));if(label)el.setAttribute(&#x27;aria-label&#x27;,label);return el}
 function draw(){
  hoveredGroup=null;pinnedGroup=null;marks=[];teeLabels=[];legendLabels=[];
- np.value=n;rp.value=rd;
+ np.value=n;rp.value=rd;root.querySelector(&#x27;#ag-golfers-count&#x27;).textContent=n;
  const suffix=[&#x27;rows&#x27;,&#x27;columns&#x27;,&#x27;partial A&#x27;,&#x27;partial B&#x27;];
  for(let r=0;r&lt;4;r++)rp.options[r].textContent=`${roundTitle(r)} · ${suffix[r]}`;
  root.querySelector(&#x27;#ag-course&#x27;).textContent=`${roundTitle(rd)} · first tee ${time(0)} · ${roundSettings[rd]?.interval||7}-minute intervals`;
