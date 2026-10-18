@@ -78,7 +78,7 @@
 @media(max-width:560px){#three-golf-grids .ag-heading-toggle{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;cursor:pointer}#three-golf-grids .ag-heading-toggle[aria-expanded="true"]{white-space:normal;overflow-wrap:anywhere}}
 #three-golf-grids .ag-course-heading{margin:8px 0 0}
 #three-golf-grids .ag-board{margin-top:16px}
-@media(max-width:560px){#three-golf-grids .ag-board.ag-wide{max-width:none;margin-left:0;margin-right:0}#three-golf-grids .ag-wide .ag-row-label{text-align:left}#three-golf-grids .ag-wide button.ag-cell{padding-left:1px;padding-right:1px}}
+@media(max-width:560px){#three-golf-grids .ag-board.ag-wide{max-width:none;margin-left:0;margin-right:0;--ag-row-label-width:14px;column-gap:5px}#three-golf-grids .ag-wide .ag-row-label{text-align:left}#three-golf-grids .ag-wide button.ag-cell{padding-left:1px;padding-right:1px}}
 </style>
 <script>
 (()=>{
@@ -125,7 +125,7 @@ function draw(){
  root.querySelector('#ag-course').textContent=`${roundTitle(rd)} · first tee ${time(0)} · ${roundSettings[rd]?.interval||7}-minute intervals`;
  for(const [id,r,label] of [['ag-a',2,'A']])root.querySelector('#'+id).previousElementSibling.textContent=`Partial ${label} · ${roundTitle(r)}`;
  const error=root.querySelector('#ag-url-error');error.hidden=!roundSettingsError;error.textContent=roundSettingsError;
- const d=data[n],G=d.rounds[0].length,board=root.querySelector('#ag-board');board.classList.toggle('ag-wide',n>=17);board.replaceChildren();board.style.gridTemplateColumns=`28px repeat(${G},minmax(0,1fr))`;
+ const d=data[n],G=d.rounds[0].length,board=root.querySelector('#ag-board');board.classList.toggle('ag-wide',n>=17);board.replaceChildren();board.style.gridTemplateColumns=`var(--ag-row-label-width,28px) repeat(${G},minmax(0,1fr))`;
  const label=t=>{const el=document.createElement('div');el.className='ag-label text-small'+(t.startsWith('R')?' ag-row-label':'');el.textContent=t;board.append(el)};
  label('');for(let c=0;c<G;c++)label('C'+(c+1));
  for(let r=0;r<G;r++){label('R'+(r+1));for(let c=0;c<G;c++){const p=d.grid[r][c],g=p===null?null:d.groups[p][rd];const el=cell(p===null?'∅':name(p),g,p===null?'Empty cell':`${name(p)}, group ${g+1}, tee time ${time(g)}. Activate to pin the group.`,p!==null);if(p!==null){marks.push({el,p,interactive:true});bindGroup(el,g)}board.append(el)}}
