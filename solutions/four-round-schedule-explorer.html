@@ -7,7 +7,7 @@
 <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'unsafe-eval' 'wasm-unsafe-eval' blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; style-src 'unsafe-inline' blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; img-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; font-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; media-src blob: data: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://esm.sh https://fonts.bunny.net https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com; worker-src blob:; connect-src blob: data:; frame-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
 <title>Four Round</title>
 <style>:root{color-scheme:light dark;background:light-dark(rgb(255 255 255), rgb(24 24 24))}html,body{margin:0}body{box-sizing:border-box;padding:1rem;background:inherit}iframe{display:block;width:100%;height:calc(100vh - 2rem);margin:0 auto;border:0}</style>
-<meta name="application-version" content="1.3.0">
+<meta name="application-version" content="1.3.1">
 <style id="golf-explorer-theme">/* Shared with the landing page. Embedded in each standalone export. */
 :root {
   color-scheme: light !important;
@@ -1285,7 +1285,7 @@ svg.lucide {
 }
 
 html&gt;body{padding:0}&lt;/style&gt;
-&lt;meta name=&quot;application-version&quot; content=&quot;1.3.0&quot;&gt;
+&lt;meta name=&quot;application-version&quot; content=&quot;1.3.1&quot;&gt;
 &lt;style id=&quot;golf-explorer-theme&quot;&gt;/* Shared with the landing page. Embedded in each standalone export. */
 :root {
   color-scheme: light !important;
@@ -1611,7 +1611,7 @@ html, body { background: var(--background); color: var(--foreground); }
   syncTheme();
 })();
 &lt;/script&gt;
-&lt;div id=&quot;all-golf-grids&quot; data-version=&quot;1.3.0&quot;&gt;
+&lt;div id=&quot;all-golf-grids&quot; data-version=&quot;1.3.1&quot;&gt;
 &lt;h2&gt;&lt;button type=&quot;button&quot; id=&quot;ag-title&quot; class=&quot;ag-heading-toggle&quot; aria-expanded=&quot;false&quot;&gt;Our four-round schedules · 15–24 golfers&lt;/button&gt;&lt;/h2&gt;
 &lt;div class=&quot;ag-header-layout&quot;&gt;&lt;label class=&quot;form-label&quot;&gt;Colour by&lt;select id=&quot;ag-r&quot; class=&quot;form-select&quot;&gt;&lt;option value=&quot;0&quot;&gt;Round 1 · rows&lt;/option&gt;&lt;option value=&quot;1&quot;&gt;Round 2 · columns&lt;/option&gt;&lt;option value=&quot;2&quot;&gt;Round 3 · partial A&lt;/option&gt;&lt;option value=&quot;3&quot;&gt;Round 4 · partial B&lt;/option&gt;&lt;/select&gt;&lt;/label&gt;
 &lt;div id=&quot;ag-url-error&quot; role=&quot;alert&quot; class=&quot;text-destructive&quot; hidden&gt;&lt;/div&gt;
@@ -1642,11 +1642,11 @@ html, body { background: var(--background); color: var(--foreground); }
 &lt;details&gt;&lt;summary&gt;Replace player numbers with names&lt;/summary&gt;&lt;label class=&quot;form-label&quot; for=&quot;ag-names&quot;&gt;One name per line, in player order (P1, P2, … P24). Leave a line blank to keep its player number. Enter 15–24 player slots to select that schedule automatically.&lt;/label&gt;&lt;textarea id=&quot;ag-names&quot; class=&quot;form-control&quot; rows=&quot;8&quot; placeholder=&quot;Player 1 name&amp;#10;Player 2 name&quot;&gt;&lt;/textarea&gt;&lt;div id=&quot;ag-name-message&quot; role=&quot;status&quot; aria-live=&quot;polite&quot; class=&quot;text-small&quot;&gt;&lt;/div&gt;&lt;div class=&quot;viz-controls&quot;&gt;&lt;button type=&quot;button&quot; id=&quot;ag-apply&quot; class=&quot;btn btn-primary&quot;&gt;Apply names&lt;/button&gt;&lt;/div&gt;&lt;/details&gt;
 &lt;hr&gt;
 &lt;footer&gt;
-&lt;p class=&quot;text-small&quot;&gt;Golf Schedule Explorer · John Gojnich · MIT License · &lt;span id=&quot;ag-version&quot;&gt;v1.3.0&lt;/span&gt;&lt;/p&gt;
+&lt;p class=&quot;text-small&quot;&gt;Golf Schedule Explorer · John Gojnich · MIT License · &lt;span id=&quot;ag-version&quot;&gt;v1.3.1&lt;/span&gt;&lt;/p&gt;
 &lt;details&gt;&lt;summary&gt;About &amp;amp; licence&lt;/summary&gt;
-&lt;p&gt;Four-round schedules from the &lt;a href=&quot;https://github.com/GolfSked/enhanced-social-golfer-problem&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Enhanced Social Golfer Problem project&lt;/a&gt;. Player names change display labels only; group memberships and tee times remain those of the saved schedules.&lt;/p&gt;
+&lt;p&gt;Four-round schedules from the &lt;a href=&quot;https://golfsked.github.io/enhanced-social-golfer-problem/&quot;&gt;Enhanced Social Golfer Problem project&lt;/a&gt;. &lt;a href=&quot;https://github.com/GolfSked/enhanced-social-golfer-problem&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;Source code &amp;amp; research&lt;/a&gt;. Player names change display labels only; group memberships and tee times remain those of the saved schedules.&lt;/p&gt;
 &lt;h3&gt;MIT License&lt;/h3&gt;
-&lt;p&gt;Copyright (c) 2025 jgojnich-a11y&lt;/p&gt;
+&lt;p&gt;Copyright (c) 2025–2026 John Gojnich&lt;/p&gt;
 &lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:&lt;/p&gt;
 &lt;p&gt;The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.&lt;/p&gt;
 &lt;p&gt;THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.&lt;/p&gt;
