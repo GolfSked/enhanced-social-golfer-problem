@@ -12,9 +12,15 @@ for row in json.loads(Path('solutions/optimal-4-rounds/validation.json').read_te
  result=validate(read_schedule(path,n,4),n,4)
  assert (result['minimum_spread'],result['total_spread'])==(row['minimum_distinct_slots'],row['total_spread'])
  m0=old.build_model(n,fair_spread=True,strengthen=True)[0]
- m1,solver,X,sizes,R=new.build_model(n,fair_spread=True,strengthen=True)
+ m1,solver,X,sizes,R=new.build_model(n,fair_spread=True,strengthen=True,refine_fairness=False)
  assert str(m0.Proto())==str(m1.Proto()), n
  schedule=read_schedule(path,n,4)
+ # Saved outputs use best-first IDs; the model fixes a canonical first round.
+ targets=[];start=n
+ for size in sizes:
+  targets.append(list(range(start-size+1,start+1)));start-=size
+ mapping={old:new for group,target in zip(schedule[0],targets) for old,new in zip(sorted(group),target)}
+ schedule=[[[mapping[p] for p in group] for group in groups] for groups in schedule]
  for r,groups in enumerate(schedule):
   for g,members in enumerate(groups):
    for p in range(1,n+1):m1.Add(X[r,g,p]==int(p in members))

@@ -1,35 +1,37 @@
 # 17 players — optimal fairness schedule
 
-Minimum distinct tee slots: **3**. Total spread: **63**. Four rounds; no repeated partners. Group sizes: 3, 3, 3, 4, 4.
+Minimum distinct tee slots: **3**. Total spread: **63**. Four rounds; no repeated partners.
+
+Player numbers are ordered by descending distinct tee-position count, with previous player ID breaking ties. Names follow roster order.
 
 | Group | Tee time | Round 1 players | Round 2 players | Round 3 players | Round 4 players |
 |---:|---|---|---|---|---|
-| 1 | 10:00 | 15, 16, 17 | 8, 11, 14 | 4, 7, 16 | 1, 5, 12 |
-| 2 | 10:07 | 12, 13, 14 | 3, 6, 15 | 2, 5, 10 | 3, 7, 9 |
-| 3 | 10:14 | 9, 10, 11 | 4, 5, 13 | 1, 6, 14 | 2, 8, 17 |
-| 4 | 10:21 | 5, 6, 7, 8 | 2, 9, 12, 16 | 3, 11, 12, 17 | 4, 10, 14, 15 |
-| 5 | 10:28 | 1, 2, 3, 4 | 1, 7, 10, 17 | 8, 9, 13, 15 | 6, 11, 13, 16 |
+| 1 | 10:00 | 11, 12, 17 | 6, 9, 10 | 2, 5, 17 | 3, 13, 15 |
+| 2 | 10:07 | 10, 15, 16 | 4, 11, 14 | 1, 3, 8 | 5, 7, 14 |
+| 3 | 10:14 | 7, 8, 9 | 2, 3, 16 | 4, 10, 13 | 1, 6, 12 |
+| 4 | 10:21 | 3, 4, 5, 6 | 1, 7, 15, 17 | 9, 12, 14, 15 | 2, 8, 10, 11 |
+| 5 | 10:28 | 1, 2, 13, 14 | 5, 8, 12, 13 | 6, 7, 11, 16 | 4, 9, 16, 17 |
 
 | Player | Round 1 | Round 2 | Round 3 | Round 4 | Distinct slots | Three-player rounds | Four-player rounds |
 |---:|---|---|---|---|---:|---:|---:|
-| 1 | 10:28 | 10:28 | 10:14 | 10:00 | 3 | 2 | 2 |
-| 2 | 10:28 | 10:21 | 10:07 | 10:14 | 4 | 2 | 2 |
-| 3 | 10:28 | 10:07 | 10:21 | 10:07 | 3 | 2 | 2 |
-| 4 | 10:28 | 10:14 | 10:00 | 10:21 | 4 | 2 | 2 |
-| 5 | 10:21 | 10:14 | 10:07 | 10:00 | 4 | 3 | 1 |
-| 6 | 10:21 | 10:07 | 10:14 | 10:28 | 4 | 2 | 2 |
-| 7 | 10:21 | 10:28 | 10:00 | 10:07 | 4 | 2 | 2 |
-| 8 | 10:21 | 10:00 | 10:28 | 10:14 | 4 | 2 | 2 |
-| 9 | 10:14 | 10:21 | 10:28 | 10:07 | 4 | 2 | 2 |
-| 10 | 10:14 | 10:28 | 10:07 | 10:21 | 4 | 2 | 2 |
-| 11 | 10:14 | 10:00 | 10:21 | 10:28 | 4 | 2 | 2 |
-| 12 | 10:07 | 10:21 | 10:21 | 10:00 | 3 | 2 | 2 |
-| 13 | 10:07 | 10:14 | 10:28 | 10:28 | 3 | 2 | 2 |
-| 14 | 10:07 | 10:00 | 10:14 | 10:21 | 4 | 3 | 1 |
-| 15 | 10:00 | 10:07 | 10:28 | 10:21 | 4 | 2 | 2 |
-| 16 | 10:00 | 10:21 | 10:00 | 10:28 | 3 | 2 | 2 |
-| 17 | 10:00 | 10:28 | 10:21 | 10:14 | 4 | 2 | 2 |
+| 1 | 10:28 | 10:21 | 10:07 | 10:14 | 4 | 2 | 2 |
+| 2 | 10:28 | 10:14 | 10:00 | 10:21 | 4 | 2 | 2 |
+| 3 | 10:21 | 10:14 | 10:07 | 10:00 | 4 | 3 | 1 |
+| 4 | 10:21 | 10:07 | 10:14 | 10:28 | 4 | 2 | 2 |
+| 5 | 10:21 | 10:28 | 10:00 | 10:07 | 4 | 2 | 2 |
+| 6 | 10:21 | 10:00 | 10:28 | 10:14 | 4 | 2 | 2 |
+| 7 | 10:14 | 10:21 | 10:28 | 10:07 | 4 | 2 | 2 |
+| 8 | 10:14 | 10:28 | 10:07 | 10:21 | 4 | 2 | 2 |
+| 9 | 10:14 | 10:00 | 10:21 | 10:28 | 4 | 2 | 2 |
+| 10 | 10:07 | 10:00 | 10:14 | 10:21 | 4 | 3 | 1 |
+| 11 | 10:00 | 10:07 | 10:28 | 10:21 | 4 | 2 | 2 |
+| 12 | 10:00 | 10:28 | 10:21 | 10:14 | 4 | 2 | 2 |
+| 13 | 10:28 | 10:28 | 10:14 | 10:00 | 3 | 2 | 2 |
+| 14 | 10:28 | 10:07 | 10:21 | 10:07 | 3 | 2 | 2 |
+| 15 | 10:07 | 10:21 | 10:21 | 10:00 | 3 | 2 | 2 |
+| 16 | 10:07 | 10:14 | 10:28 | 10:28 | 3 | 2 | 2 |
+| 17 | 10:00 | 10:21 | 10:00 | 10:28 | 3 | 2 | 2 |
 
-Selected source: [runs/n15_to24_fair_sweep_20261002/n17/solution_n17_sol.csv](../../runs/n15_to24_fair_sweep_20261002/n17/solution_n17_sol.csv).
-Optimality evidence: [runs/n17_target64_repeat_cases_20261002/README.md](../../runs/n17_target64_repeat_cases_20261002/README.md).
-The CSV is headerless: round, group, player IDs. Player IDs are placeholders; assigning names preserves validity and fairness scores.
+Selected source: [runs/tertiary_fairness_20261019/four-round-n17.csv](../../runs/tertiary_fairness_20261019/four-round-n17.csv).
+Original minimum/total optimality evidence: [runs/n17_target64_repeat_cases_20261002/README.md](../../runs/n17_target64_repeat_cases_20261002/README.md).
+The original evidence proves the first two priorities; see [third-priority results and numbering audit](../../runs/tertiary_fairness_20261019/README.md).

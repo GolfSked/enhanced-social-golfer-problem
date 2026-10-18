@@ -6,10 +6,27 @@ maximises the number of fours, using zero to three triples to fill the remainder
 triples precede fours in the tee-time order. Counts that cannot form this mix
 are inadmissible. Participation in fours differs by at most one across players.
 
-Fairness is lexicographic: maximise the minimum number of distinct tee slots,
-then their sum. For N players, R rounds and G groups, weight
-`N * min(R, G) + 1` makes one unit of minimum spread outweigh every possible
-change in total spread. Tee slot g starts at 10:00 + 7(g−1) minutes.
+Fairness has three lexicographic priorities:
+
+1. Maximise the minimum number of distinct tee positions.
+2. Maximise the sum of distinct-position counts across players.
+3. Minimise how many players receive the minimum count.
+
+For N players, R rounds, G groups, let M=min(R,G), W=N*M+1,
+minimum=m, total=t, and count-at-minimum=c. The exact integer objective is
+`(N+1)*(W*m+t)-c`. One unit of an earlier priority outweighs every possible
+change in the later priorities. Equality indicators tie c to the actual minimum;
+there is no requirement that all counts differ by at most one. Historical runs
+used the two-priority score `W*m+t`; their scalar objective values and bounds
+must not be compared directly with new scalar scores. They still prove their
+original minimum/total optima.
+
+After solving, output placeholders are numbered by decreasing distinct-position
+count, then original ID. The result records the original-to-new mapping and
+players-at-minimum. Renumbering is presentation, not another objective; the
+model's canonical first-round labels need not appear in output. Existing named
+assignments can change when adopting new numbering. Tee slot g starts at
+10:00 + 7(g−1) minutes.
 
 ## Usage
 

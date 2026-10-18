@@ -1,5 +1,11 @@
 # Version history
 
+## Solver refinement and explorer v1.4.0 — 19 October 2026
+
+- Add a third lexicographic fairness priority: minimise players at the minimum after preserving the optimal minimum and total. Record the count and player-ID mapping in new solver outputs.
+- Number all 30 published explorer schedules best-first and display each player range's distinct-position allocation. Preserve min/total scores and group structure up to relabelling.
+- Prove the existing 15-player four-round minimum count of three and the 16-player five-round count of three cannot be improved at their optimal minimum/total scores. [Evidence](runs/tertiary_fairness_20261019/README.md).
+
 ## Explorer v1.3.0 — 18 October 2026
 
 - Adopt the balanced 16-player, four-round witness: P1–P12 visit three distinct tee positions and P13–P16 visit two. This retains the proven fairness optimum (2,44), exact fours and no repeated pairs. Other schedules are unchanged. [Experiment and validation](runs/n16_balanced_tee_positions_20261018/README.md).

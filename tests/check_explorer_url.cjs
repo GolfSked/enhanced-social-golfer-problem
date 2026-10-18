@@ -148,3 +148,18 @@ for(const word of ['three','four','five']){
  }
 }
 console.log('All explorer links navigate in the same tab without popup APIs; HTTPS validation is preserved.');
+// Best-first numbering and allocation summaries apply to every saved schedule.
+for(const [rounds,word] of [[3,'three'],[4,'four'],[5,'five']]){
+ const source=fs.readFileSync(`web/explorer-sources/${word}-round.html`,'utf8');
+ const data=JSON.parse(source.match(/const data=(.*?);\nconst np=/s)[1]);
+ for(let n=15;n<=24;n++){
+  const counts=Array.from({length:n},(_,i)=>new Set(data[n].groups[i+1]).size);
+  assert.deepEqual(counts,[...counts].sort((a,b)=>b-a));
+  const parts=[];
+  for(let first=0;first<n;){let last=first;while(last+1<n&&counts[last+1]===counts[first])last++;
+   parts.push(`${first===last?'P'+(first+1):'P'+(first+1)+'–P'+(last+1)}: ${counts[first]} distinct tee positions${first===last?'':' each'}`);first=last+1;
+  }
+  assert(render({players:n},rounds)['#ag-check'].textContent.endsWith(parts.join('; ')));
+ }
+}
+console.log('All 30 saved schedules use best-first player numbering and show complete position-allocation summaries.');

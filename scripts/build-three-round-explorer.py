@@ -1,6 +1,7 @@
 """Build the three-round explorer from saved, independently checked schedules."""
 import argparse,csv,itertools,json,re
 from pathlib import Path
+from rank_explorer_players import rank_entry
 parser=argparse.ArgumentParser(description=__doc__)
 parser.add_argument('four_round_fragment',type=Path)
 parser.add_argument('output_fragment',type=Path)
@@ -39,6 +40,10 @@ for n in range(15,25):
  data[n]={'rounds':rounds,'groups':groups,'grid':grid,'minimum':score[0],'total':score[1]}
  manifest[n]={'source':str(path),'minimum_spread':score[0],'total_spread':score[1],'status':result['status']}
  print(n,score)
+for n in data:
+ data[n],mapping=rank_entry(data[n])
+ manifest[n]['old_to_new_player_numbers']=mapping
+ manifest[n]['numbering']='descending distinct positions, then original player ID'
 s=args.four_round_fragment.read_text()
 s=re.sub(r'const data=.*?;\nconst np=', 'const data='+json.dumps(data,separators=(',',':'))+';\nconst np=',s,flags=re.S)
 s=s.replace('all-golf-grids','three-golf-grids').replace('Four-round','Three-round').replace('Our four-round schedules','Our three-round schedules')
@@ -57,8 +62,6 @@ s=s.replace("[['ag-a',2],['ag-b',3],['ag-pairs',4]]", "[['ag-a',2]]")
 s=s.replace("kind===4?`${gs[2]+1}·${gs[3]+1}`:gs[kind]+1", "gs[kind]+1").replace('gs===null||kind===4?null:gs[kind]','gs===null?null:gs[kind]')
 s=s.replace("kind===4?'group pair':roundTitle(kind)", "roundTitle(kind)")
 s=s.replace("kind===4?`${gs[2]+1}, ${gs[3]+1}`:gs[kind]+1", "gs[kind]+1")
-# The balanced placeholder allocation is specific to four rounds.
-s=s.replace("+(n===16?' · P1–P12: 3 distinct tee positions each; P13–P16: 2 each':'')", '')
 args.output_fragment.write_text(s)
 Path('solutions/three-round-explorer-sources.json').write_text(json.dumps(manifest,indent=2)+'\n')
 print('All ten optimal schedules independently validated; three-round fragment saved.')

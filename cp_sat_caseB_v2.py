@@ -65,7 +65,7 @@ def group_distribution(N):
     sizes = [3]*g3 + [4]*g4
     return sizes
 
-def build_model(N, time_limit=60, maximize_spread=False, enforce_balance=True, seed=None, workers=8, fair_spread=False, strengthen=False, rounds=4):
+def build_model(N, time_limit=60, maximize_spread=False, enforce_balance=True, seed=None, workers=8, fair_spread=False, strengthen=False, rounds=4, refine_fairness=True):
     model = cp_model.CpModel()
     if rounds < 1:
         raise ValueError("rounds must be positive")
@@ -192,7 +192,18 @@ def build_model(N, time_limit=60, maximize_spread=False, enforce_balance=True, s
             # One extra slot for the least-served player outweighs every
             # possible change in total spread: exact lexicographic priority.
             priority_weight = N * min(ROUNDS, G) + 1
-            model.Maximize(priority_weight * minimum_spread + total_spread)
+            primary_score = priority_weight * minimum_spread + total_spread
+            if refine_fairness:
+                at_minimum = []
+                for p, distinct in distinct_pos.items():
+                    flag = model.NewBoolVar(f"at_minimum_{p}")
+                    model.Add(distinct == minimum_spread).OnlyEnforceIf(flag)
+                    model.Add(distinct != minimum_spread).OnlyEnforceIf(flag.Not())
+                    at_minimum.append(flag)
+                # A unit of either earlier priority outweighs all N flags.
+                model.Maximize((N + 1) * primary_score - sum(at_minimum))
+            else:
+                model.Maximize(primary_score)
         else:
             model.Maximize(total_spread)
 

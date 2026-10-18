@@ -1,0 +1,9 @@
+{
+  "players": 15,
+  "rounds": 4,
+  "fixed_minimum": 2,
+  "fixed_total": 45,
+  "target_players_at_minimum_at_most": 2,
+  "status": "INFEASIBLE",
+  "seconds": 0.47811200000000004
+}

@@ -1,6 +1,6 @@
 # Optimal fairness schedules — 3 October 2026
 
-Four rounds; unique partners; balanced three/four-player participation. Tee times start at 10:00, seven minutes apart, with three-player groups before four-player groups. Fairness first maximizes each player’s minimum number of distinct tee slots, then the sum across players. Every selected schedule was independently revalidated from its CSV. Average tee time is not an optimization objective.
+Four rounds; unique partners; balanced three/four-player participation. Tee times start at 10:00, seven minutes apart, with three-player groups before four-player groups. Fairness first maximizes each player’s minimum number of distinct tee slots, then the sum across players, then minimises how many players receive that minimum. Every selected schedule was independently revalidated from its CSV. Average tee time is not an optimization objective.
 
 | Players | Minimum distinct slots | Total spread | Schedule | Tee times | Proof |
 |---:|---:|---:|---|---|---|
@@ -22,3 +22,5 @@ Older schedules, logs and comparisons are preserved in [the dated archive](archi
 Run new experiments under `runs/` to keep this collection clean. Regeneration script: `scripts/organize_solutions.py` (one-time migration; refuses to overwrite an existing collection).
 
 The 16-player, four-round schedule additionally balances distinct tee-position counts within one: **P1–P12 receive three positions and P13–P16 receive two**. Names follow roster order. It retains the proven optimum (minimum 2, total 44). [Validation and source](../runs/n16_balanced_tee_positions_20261018/README.md). This additional rule has not been applied to other player counts or round counts.
+
+All current player IDs are ordered by decreasing distinct tee-position count, with previous IDs breaking ties. [Third-priority evidence and numbering mappings](../runs/tertiary_fairness_20261019/README.md). Historical logs retain their original player numbers and two-priority scalar objectives.

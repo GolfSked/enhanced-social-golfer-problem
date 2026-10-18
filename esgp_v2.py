@@ -58,8 +58,22 @@ def validate(schedule, n, rounds):
     spread = [len(v) for v in visits.values()]
     return {"minimum_spread": min(spread), "total_spread": sum(spread),
             "spread_distribution": dict(sorted(Counter(spread).items())),
+            "players_at_minimum": spread.count(min(spread)),
             "fours_distribution": dict(sorted(Counter(fours.values()).items())),
             "unique_pairs": len(pairs), "unmet_pairs": math.comb(n, 2) - len(pairs)}
+
+
+def number_best_first(schedule, n):
+    """Relabel placeholders by descending distinct-position count, then old ID."""
+    visits = {p: set() for p in range(1, n + 1)}
+    for groups in schedule:
+        for slot, players in enumerate(groups):
+            for p in players:
+                visits[p].add(slot)
+    order = sorted(visits, key=lambda p: (-len(visits[p]), p))
+    mapping = {old: new for new, old in enumerate(order, 1)}
+    return [[sorted(mapping[p] for p in group) for group in groups]
+            for groups in schedule], mapping
 
 
 def read_schedule(path, n, rounds):
@@ -79,7 +93,7 @@ def read_schedule(path, n, rounds):
 def solve(n, args, directory, fairness=True, hint=None):
     directory.mkdir(parents=True, exist_ok=False)
     started = time.monotonic()
-    result = {"players": n, "rounds": args.rounds, "objective": "minimum_then_total" if fairness else "feasibility"}
+    result = {"players": n, "rounds": args.rounds, "objective": "minimum_then_total_then_fewest_at_minimum" if fairness else "feasibility"}
     reason = exclusion(n, args.rounds)
     if reason:
         result.update(status="INFEASIBLE", evidence="mathematical", reason=reason)
@@ -99,6 +113,9 @@ def solve(n, args, directory, fairness=True, hint=None):
         if status in (cp_model.OPTIMAL, cp_model.FEASIBLE):
             schedule = [[[p for p in range(1, n + 1) if solver.Value(membership[r, g, p])]
                          for g in range(len(sizes))] for r in range(rounds)]
+            schedule, mapping = number_best_first(schedule, n)
+            result["old_to_new_player_numbers"] = mapping
+            result["numbering"] = "descending distinct positions, then original player ID"
             result.update(validate(schedule, n, rounds))
             if fairness:
                 result.update(objective_value=solver.ObjectiveValue(), objective_bound=solver.BestObjectiveBound())

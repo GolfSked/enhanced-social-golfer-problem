@@ -1,0 +1,52 @@
+{
+  "scope": "Global exhaustive proof under the prescribed 16-player five-round rules",
+  "transversals": 24,
+  "partitions": 24,
+  "compatible_partition_triples": 2,
+  "orderings_checked": 27648,
+  "minimum_spread": 2,
+  "total_spread": 51,
+  "players_at_minimum": 3,
+  "validation": {
+    "minimum_spread": 2,
+    "total_spread": 51,
+    "spread_distribution": {
+      "2": 3,
+      "3": 7,
+      "4": 6
+    },
+    "players_at_minimum": 3,
+    "fours_distribution": {
+      "5": 16
+    },
+    "unique_pairs": 120,
+    "unmet_pairs": 0
+  },
+  "score_counts": {
+    "(1, 55, -1)": 40,
+    "(1, 53, -1)": 600,
+    "(1, 52, -1)": 720,
+    "(2, 51, -4)": 480,
+    "(2, 49, -2)": 3360,
+    "(2, 50, -3)": 2400,
+    "(2, 49, -4)": 1920,
+    "(2, 50, -2)": 1920,
+    "(2, 48, -4)": 1320,
+    "(2, 46, -4)": 720,
+    "(2, 48, -2)": 1920,
+    "(2, 47, -4)": 960,
+    "(2, 46, -6)": 120,
+    "(2, 48, -3)": 3840,
+    "(2, 47, -3)": 720,
+    "(1, 51, -1)": 240,
+    "(1, 50, -1)": 120,
+    "(2, 49, -3)": 4360,
+    "(2, 51, -3)": 480,
+    "(2, 44, -4)": 240,
+    "(2, 46, -3)": 800,
+    "(2, 45, -3)": 120,
+    "(2, 50, -4)": 240,
+    "(1, 46, -1)": 8
+  },
+  "elapsed_seconds": 0.10298579197842628
+}

@@ -1,6 +1,8 @@
 # 23 players — optimal fairness schedule
 
-Minimum distinct tee slots: **4**. Total spread: **92**. Four rounds; no repeated partners. Group sizes: 3, 4, 4, 4, 4, 4.
+Minimum distinct tee slots: **4**. Total spread: **92**. Four rounds; no repeated partners.
+
+Player numbers are ordered by descending distinct tee-position count, with previous player ID breaking ties. Names follow roster order.
 
 | Group | Tee time | Round 1 players | Round 2 players | Round 3 players | Round 4 players |
 |---:|---|---|---|---|---|
@@ -37,6 +39,6 @@ Minimum distinct tee slots: **4**. Total spread: **92**. Four rounds; no repeate
 | 22 | 10:00 | 10:14 | 10:35 | 10:21 | 4 | 1 | 3 |
 | 23 | 10:00 | 10:35 | 10:14 | 10:28 | 4 | 1 | 3 |
 
-Selected source: [runs/n15_to24_fair_sweep_20261002/n23/solution_n23_sol.csv](../../runs/n15_to24_fair_sweep_20261002/n23/solution_n23_sol.csv).
-Optimality evidence: [runs/n15_to24_fair_sweep_20261002/n23/run.json](../../runs/n15_to24_fair_sweep_20261002/n23/run.json).
-The CSV is headerless: round, group, player IDs. Player IDs are placeholders; assigning names preserves validity and fairness scores.
+Selected source: [runs/tertiary_fairness_20261019/four-round-n23.csv](../../runs/tertiary_fairness_20261019/four-round-n23.csv).
+Original minimum/total optimality evidence: [runs/n15_to24_fair_sweep_20261002/n23/run.json](../../runs/n15_to24_fair_sweep_20261002/n23/run.json).
+The original evidence proves the first two priorities; see [third-priority results and numbering audit](../../runs/tertiary_fairness_20261019/README.md).

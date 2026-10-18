@@ -1,0 +1,9 @@
+{
+  "players": 16,
+  "rounds": 5,
+  "fixed_minimum": 2,
+  "fixed_total": 51,
+  "target_players_at_minimum_at_most": 2,
+  "status": "UNKNOWN",
+  "seconds": 120.01716300000001
+}
