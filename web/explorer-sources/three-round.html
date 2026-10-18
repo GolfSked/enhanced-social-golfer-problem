@@ -1,5 +1,5 @@
 <div id="three-golf-grids" data-version="__EXPLORER_VERSION__">
-<h2>Our three-round schedules · 15–24 golfers</h2>
+<h2><button type="button" id="ag-title" class="ag-heading-toggle" aria-expanded="false">Our three-round schedules · 15–24 golfers</button></h2>
 <div class="ag-header-layout"><label class="form-label">Colour by<select id="ag-r" class="form-select"><option value="0">Round 1 · rows</option><option value="1">Round 2 · columns</option><option value="2">Round 3 · partial A</option></select></label>
 <div id="ag-url-error" role="alert" class="text-destructive" hidden></div>
 <details class="ag-edit-rounds"><summary>Edit rounds</summary>
@@ -17,7 +17,7 @@
 <p class="text-small text-muted">Set automatically when you apply 15–24 names.</p>
 </details>
 </div>
-<h3 id="ag-course"></h3>
+<h3><button type="button" id="ag-course" class="ag-heading-toggle" aria-expanded="false"></button></h3>
 <div id="ag-board" class="ag-board" role="group" aria-label="Player grid: first-round groups are rows, second-round groups are columns"></div>
 <div class="ag-highlight-help"><span id="ag-selection" aria-live="polite" class="text-small">Hover, focus or tap a golfer to trace their tee group.</span><button id="ag-clear" type="button" class="btn" hidden>Clear highlight</button></div>
 <div id="ag-legend" class="viz-row"></div>
@@ -73,6 +73,9 @@
 #three-golf-grids .ag-golfers .form-label{margin-top:10px}
 #three-golf-grids .ag-golfers p{margin:8px 0 0}
 @media(max-width:560px){#three-golf-grids .ag-header-layout{width:100%;max-width:320px;margin:0 auto;grid-template-columns:minmax(0,1fr);gap:2px}#three-golf-grids .ag-header-layout>.form-label{width:100%;margin-bottom:0}#three-golf-grids .ag-golfers{grid-column:1}}
+#three-golf-grids .ag-heading-toggle{display:block;width:100%;min-width:0;padding:0;border:0;background:transparent;color:inherit;font:inherit;text-align:left}
+#three-golf-grids .ag-heading-toggle:focus-visible{outline:2px solid var(--ring);outline-offset:3px}
+@media(max-width:560px){#three-golf-grids .ag-heading-toggle{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;cursor:pointer}#three-golf-grids .ag-heading-toggle[aria-expanded="true"]{white-space:normal;overflow-wrap:anywhere}}
 </style>
 <script>
 (()=>{
@@ -157,6 +160,10 @@ np.addEventListener('change',()=>{n=Number(np.value);draw();save()});rp.addEvent
 window.addEventListener('openai:set_globals',e=>{const s=e.detail?.globals?.widgetState?.modelContent;if(Array.isArray(s?.names)){names=s.names.slice(0,24).map(x=>typeof x==='string'?x:'');root.querySelector('#ag-names').value=names.join('\n')}if(Array.isArray(s?.roundSettings))roundSettings=s.roundSettings;roundSettingsError=s?.roundSettingsError||'';if(s&&data[s.players])n=Number(s.players);if(s&&Number.isInteger(s.round)&&s.round>=1&&s.round<=3)rd=s.round-1;draw()});
 root.querySelector('#ag-clear').addEventListener('click',()=>{pinnedGroup=null;hoveredGroup=null;paintHighlight()});
 root.addEventListener('keydown',e=>{if(e.key==='Escape'){pinnedGroup=null;hoveredGroup=null;paintHighlight()}});
+for(const id of ['#ag-title','#ag-course']){
+ const heading=root.querySelector(id);let expanded=false;
+ heading.addEventListener('click',()=>{expanded=!expanded;heading.setAttribute('aria-expanded',String(expanded))});
+}
 syncRoundEditor();draw();
 })();
 </script>
