@@ -14,6 +14,20 @@ args = parser.parse_args()
 subprocess.run([sys.executable, str(args.renderer), str(args.source),
                 str(args.destination), '--force'], check=True)
 html = args.destination.read_text()
+# The renderer forwards frame links over a MessageChannel. Opening a new tab
+# after that asynchronous hop is blocked by Safari. Keep the HTTPS validation,
+# but navigate this page instead; the frame already requires a user gesture.
+popup = '''      if (globalThis.navigator.userActivation?.isActive === true) {
+        const anchor = document.createElement("a");
+        anchor.href = href;
+        anchor.rel = "noopener noreferrer";
+        anchor.target = "_blank";
+        document.body.appendChild(anchor);
+        anchor.click();
+        anchor.remove();
+      }'''
+assert html.count(popup) == 1, 'Standalone link handling changed; review navigation'
+html = html.replace(popup, '      globalThis.location.assign(href);')
 marker = '  const initialGlobals = {\n    widgetState: state,'
 assert html.count(marker) == 1, 'Standalone shell changed; check URL integration'
 roster = Path(__file__).with_name('explorer-url-roster.js').read_text()

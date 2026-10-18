@@ -134,3 +134,17 @@ for(const rounds of [3,4,5]){
  assert(e['#ag-course'].textContent.includes('100 Golf'));
 }
 console.log('Encoded spaces are repaired in URLs, restored labels and round editors; percent signs and separators are preserved.');
+
+// Navigation must work even when activation expires during frame messaging.
+for(const word of ['three','four','five']){
+ const html=fs.readFileSync(`solutions/${word}-round-schedule-explorer.html`,'utf8');
+ assert(html.includes('sandbox="allow-scripts"'));
+ const branch=html.slice(html.indexOf('    if (data.type === "open-external") {'),html.indexOf('    if (data.type === "follow-up") {'));
+ assert(branch.includes('globalThis.location.assign(href)'));
+ for(const [href,expected] of [['https://golfsked.github.io/enhanced-social-golfer-problem/','https://golfsked.github.io/enhanced-social-golfer-problem/'],['https://github.com/GolfSked/enhanced-social-golfer-problem','https://github.com/GolfSked/enhanced-social-golfer-problem'],['javascript:alert(1)',null],['http://example.com/',null],[null,null]]){
+  const navigated=[];
+  vm.runInNewContext(`(()=>{${branch}})()`,{data:{type:'open-external',href},URL,document:{baseURI:'https://golfsked.github.io/enhanced-social-golfer-problem/'},navigator:{userActivation:{isActive:false}},location:{assign:url=>navigated.push(url)}});
+  assert.deepEqual(navigated,expected?[expected]:[]);
+ }
+}
+console.log('All explorer links navigate in the same tab without popup APIs; HTTPS validation is preserved.');
