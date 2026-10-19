@@ -1,5 +1,11 @@
 # Version history
 
+## Explorer v1.5.0 — 20 October 2026
+
+- Combine colour, tee time and player names into compact vertical group rows with linked highlighting, and add a Next round button that cycles through rounds.
+- Move name editing above the Latin squares, initially collapsed under the schedule-summary twisty. Keep the grid label at normal size and the remaining summary smaller.
+- Open landing-page links in new tabs, retaining the homepage. All saved schedules, fairness scores and player numbers are unchanged.
+
 ## Solver refinement and explorer v1.4.0 — 19 October 2026
 
 - Add a third lexicographic fairness priority: minimise players at the minimum after preserving the optimal minimum and total. Record the count and player-ID mapping in new solver outputs.

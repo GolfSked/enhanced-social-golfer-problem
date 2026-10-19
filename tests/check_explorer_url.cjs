@@ -38,10 +38,10 @@ function render(modelContent, rounds=4){
 }
 let els=render({...config,round:1});
 assert(els['#ag-course'].textContent.includes('Moruya · first tee 11:35'));
-assert(els['#ag-detail'].textContent.includes('11:56:'));
+assert(els['#ag-detail'].children.some(row=>row.children[1]?.textContent==='11:56'));
 els['#ag-r'].value=2;els['#ag-r'].events.change();
 assert(els['#ag-course'].textContent.includes('Catalina · first tee 11:26 · 8-minute'));
-assert(els['#ag-detail'].textContent.includes('11:50:'));
+assert(els['#ag-detail'].children.some(row=>row.children[1]?.textContent==='11:50'));
 els=render({round:1,roundSettings:[{course:'Late',start:'23:55',interval:7}]});
 assert(els['#ag-detail'].textContent.includes('00:02 (+1 day)'));
 els=render({});assert.equal(els['#ag-n'].value,16);assert(els['#ag-course'].textContent.includes('10:00'));
@@ -53,7 +53,7 @@ assert(els['#ag-detail'].textContent.includes('Tallack'));
 els['#ag-course-0'].value='Updated Course';els['#ag-start-0'].value='12:05';els['#ag-interval-0'].value='8';
 els['#ag-apply-rounds'].events.click();
 assert(els['#ag-course'].textContent.includes('Updated Course · first tee 12:05 · 8-minute'));
-assert(els['#ag-detail'].textContent.includes('12:29:'));
+assert(els['#ag-detail'].children.some(row=>row.children[1]?.textContent==='12:29'));
 const applied=els['#ag-detail'].textContent;
 els['#ag-start-1'].value='25:10';els['#ag-apply-rounds'].events.click();
 assert.equal(els['#ag-round-error'].hidden,false);assert.equal(els['#ag-detail'].textContent,applied);
@@ -163,3 +163,25 @@ for(const [rounds,word] of [[3,'three'],[4,'four'],[5,'five']]){
  }
 }
 console.log('All 30 saved schedules use best-first player numbering and show complete position-allocation summaries.');
+
+for(const rounds of [3,4,5])for(let players=15;players<=24;players++){
+ const e=render({players,round:1},rounds),expected=players<=16?4:players<=20?5:6;
+ assert.equal(e['#ag-detail'].children.length,expected);
+ assert.equal(e['#ag-grid-label'].textContent,`${expected}×${expected} grid`);
+ for(const row of e['#ag-detail'].children){assert.equal(row.children.length,3);assert.match(row.children[1].textContent,/^10:/);assert(row.children[2].textContent.includes('P'))}
+ assert(e['#ag-next-round'].textContent.startsWith('Next round:'));
+ for(let r=0;r<rounds;r++)e['#ag-next-round'].events.click();
+ assert.equal(e['#ag-r'].value,0);
+ assert(e['#ag-course'].textContent.includes('Round 1'));
+}
+const landing=fs.readFileSync('web/index.html','utf8');
+for(const tag of landing.matchAll(/<a\b[^>]*href="(?!#)[^"]*"[^>]*>/g)){
+ assert(tag[0].includes('target="_blank"'));assert(tag[0].includes('rel="noopener noreferrer"'));
+}
+for(const word of ['three','four','five']){
+ const source=fs.readFileSync(`web/explorer-sources/${word}-round.html`,'utf8');
+ assert(source.indexOf('<summary>Replace player numbers with names')<source.indexOf('<details class="ag-squares">'));
+ assert(source.includes('<summary><span id="ag-grid-label"></span><span id="ag-check" class="text-small"></span></summary>'));
+ assert(!source.includes('<details class="ag-squares" open'));
+}
+console.log('Combined tee rows, next-round cycling, split-font disclosure and new-tab landing links verified.');
