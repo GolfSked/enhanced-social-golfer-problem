@@ -1,0 +1,35 @@
+/* Shared with the landing page. Embedded in each standalone export. */
+:root {
+  color-scheme: light !important;
+  --background: #f8f6ef;
+  --foreground: #173d33;
+  --card: #e9eddf;
+  --card-foreground: #173d33;
+  --popover: #fffef9;
+  --popover-foreground: #173d33;
+  --primary: #245441;
+  --primary-foreground: #fffef9;
+  --secondary: #fffef9;
+  --secondary-foreground: #173d33;
+  --muted: #e9eddf;
+  --muted-foreground: #52665c;
+  --accent: #e9eddf;
+  --accent-foreground: #173d33;
+  --border: #d9ded3;
+  --input: #bdc7b8;
+  --ring: #245441;
+  --destructive: #a2372b;
+  --viz-series-1: #315b47;
+  --viz-series-2: #e8dfca;
+  --viz-series-3: #bacd9b;
+  --viz-series-4: #e8d8a4;
+  --viz-series-5: #c9b4a2;
+  --viz-series-6: #b3c7c4;
+}
+html, body { background: var(--background); color: var(--foreground); }
+:is(#all-golf-grids, #three-golf-grids, #five-golf-grids) .ag-cell {
+  background: var(--gc) !important;
+}
+:is(#all-golf-grids, #three-golf-grids, #five-golf-grids) .ag-cell[style*="--viz-series-1"] {
+  color: #fffef9;
+}

@@ -14,8 +14,9 @@ for count in ('three', 'four', 'five'):
     name = f'{count}-round-schedule-explorer.html'
     shutil.copyfile(root / 'solutions' / name, destination / name)
 shutil.copyfile(root / 'LICENSE', destination / 'LICENSE.txt')
+shutil.copytree(root / 'web' / 'beta', destination / 'beta', dirs_exist_ok=True, ignore=shutil.ignore_patterns('README.md'))
 (destination / '.nojekyll').touch()
-expected = {'index.html', 'style.css', 'explorer-theme.css', 'LICENSE.txt', '.nojekyll',
+expected = {'beta', 'index.html', 'style.css', 'explorer-theme.css', 'LICENSE.txt', '.nojekyll',
             *(f'{count}-round-schedule-explorer.html' for count in ('three', 'four', 'five'))}
 assert {p.name for p in destination.iterdir()} == expected, 'Unexpected files in dist; review before publishing'
 print(f'Staged {len(expected)} public files in {destination}')

@@ -1,0 +1,36 @@
+name: Suggest a translation
+description: Help improve the GolfSked Beta wording in any language.
+title: '[Translation] '
+labels: ['translation']
+body:
+  - type: markdown
+    attributes:
+      value: 'Thank you! You can write in your own language. Suggestions are public, so please leave out player names and private schedule links.'
+  - type: input
+    id: language
+    attributes:
+      label: Language
+      placeholder: 한국어 / 日本語 / Svenska / English
+    validations:
+      required: true
+  - type: input
+    id: page
+    attributes:
+      label: Page
+      description: Page address or title, without player names or private settings.
+  - type: textarea
+    id: current
+    attributes:
+      label: Current wording
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested wording
+    validations:
+      required: true
+  - type: textarea
+    id: explanation
+    attributes:
+      label: Explanation or screenshot (optional)
